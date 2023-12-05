@@ -27,49 +27,110 @@ class h_input():
         input_df.columns = input_df.columns.droplevel().to_flat_index().str.join("-")
         input_df = input_df.reset_index()
         
+        def phoneme_find(feature):
+            return feature.split("-")[0][0:2] + "-" + feature.split("-")[2]
+        
         self.original_df = input_df
         self.input_df = input_df
         self.features = input_df.columns[4:]
         self.not_features = list(input_df.columns)[0:4]
-        self.f1_features = [f for f in features if f[0:3] == "F1-"]
-        self.f1v_features = [f for f in self.f1_features if phoneme_find(f)[0] in ["A", "I", "E", "O", "U", "Y"]]
-        self.f2_features = [f for f in features if f[0:3] == "F2-"]
-        self.f2v_features = [f for f in self.f2_features if phoneme_find(f)[0] in ["A", "I", "E", "O", "U", "Y"]]
-        self.f3_features = [f for f in features if f[0:3] == "F2-"]
-        self.f3v_features = [f for f in self.f3_features if phoneme_find(f)[0] in ["A", "I", "E", "O", "U", "Y"]]
-        self.dur_features = [f for f in features if f[0:3] == "dur"]
-        self.durv_features = [f for f in self.dur_features if phoneme_find(f)[0] in ["A", "I", "E", "O", "U", "Y"]]
+        self.vowel_features = [f for f in self.features if phoneme_find(f)[0] in ["A", "I", "E", "O", "U"]]
      
-    #method for fitting and finding accuracy
-    def process(self, drop_cols=True):
-        new_df = self.original_df.copy()
-        other_df = self.original_df.copy()
-
-        if drop_cols==True:
-            for column in self.features:
-                count = (new_df[column] == 0).sum()
-                if count >= 0.50*len(new_df):
-                    new_df = new_df.drop(columns=column)
-            new_features = list(set(self.features).intersection(list(new_df.columns)))
+    # method for wrangling features
+    def process(self, location_specificity="country"):
         
-        self.input_df = pd.merge(other_df[self.not_features], new_df[new_features], left_index=True, right_index=True)
-                
+        def extract_place(location):
+            l_list = location.split("_")
+            if location_specificity=="country":
+                if len(l_list) > 2:
+                    return l_list[2]
+                elif len(l_list) > 1:
+                    return l_list[1]
+                else:
+                    return l_list[0]
+            if location_specificity=="region":
+                if len(l_list) > 1:
+                    return l_list[1]
+                else:
+                    return l_list[0]
+            if location_specificity=="specific":
+                return l_list[0]
+
+        def word_find(feature):
+            return feature.split("-")[0][0:2] + "-" + feature.split("-")[1]
+
+        self.input_df['location'] = self.input_df['location'].apply(extract_place)
+        self.input_df.gender = self.input_df.gender.replace(to_replace=['m', 'f'], value=[1, 0])
+        self.input_df['age'] = pd.to_numeric(self.input_df['age'])
+
+        opt_df = self.input_df.copy()[['id','gender','age','location']]
+
+        words = [word_find(f) for f in self.input_df.columns[4:]]
+        for w in words:
+            for c in self.input_df.columns[4:]:
+                if word_find(c) == w:
+                    opt_df[w] = self.input_df[c]
+                    break
+
+        in_list = list(self.input_df.columns[4:])
+        opt_list = list(opt_df.columns[4:])
+        for f in range(len(opt_list)):
+            for s in range(len(opt_df)):
+                if opt_df.iloc[s, f+4] == 0:
+                    for i in range(len(in_list)):
+                        if word_find(in_list[i]) == opt_list[f]:
+                            if self.input_df.iloc[s, i+4] != 0.0:
+                                opt_df.iloc[s, f+4] = self.input_df.iloc[s,i+4]
+                                break
+                else:
+                    continue
+
+        self.input_df = opt_df
+        return self.input_df
+    
+    def select_features(self, selected_features=['F1']):
+        new_df = self.input_df.copy()[self.not_features]
+        
+        for c in self.input_df.columns[4:]:
+            if "F1" in selected_features:
+                if c[0:2] == "F1":
+                    new_df[c] = self.input_df[c]
+            if "F2" in selected_features:
+                if c[0:2] == "F2":
+                    new_df[c] = self.input_df[c]
+            if "F3" in selected_features:
+                if c[0:2] == "F2":
+                    new_df[c] = self.input_df[c]
+            if "duration" in selected_features:
+                if c[0:2] == "du":
+                    new_df[c] = self.input_df[c]
+            if "F1mF2" in selected_features:
+                if c[0:2] == "F1":
+                    name = "F1mF2" + c[2:]
+                    word = c.split("-")[1]
+                    c2 = "F2-" + word
+                    new_df[name] = self.input_df[c2] - self.input_df[c]
+        
+        self.input_df = new_df
         return self.input_df
         
     def normalize(self, method="z"):
-        new_df = self.original_df.copy()
-        not_features = list(self.input_df.columns)[0:4]
+        new_df = self.input_df.copy()
+        new_df = new_df.drop(self.not_features, axis=1)
 
-        if method=="z":
-            for column in self.features: 
+        for column in new_df.columns: 
+            if method=="z":
                 new_df[column]=(new_df[column]-new_df[column].mean())/new_df[column].std()
-                
-        if method=="minmax":
-            for column in self.features: 
+            if method=="minmax":
                 new_df[column]=(new_df[column]-new_df[column].min())/(new_df[column].max()-new_df[column].min())
         
-        self.input_df = pd.merge(self.input_df[not_features], new_df[self.features], left_index=True, right_index=True)
-                
+        self.input_df = pd.merge(self.input_df[self.not_features], 
+                                 new_df[list(new_df.columns)], 
+                                 left_index=True, right_index=True)
+        return self.input_df
+    
+    def select_places(self, places=['uk', 'usa']):
+        self.input_df = self.input_df.loc[self.input_df['location'].isin(places)].reset_index(drop=True)
         return self.input_df
     
     def revert(self):

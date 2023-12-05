@@ -58,4 +58,8 @@ class getFiles:
                     sound.export(self.alt + "{}.wav".format(newname), format="wav")
 
         print("Success")
+
+if __name__ == "__main__":
+    getFiles().get_audio()
+    print("Operation Successful")
         
