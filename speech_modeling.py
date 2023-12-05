@@ -17,37 +17,19 @@ class h_input():
         self.raw_data = raw_data
         self.id_vars = id_vars
            
-        melted_df = raw_data.melt(id_vars=['id', 'gender', 'age', 'location', 'phoneme', 'word', 'midpoint_time'])
-        melted_df["value"] = pd.to_numeric(melted_df["value"], errors='coerce')
+        input_df = raw_data.melt(id_vars=['id', 'gender', 'age', 'location', 'phoneme', 'word', 'midpoint_time'])
+        input_df["value"] = pd.to_numeric(input_df["value"], errors='coerce')
         
-        input_df = melted_df.pivot_table(index=['id', 'gender', 'age', 'location'], 
+        input_df = input_df.pivot_table(index=['id', 'gender', 'age', 'location'], 
                                     values=["value"], 
                                     columns=['variable', 'word', 'phoneme'], 
                                     fill_value=0)
-        print(input_df)
         input_df.columns = input_df.columns.droplevel().to_flat_index().str.join("-")
         input_df = input_df.reset_index()
-        features = input_df.columns[4:]
-        
-        #finds the phoneme of a given feature
-        def phoneme_find(feature):
-            return feature.split("-")[2]
-
-        #finds the word of a given feature
-        def word_find(feature):
-            return feature.split("-")[1]
-        
-        #finds the country from a given location
-        def extract_country(location):
-            l_list = location.split("_")
-            if len(l_list) > 1:
-                return l_list[1]
-            else:
-                return l_list[0]
         
         self.original_df = input_df
         self.input_df = input_df
-        self.features = features
+        self.features = input_df.columns[4:]
         self.not_features = list(input_df.columns)[0:4]
         self.f1_features = [f for f in features if f[0:3] == "F1-"]
         self.f1v_features = [f for f in self.f1_features if phoneme_find(f)[0] in ["A", "I", "E", "O", "U", "Y"]]
@@ -62,7 +44,6 @@ class h_input():
     def process(self, drop_cols=True):
         new_df = self.original_df.copy()
         other_df = self.original_df.copy()
-        not_features = list(self.input_df.columns)[0:4]
 
         if drop_cols==True:
             for column in self.features:
@@ -71,7 +52,7 @@ class h_input():
                     new_df = new_df.drop(columns=column)
             new_features = list(set(self.features).intersection(list(new_df.columns)))
         
-        self.input_df = pd.merge(other_df[not_features], new_df[new_features], left_index=True, right_index=True)
+        self.input_df = pd.merge(other_df[self.not_features], new_df[new_features], left_index=True, right_index=True)
                 
         return self.input_df
         
@@ -168,8 +149,8 @@ class h_model():
         print(res_df.sort_values(by='Importance', ascending=False)[0:10])
         
         
-        
-        
+if __name__ == "__main__":
+    print("This file is not yet intended to be run as a script")   
         
         
         
