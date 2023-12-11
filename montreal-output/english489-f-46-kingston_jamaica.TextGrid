@@ -170,10 +170,10 @@ item []:
             text = "brother" 
         intervals [40]:
             xmin = 15.82 
-            xmax = 16.24 
+            xmax = 16.25 
             text = "bob" 
         intervals [41]:
-            xmin = 16.24 
+            xmin = 16.25 
             xmax = 17.55 
             text = "" 
         intervals [42]:
@@ -648,10 +648,10 @@ item []:
             text = "TH" 
         intervals [75]:
             xmin = 10.66 
-            xmax = 10.82 
+            xmax = 10.81 
             text = "IH1" 
         intervals [76]:
-            xmin = 10.82 
+            xmin = 10.81 
             xmax = 10.96 
             text = "K" 
         intervals [77]:
@@ -676,10 +676,10 @@ item []:
             text = "Z" 
         intervals [82]:
             xmin = 11.61 
-            xmax = 11.83 
+            xmax = 11.84 
             text = "AH1" 
         intervals [83]:
-            xmin = 11.83 
+            xmin = 11.84 
             xmax = 11.89 
             text = "V" 
         intervals [84]:
@@ -808,10 +808,10 @@ item []:
             text = "AA1" 
         intervals [115]:
             xmin = 16.15 
-            xmax = 16.24 
+            xmax = 16.25 
             text = "B" 
         intervals [116]:
-            xmin = 16.24 
+            xmin = 16.25 
             xmax = 17.55 
             text = "" 
         intervals [117]:

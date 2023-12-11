@@ -278,10 +278,10 @@ item []:
             text = "red" 
         intervals [67]:
             xmin = 18.07 
-            xmax = 18.52 
+            xmax = 18.51 
             text = "bags" 
         intervals [68]:
-            xmin = 18.52 
+            xmin = 18.51 
             xmax = 18.99 
             text = "" 
         intervals [69]:
@@ -772,10 +772,10 @@ item []:
             text = "R" 
         intervals [109]:
             xmin = 10.44 
-            xmax = 10.48 
+            xmax = 10.49 
             text = "AH1" 
         intervals [110]:
-            xmin = 10.48 
+            xmin = 10.49 
             xmax = 10.54 
             text = "DH" 
         intervals [111]:
@@ -1108,10 +1108,10 @@ item []:
             text = "G" 
         intervals [193]:
             xmin = 18.39 
-            xmax = 18.52 
+            xmax = 18.51 
             text = "Z" 
         intervals [194]:
-            xmin = 18.52 
+            xmin = 18.51 
             xmax = 18.99 
             text = "" 
         intervals [195]:

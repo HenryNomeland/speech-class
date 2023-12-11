@@ -182,10 +182,10 @@ item []:
             text = "we" 
         intervals [43]:
             xmin = 12.48 
-            xmax = 12.89 
+            xmax = 12.86 
             text = "also" 
         intervals [44]:
-            xmin = 12.89 
+            xmin = 12.86 
             xmax = 13.23 
             text = "need" 
         intervals [45]:
@@ -206,10 +206,10 @@ item []:
             text = "snake" 
         intervals [49]:
             xmin = 14.8 
-            xmax = 15.14 
+            xmax = 15.15 
             text = "" 
         intervals [50]:
-            xmin = 15.14 
+            xmin = 15.15 
             xmax = 15.32 
             text = "and" 
         intervals [51]:
@@ -832,10 +832,10 @@ item []:
             text = "S" 
         intervals [123]:
             xmin = 12.81 
-            xmax = 12.89 
+            xmax = 12.86 
             text = "OW0" 
         intervals [124]:
-            xmin = 12.89 
+            xmin = 12.86 
             xmax = 13 
             text = "N" 
         intervals [125]:
@@ -912,14 +912,14 @@ item []:
             text = "K" 
         intervals [143]:
             xmin = 14.8 
-            xmax = 15.14 
+            xmax = 15.15 
             text = "" 
         intervals [144]:
-            xmin = 15.14 
-            xmax = 15.23 
-            text = "AH0" 
+            xmin = 15.15 
+            xmax = 15.21 
+            text = "AE1" 
         intervals [145]:
-            xmin = 15.23 
+            xmin = 15.21 
             xmax = 15.27 
             text = "N" 
         intervals [146]:
@@ -1216,10 +1216,10 @@ item []:
             text = "" 
         intervals [219]:
             xmin = 22.91 
-            xmax = 23 
+            xmax = 22.99 
             text = "AE1" 
         intervals [220]:
-            xmin = 23 
+            xmin = 22.99 
             xmax = 23.07 
             text = "T" 
         intervals [221]:

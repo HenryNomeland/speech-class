@@ -106,10 +106,10 @@ item []:
             text = "peas" 
         intervals [24]:
             xmin = 6.5 
-            xmax = 6.67 
+            xmax = 6.66 
             text = "" 
         intervals [25]:
-            xmin = 6.67 
+            xmin = 6.66 
             xmax = 7.04 
             text = "five" 
         intervals [26]:
@@ -290,10 +290,10 @@ item []:
             text = "we" 
         intervals [70]:
             xmin = 16.88 
-            xmax = 16.97 
+            xmax = 16.98 
             text = "will" 
         intervals [71]:
-            xmin = 16.97 
+            xmin = 16.98 
             xmax = 17.11 
             text = "go" 
         intervals [72]:
@@ -608,10 +608,10 @@ item []:
             text = "Z" 
         intervals [69]:
             xmin = 6.5 
-            xmax = 6.67 
+            xmax = 6.66 
             text = "" 
         intervals [70]:
-            xmin = 6.67 
+            xmin = 6.66 
             xmax = 6.79 
             text = "F" 
         intervals [71]:
@@ -1136,10 +1136,10 @@ item []:
             text = "AH0" 
         intervals [201]:
             xmin = 16.93 
-            xmax = 16.97 
+            xmax = 16.98 
             text = "L" 
         intervals [202]:
-            xmin = 16.97 
+            xmin = 16.98 
             xmax = 17.04 
             text = "G" 
         intervals [203]:

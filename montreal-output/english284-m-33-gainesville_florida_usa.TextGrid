@@ -146,10 +146,10 @@ item []:
             text = "a" 
         intervals [34]:
             xmin = 10.67 
-            xmax = 11.09 
+            xmax = 11.08 
             text = "snack" 
         intervals [35]:
-            xmin = 11.09 
+            xmin = 11.08 
             xmax = 11.29 
             text = "for" 
         intervals [36]:
@@ -314,10 +314,10 @@ item []:
             text = "train" 
         intervals [76]:
             xmin = 21.05 
-            xmax = 21.55 
+            xmax = 21.54 
             text = "station" 
         intervals [77]:
-            xmin = 21.55 
+            xmin = 21.54 
             xmax = 21.849977 
             text = "" 
     item [2]:
@@ -724,10 +724,10 @@ item []:
             text = "AE1" 
         intervals [100]:
             xmin = 11 
-            xmax = 11.09 
+            xmax = 11.08 
             text = "K" 
         intervals [101]:
-            xmin = 11.09 
+            xmin = 11.08 
             xmax = 11.21 
             text = "F" 
         intervals [102]:
@@ -1228,9 +1228,9 @@ item []:
             text = "AH0" 
         intervals [226]:
             xmin = 21.46 
-            xmax = 21.55 
+            xmax = 21.54 
             text = "N" 
         intervals [227]:
-            xmin = 21.55 
+            xmin = 21.54 
             xmax = 21.849977 
             text = "" 

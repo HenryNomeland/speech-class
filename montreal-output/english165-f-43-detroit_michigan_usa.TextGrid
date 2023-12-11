@@ -864,10 +864,10 @@ item []:
             text = "AE1" 
         intervals [133]:
             xmin = 13.93 
-            xmax = 14.03 
+            xmax = 14.02 
             text = "S" 
         intervals [134]:
-            xmin = 14.03 
+            xmin = 14.02 
             xmax = 14.08 
             text = "T" 
         intervals [135]:

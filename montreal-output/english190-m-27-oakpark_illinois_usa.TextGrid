@@ -254,10 +254,10 @@ item []:
             text = "into" 
         intervals [61]:
             xmin = 14.62 
-            xmax = 14.9 
+            xmax = 14.89 
             text = "three" 
         intervals [62]:
-            xmin = 14.9 
+            xmin = 14.89 
             xmax = 15.13 
             text = "red" 
         intervals [63]:
@@ -1044,10 +1044,10 @@ item []:
             text = "R" 
         intervals [182]:
             xmin = 14.81 
-            xmax = 14.9 
+            xmax = 14.89 
             text = "IY1" 
         intervals [183]:
-            xmin = 14.9 
+            xmin = 14.89 
             xmax = 14.97 
             text = "R" 
         intervals [184]:

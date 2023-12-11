@@ -154,10 +154,10 @@ item []:
             text = "snack" 
         intervals [36]:
             xmin = 10.47 
-            xmax = 10.6 
+            xmax = 10.59 
             text = "for" 
         intervals [37]:
-            xmin = 10.6 
+            xmin = 10.59 
             xmax = 10.71 
             text = "her" 
         intervals [38]:
@@ -194,10 +194,10 @@ item []:
             text = "small" 
         intervals [46]:
             xmin = 13.25 
-            xmax = 13.73 
+            xmax = 13.72 
             text = "plastic" 
         intervals [47]:
-            xmin = 13.73 
+            xmin = 13.72 
             xmax = 14.13 
             text = "snake" 
         intervals [48]:
@@ -302,10 +302,10 @@ item []:
             text = "wednesday" 
         intervals [73]:
             xmin = 20.26 
-            xmax = 20.38 
+            xmax = 20.37 
             text = "at" 
         intervals [74]:
-            xmin = 20.38 
+            xmin = 20.37 
             xmax = 20.43 
             text = "the" 
         intervals [75]:
@@ -736,10 +736,10 @@ item []:
             text = "F" 
         intervals [103]:
             xmin = 10.53 
-            xmax = 10.6 
+            xmax = 10.59 
             text = "ER0" 
         intervals [104]:
-            xmin = 10.6 
+            xmin = 10.59 
             xmax = 10.65 
             text = "HH" 
         intervals [105]:
@@ -864,10 +864,10 @@ item []:
             text = "IH0" 
         intervals [135]:
             xmin = 13.66 
-            xmax = 13.73 
+            xmax = 13.72 
             text = "K" 
         intervals [136]:
-            xmin = 13.73 
+            xmin = 13.72 
             xmax = 13.86 
             text = "S" 
         intervals [137]:
@@ -1012,10 +1012,10 @@ item []:
             text = "DH" 
         intervals [172]:
             xmin = 17.29 
-            xmax = 17.39 
+            xmax = 17.38 
             text = "IY1" 
         intervals [173]:
-            xmin = 17.39 
+            xmin = 17.38 
             xmax = 17.5 
             text = "Z" 
         intervals [174]:
@@ -1180,14 +1180,14 @@ item []:
             text = "AE1" 
         intervals [214]:
             xmin = 20.31 
-            xmax = 20.38 
+            xmax = 20.37 
             text = "T" 
         intervals [215]:
-            xmin = 20.38 
-            xmax = 20.4 
+            xmin = 20.37 
+            xmax = 20.39 
             text = "DH" 
         intervals [216]:
-            xmin = 20.4 
+            xmin = 20.39 
             xmax = 20.43 
             text = "AH0" 
         intervals [217]:

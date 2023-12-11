@@ -384,10 +384,10 @@ item []:
             text = "K" 
         intervals [7]:
             xmin = 1.66 
-            xmax = 1.86 
+            xmax = 1.85 
             text = "AO1" 
         intervals [8]:
-            xmin = 1.86 
+            xmin = 1.85 
             xmax = 2.03 
             text = "L" 
         intervals [9]:
@@ -400,10 +400,10 @@ item []:
             text = "T" 
         intervals [11]:
             xmin = 2.27 
-            xmax = 2.39 
+            xmax = 2.38 
             text = "EH1" 
         intervals [12]:
-            xmin = 2.39 
+            xmin = 2.38 
             xmax = 2.51 
             text = "L" 
         intervals [13]:
@@ -793,7 +793,7 @@ item []:
         intervals [109]:
             xmin = 17.29 
             xmax = 17.4 
-            text = "ER1" 
+            text = "ER0" 
         intervals [110]:
             xmin = 17.4 
             xmax = 17.51 

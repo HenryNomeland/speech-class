@@ -38,10 +38,10 @@ item []:
             text = "ask" 
         intervals [7]:
             xmin = 2.25 
-            xmax = 2.32 
+            xmax = 2.33 
             text = "her" 
         intervals [8]:
-            xmin = 2.32 
+            xmin = 2.33 
             xmax = 2.47 
             text = "to" 
         intervals [9]:
@@ -408,10 +408,10 @@ item []:
             text = "HH" 
         intervals [19]:
             xmin = 2.26 
-            xmax = 2.32 
+            xmax = 2.33 
             text = "ER1" 
         intervals [20]:
-            xmin = 2.32 
+            xmin = 2.33 
             xmax = 2.38 
             text = "T" 
         intervals [21]:

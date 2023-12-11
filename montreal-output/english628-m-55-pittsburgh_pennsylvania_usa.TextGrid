@@ -74,10 +74,10 @@ item []:
             text = "the" 
         intervals [16]:
             xmin = 3.65 
-            xmax = 4.02 
+            xmax = 4.03 
             text = "store" 
         intervals [17]:
-            xmin = 4.02 
+            xmin = 4.03 
             xmax = 4.24 
             text = "" 
         intervals [18]:
@@ -512,10 +512,10 @@ item []:
             text = "AO1" 
         intervals [46]:
             xmin = 3.86 
-            xmax = 4.02 
+            xmax = 4.03 
             text = "R" 
         intervals [47]:
-            xmin = 4.02 
+            xmin = 4.03 
             xmax = 4.24 
             text = "" 
         intervals [48]:
@@ -932,10 +932,10 @@ item []:
             text = "R" 
         intervals [151]:
             xmin = 12.85 
-            xmax = 13 
+            xmax = 13.04 
             text = "AA1" 
         intervals [152]:
-            xmin = 13 
+            xmin = 13.04 
             xmax = 13.08 
             text = "G" 
         intervals [153]:
@@ -1120,14 +1120,14 @@ item []:
             text = "IY1" 
         intervals [198]:
             xmin = 17.06 
-            xmax = 17.09 
+            xmax = 17.1 
             text = "W" 
         intervals [199]:
-            xmin = 17.09 
-            xmax = 17.11 
+            xmin = 17.1 
+            xmax = 17.12 
             text = "AH0" 
         intervals [200]:
-            xmin = 17.11 
+            xmin = 17.12 
             xmax = 17.19 
             text = "L" 
         intervals [201]:

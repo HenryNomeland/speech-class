@@ -254,10 +254,10 @@ item []:
             text = "scoop" 
         intervals [61]:
             xmin = 15.49 
-            xmax = 15.68 
+            xmax = 15.7 
             text = "these" 
         intervals [62]:
-            xmin = 15.68 
+            xmin = 15.7 
             xmax = 16.07 
             text = "things" 
         intervals [63]:
@@ -1012,10 +1012,10 @@ item []:
             text = "K" 
         intervals [171]:
             xmin = 15.3 
-            xmax = 15.4 
+            xmax = 15.42 
             text = "UW1" 
         intervals [172]:
-            xmin = 15.4 
+            xmin = 15.42 
             xmax = 15.49 
             text = "P" 
         intervals [173]:
@@ -1028,10 +1028,10 @@ item []:
             text = "IY1" 
         intervals [175]:
             xmin = 15.61 
-            xmax = 15.68 
+            xmax = 15.7 
             text = "Z" 
         intervals [176]:
-            xmin = 15.68 
+            xmin = 15.7 
             xmax = 15.77 
             text = "TH" 
         intervals [177]:

@@ -30,10 +30,10 @@ item []:
             text = "stella" 
         intervals [5]:
             xmin = 2.83 
-            xmax = 3.42 
+            xmax = 3.43 
             text = "" 
         intervals [6]:
-            xmin = 3.42 
+            xmin = 3.43 
             xmax = 3.7 
             text = "ask" 
         intervals [7]:
@@ -94,10 +94,10 @@ item []:
             text = "of" 
         intervals [21]:
             xmin = 6.91 
-            xmax = 7.19 
+            xmax = 7.2 
             text = "fresh" 
         intervals [22]:
-            xmin = 7.19 
+            xmin = 7.2 
             xmax = 7.59 
             text = "snow" 
         intervals [23]:
@@ -396,10 +396,10 @@ item []:
             text = "AH0" 
         intervals [14]:
             xmin = 2.83 
-            xmax = 3.42 
+            xmax = 3.43 
             text = "" 
         intervals [15]:
-            xmin = 3.42 
+            xmin = 3.43 
             xmax = 3.56 
             text = "AE1" 
         intervals [16]:
@@ -588,10 +588,10 @@ item []:
             text = "EH1" 
         intervals [62]:
             xmin = 7.11 
-            xmax = 7.19 
+            xmax = 7.2 
             text = "SH" 
         intervals [63]:
-            xmin = 7.19 
+            xmin = 7.2 
             xmax = 7.39 
             text = "S" 
         intervals [64]:

@@ -82,10 +82,10 @@ item []:
             text = "" 
         intervals [18]:
             xmin = 4.57 
-            xmax = 4.9 
+            xmax = 4.91 
             text = "six" 
         intervals [19]:
-            xmin = 4.9 
+            xmin = 4.91 
             xmax = 5.25 
             text = "spoons" 
         intervals [20]:
@@ -536,14 +536,14 @@ item []:
             text = "IH1" 
         intervals [50]:
             xmin = 4.78 
-            xmax = 4.87 
+            xmax = 4.88 
             text = "K" 
         intervals [51]:
-            xmin = 4.87 
-            xmax = 4.9 
+            xmin = 4.88 
+            xmax = 4.91 
             text = "S" 
         intervals [52]:
-            xmin = 4.9 
+            xmin = 4.91 
             xmax = 4.94 
             text = "S" 
         intervals [53]:
@@ -928,10 +928,10 @@ item []:
             text = "G" 
         intervals [148]:
             xmin = 13.8 
-            xmax = 13.89 
+            xmax = 13.88 
             text = "T" 
         intervals [149]:
-            xmin = 13.89 
+            xmin = 13.88 
             xmax = 13.98 
             text = "OY1" 
         intervals [150]:

@@ -360,10 +360,10 @@ item []:
             text = "K" 
         intervals [7]:
             xmin = 0.76 
-            xmax = 0.88 
+            xmax = 0.89 
             text = "AO1" 
         intervals [8]:
-            xmin = 0.88 
+            xmin = 0.89 
             xmax = 0.93 
             text = "L" 
         intervals [9]:
@@ -380,10 +380,10 @@ item []:
             text = "EH1" 
         intervals [12]:
             xmin = 1.2 
-            xmax = 1.28 
+            xmax = 1.29 
             text = "L" 
         intervals [13]:
-            xmin = 1.28 
+            xmin = 1.29 
             xmax = 1.47 
             text = "AH0" 
         intervals [14]:
@@ -644,10 +644,10 @@ item []:
             text = "L" 
         intervals [78]:
             xmin = 7.08 
-            xmax = 7.22 
+            xmax = 7.21 
             text = "AE1" 
         intervals [79]:
-            xmin = 7.22 
+            xmin = 7.21 
             xmax = 7.27 
             text = "B" 
         intervals [80]:
@@ -696,10 +696,10 @@ item []:
             text = "AE1" 
         intervals [91]:
             xmin = 8.24 
-            xmax = 8.27 
+            xmax = 8.28 
             text = "N" 
         intervals [92]:
-            xmin = 8.27 
+            xmin = 8.28 
             xmax = 8.31 
             text = "D" 
         intervals [93]:

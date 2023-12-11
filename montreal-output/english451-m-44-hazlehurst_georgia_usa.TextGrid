@@ -214,10 +214,10 @@ item []:
             text = "a" 
         intervals [51]:
             xmin = 17.34 
-            xmax = 17.66 
+            xmax = 17.67 
             text = "big" 
         intervals [52]:
-            xmin = 17.66 
+            xmin = 17.67 
             xmax = 17.94 
             text = "toy" 
         intervals [53]:
@@ -624,10 +624,10 @@ item []:
             text = "V" 
         intervals [73]:
             xmin = 8.89 
-            xmax = 8.94 
+            xmax = 8.93 
             text = "TH" 
         intervals [74]:
-            xmin = 8.94 
+            xmin = 8.93 
             xmax = 9.04 
             text = "IH1" 
         intervals [75]:
@@ -920,10 +920,10 @@ item []:
             text = "IH1" 
         intervals [147]:
             xmin = 17.57 
-            xmax = 17.66 
+            xmax = 17.67 
             text = "G" 
         intervals [148]:
-            xmin = 17.66 
+            xmin = 17.67 
             xmax = 17.74 
             text = "T" 
         intervals [149]:
@@ -1168,10 +1168,10 @@ item []:
             text = "ER0" 
         intervals [209]:
             xmin = 24.27 
-            xmax = 24.4 
+            xmax = 24.41 
             text = "W" 
         intervals [210]:
-            xmin = 24.4 
+            xmin = 24.41 
             xmax = 24.45 
             text = "EH1" 
         intervals [211]:

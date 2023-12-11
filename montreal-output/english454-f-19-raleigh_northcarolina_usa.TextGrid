@@ -146,10 +146,10 @@ item []:
             text = "a" 
         intervals [34]:
             xmin = 9.96 
-            xmax = 10.4 
+            xmax = 10.39 
             text = "snack" 
         intervals [35]:
-            xmin = 10.4 
+            xmin = 10.39 
             xmax = 10.55 
             text = "for" 
         intervals [36]:
@@ -728,10 +728,10 @@ item []:
             text = "AE1" 
         intervals [100]:
             xmin = 10.29 
-            xmax = 10.4 
+            xmax = 10.39 
             text = "K" 
         intervals [101]:
-            xmin = 10.4 
+            xmin = 10.39 
             xmax = 10.45 
             text = "F" 
         intervals [102]:
@@ -932,10 +932,10 @@ item []:
             text = "R" 
         intervals [151]:
             xmin = 14.99 
-            xmax = 15.14 
+            xmax = 15.15 
             text = "AA1" 
         intervals [152]:
-            xmin = 15.14 
+            xmin = 15.15 
             xmax = 15.28 
             text = "G" 
         intervals [153]:

@@ -46,10 +46,10 @@ item []:
             text = "bring" 
         intervals [9]:
             xmin = 3.16 
-            xmax = 3.44 
+            xmax = 3.45 
             text = "these" 
         intervals [10]:
-            xmin = 3.44 
+            xmin = 3.45 
             xmax = 3.8 
             text = "things" 
         intervals [11]:
@@ -392,10 +392,10 @@ item []:
             text = "ER0" 
         intervals [19]:
             xmin = 2.65 
-            xmax = 2.68 
+            xmax = 2.69 
             text = "T" 
         intervals [20]:
-            xmin = 2.68 
+            xmin = 2.69 
             xmax = 2.74 
             text = "AH0" 
         intervals [21]:
@@ -424,10 +424,10 @@ item []:
             text = "IY1" 
         intervals [27]:
             xmin = 3.32 
-            xmax = 3.44 
+            xmax = 3.45 
             text = "Z" 
         intervals [28]:
-            xmin = 3.44 
+            xmin = 3.45 
             xmax = 3.53 
             text = "TH" 
         intervals [29]:

@@ -26,10 +26,10 @@ item []:
             text = "call" 
         intervals [4]:
             xmin = 1.35 
-            xmax = 1.89 
+            xmax = 1.88 
             text = "stella" 
         intervals [5]:
-            xmin = 1.89 
+            xmin = 1.88 
             xmax = 1.92 
             text = "" 
         intervals [6]:
@@ -74,10 +74,10 @@ item []:
             text = "the" 
         intervals [16]:
             xmin = 3.75 
-            xmax = 4.28 
+            xmax = 4.27 
             text = "store" 
         intervals [17]:
-            xmin = 4.28 
+            xmin = 4.27 
             xmax = 4.55 
             text = "" 
         intervals [18]:
@@ -392,10 +392,10 @@ item []:
             text = "L" 
         intervals [13]:
             xmin = 1.74 
-            xmax = 1.89 
+            xmax = 1.88 
             text = "AH0" 
         intervals [14]:
-            xmin = 1.89 
+            xmin = 1.88 
             xmax = 1.92 
             text = "" 
         intervals [15]:
@@ -524,10 +524,10 @@ item []:
             text = "AO1" 
         intervals [46]:
             xmin = 4.1 
-            xmax = 4.28 
+            xmax = 4.27 
             text = "R" 
         intervals [47]:
-            xmin = 4.28 
+            xmin = 4.27 
             xmax = 4.55 
             text = "" 
         intervals [48]:
@@ -732,10 +732,10 @@ item []:
             text = "S" 
         intervals [98]:
             xmin = 9.51 
-            xmax = 9.56 
+            xmax = 9.55 
             text = "N" 
         intervals [99]:
-            xmin = 9.56 
+            xmin = 9.55 
             xmax = 9.68 
             text = "AE1" 
         intervals [100]:
@@ -764,10 +764,10 @@ item []:
             text = "B" 
         intervals [106]:
             xmin = 10.12 
-            xmax = 10.2 
+            xmax = 10.19 
             text = "R" 
         intervals [107]:
-            xmin = 10.2 
+            xmin = 10.19 
             xmax = 10.24 
             text = "AH1" 
         intervals [108]:

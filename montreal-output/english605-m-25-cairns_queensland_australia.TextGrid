@@ -134,18 +134,18 @@ item []:
             text = "cheese" 
         intervals [31]:
             xmin = 12.15 
-            xmax = 12.6 
+            xmax = 12.61 
             text = "" 
         intervals [32]:
-            xmin = 12.6 
+            xmin = 12.61 
             xmax = 12.81 
             text = "and" 
         intervals [33]:
             xmin = 12.81 
-            xmax = 13.46 
+            xmax = 13.47 
             text = "maybe" 
         intervals [34]:
-            xmin = 13.46 
+            xmin = 13.47 
             xmax = 13.5 
             text = "" 
         intervals [35]:
@@ -588,10 +588,10 @@ item []:
             text = "R" 
         intervals [61]:
             xmin = 8.38 
-            xmax = 8.45 
+            xmax = 8.46 
             text = "EH1" 
         intervals [62]:
-            xmin = 8.45 
+            xmin = 8.46 
             xmax = 8.65 
             text = "SH" 
         intervals [63]:
@@ -700,10 +700,10 @@ item []:
             text = "Z" 
         intervals [89]:
             xmin = 12.15 
-            xmax = 12.6 
+            xmax = 12.61 
             text = "" 
         intervals [90]:
-            xmin = 12.6 
+            xmin = 12.61 
             xmax = 12.71 
             text = "AH0" 
         intervals [91]:
@@ -728,10 +728,10 @@ item []:
             text = "B" 
         intervals [96]:
             xmin = 13.08 
-            xmax = 13.46 
+            xmax = 13.47 
             text = "IY0" 
         intervals [97]:
-            xmin = 13.46 
+            xmin = 13.47 
             xmax = 13.5 
             text = "" 
         intervals [98]:

@@ -162,10 +162,10 @@ item []:
             text = "her" 
         intervals [38]:
             xmin = 9.71 
-            xmax = 9.97 
+            xmax = 9.96 
             text = "brother" 
         intervals [39]:
-            xmin = 9.97 
+            xmin = 9.96 
             xmax = 10.36 
             text = "bob" 
         intervals [40]:
@@ -772,10 +772,10 @@ item []:
             text = "DH" 
         intervals [110]:
             xmin = 9.9 
-            xmax = 9.97 
+            xmax = 9.96 
             text = "ER0" 
         intervals [111]:
-            xmin = 9.97 
+            xmin = 9.96 
             xmax = 10.04 
             text = "B" 
         intervals [112]:
@@ -1032,10 +1032,10 @@ item []:
             text = "TH" 
         intervals [175]:
             xmin = 15.48 
-            xmax = 15.61 
+            xmax = 15.6 
             text = "IH1" 
         intervals [176]:
-            xmin = 15.61 
+            xmin = 15.6 
             xmax = 15.66 
             text = "NG" 
         intervals [177]:

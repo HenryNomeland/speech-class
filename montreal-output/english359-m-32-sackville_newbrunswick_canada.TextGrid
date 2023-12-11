@@ -226,10 +226,10 @@ item []:
             text = "for" 
         intervals [54]:
             xmin = 16.1 
-            xmax = 16.2 
+            xmax = 16.19 
             text = "the" 
         intervals [55]:
-            xmin = 16.2 
+            xmin = 16.19 
             xmax = 16.75 
             text = "kids" 
         intervals [56]:
@@ -952,10 +952,10 @@ item []:
             text = "DH" 
         intervals [156]:
             xmin = 16.15 
-            xmax = 16.2 
+            xmax = 16.19 
             text = "AH0" 
         intervals [157]:
-            xmin = 16.2 
+            xmin = 16.19 
             xmax = 16.32 
             text = "K" 
         intervals [158]:

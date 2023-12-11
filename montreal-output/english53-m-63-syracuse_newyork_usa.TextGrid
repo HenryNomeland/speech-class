@@ -322,10 +322,10 @@ item []:
             text = "train" 
         intervals [78]:
             xmin = 23.25 
-            xmax = 23.74 
+            xmax = 23.7 
             text = "station" 
         intervals [79]:
-            xmin = 23.74 
+            xmin = 23.7 
             xmax = 23.962993 
             text = "" 
     item [2]:
@@ -1248,9 +1248,9 @@ item []:
             text = "AH0" 
         intervals [229]:
             xmin = 23.61 
-            xmax = 23.74 
+            xmax = 23.7 
             text = "N" 
         intervals [230]:
-            xmin = 23.74 
+            xmin = 23.7 
             xmax = 23.962993 
             text = "" 

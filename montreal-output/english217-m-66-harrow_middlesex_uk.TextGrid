@@ -278,14 +278,14 @@ item []:
             text = "we" 
         intervals [67]:
             xmin = 18.67 
-            xmax = 18.8 
+            xmax = 18.81 
             text = "will" 
         intervals [68]:
-            xmin = 18.8 
-            xmax = 19.03 
+            xmin = 18.81 
+            xmax = 19.02 
             text = "go" 
         intervals [69]:
-            xmin = 19.03 
+            xmin = 19.02 
             xmax = 19.35 
             text = "meet" 
         intervals [70]:
@@ -652,10 +652,10 @@ item []:
             text = "B" 
         intervals [83]:
             xmin = 7.94 
-            xmax = 8.02 
+            xmax = 8.01 
             text = "L" 
         intervals [84]:
-            xmin = 8.02 
+            xmin = 8.01 
             xmax = 8.15 
             text = "UW1" 
         intervals [85]:
@@ -1104,26 +1104,26 @@ item []:
             text = "IY1" 
         intervals [196]:
             xmin = 18.67 
-            xmax = 18.75 
+            xmax = 18.76 
             text = "W" 
         intervals [197]:
-            xmin = 18.75 
-            xmax = 18.77 
+            xmin = 18.76 
+            xmax = 18.78 
             text = "AH0" 
         intervals [198]:
-            xmin = 18.77 
-            xmax = 18.8 
+            xmin = 18.78 
+            xmax = 18.81 
             text = "L" 
         intervals [199]:
-            xmin = 18.8 
+            xmin = 18.81 
             xmax = 18.93 
             text = "G" 
         intervals [200]:
             xmin = 18.93 
-            xmax = 19.03 
+            xmax = 19.02 
             text = "OW1" 
         intervals [201]:
-            xmin = 19.03 
+            xmin = 19.02 
             xmax = 19.13 
             text = "M" 
         intervals [202]:

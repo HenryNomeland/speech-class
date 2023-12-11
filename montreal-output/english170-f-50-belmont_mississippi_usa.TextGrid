@@ -118,10 +118,10 @@ item []:
             text = "" 
         intervals [27]:
             xmin = 7.74 
-            xmax = 8.04 
+            xmax = 8.05 
             text = "thick" 
         intervals [28]:
-            xmin = 8.04 
+            xmin = 8.05 
             xmax = 8.17 
             text = "" 
         intervals [29]:
@@ -472,10 +472,10 @@ item []:
             text = "TH" 
         intervals [30]:
             xmin = 2.92 
-            xmax = 3.08 
+            xmax = 3.07 
             text = "IH1" 
         intervals [31]:
-            xmin = 3.08 
+            xmin = 3.07 
             xmax = 3.15 
             text = "NG" 
         intervals [32]:
@@ -532,10 +532,10 @@ item []:
             text = "S" 
         intervals [45]:
             xmin = 3.95 
-            xmax = 4.02 
+            xmax = 4.01 
             text = "T" 
         intervals [46]:
-            xmin = 4.02 
+            xmin = 4.01 
             xmax = 4.23 
             text = "AO1" 
         intervals [47]:
@@ -660,10 +660,10 @@ item []:
             text = "IH1" 
         intervals [77]:
             xmin = 7.88 
-            xmax = 8.04 
+            xmax = 8.05 
             text = "K" 
         intervals [78]:
-            xmin = 8.04 
+            xmin = 8.05 
             xmax = 8.17 
             text = "" 
         intervals [79]:

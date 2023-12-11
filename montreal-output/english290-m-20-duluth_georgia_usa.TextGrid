@@ -258,10 +258,10 @@ item []:
             text = "these" 
         intervals [62]:
             xmin = 17 
-            xmax = 17.38 
+            xmax = 17.39 
             text = "things" 
         intervals [63]:
-            xmin = 17.38 
+            xmin = 17.39 
             xmax = 17.56 
             text = "into" 
         intervals [64]:
@@ -1048,10 +1048,10 @@ item []:
             text = "NG" 
         intervals [179]:
             xmin = 17.3 
-            xmax = 17.38 
+            xmax = 17.39 
             text = "Z" 
         intervals [180]:
-            xmin = 17.38 
+            xmin = 17.39 
             xmax = 17.43 
             text = "IH0" 
         intervals [181]:

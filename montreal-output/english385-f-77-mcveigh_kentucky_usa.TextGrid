@@ -86,10 +86,10 @@ item []:
             text = "store" 
         intervals [19]:
             xmin = 6.56 
-            xmax = 7.3 
+            xmax = 7.31 
             text = "" 
         intervals [20]:
-            xmin = 7.3 
+            xmin = 7.31 
             xmax = 7.75 
             text = "six" 
         intervals [21]:
@@ -580,10 +580,10 @@ item []:
             text = "R" 
         intervals [50]:
             xmin = 6.56 
-            xmax = 7.3 
+            xmax = 7.31 
             text = "" 
         intervals [51]:
-            xmin = 7.3 
+            xmin = 7.31 
             xmax = 7.5 
             text = "S" 
         intervals [52]:
@@ -608,10 +608,10 @@ item []:
             text = "P" 
         intervals [57]:
             xmin = 7.9 
-            xmax = 8.21 
+            xmax = 8.22 
             text = "UW1" 
         intervals [58]:
-            xmin = 8.21 
+            xmin = 8.22 
             xmax = 8.35 
             text = "N" 
         intervals [59]:
@@ -1324,10 +1324,10 @@ item []:
             text = "R" 
         intervals [236]:
             xmin = 33.91 
-            xmax = 34.08 
+            xmax = 34.09 
             text = "EY1" 
         intervals [237]:
-            xmin = 34.08 
+            xmin = 34.09 
             xmax = 34.16 
             text = "N" 
         intervals [238]:

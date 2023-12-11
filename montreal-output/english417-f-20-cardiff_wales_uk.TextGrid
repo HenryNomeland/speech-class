@@ -210,10 +210,10 @@ item []:
             text = "a" 
         intervals [50]:
             xmin = 13.58 
-            xmax = 13.89 
+            xmax = 13.88 
             text = "big" 
         intervals [51]:
-            xmin = 13.89 
+            xmin = 13.88 
             xmax = 14.17 
             text = "toy" 
         intervals [52]:
@@ -912,10 +912,10 @@ item []:
             text = "IH1" 
         intervals [146]:
             xmin = 13.77 
-            xmax = 13.89 
+            xmax = 13.88 
             text = "G" 
         intervals [147]:
-            xmin = 13.89 
+            xmin = 13.88 
             xmax = 14.01 
             text = "T" 
         intervals [148]:

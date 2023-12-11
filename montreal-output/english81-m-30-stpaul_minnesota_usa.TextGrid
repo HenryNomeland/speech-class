@@ -158,10 +158,10 @@ item []:
             text = "for" 
         intervals [37]:
             xmin = 11.25 
-            xmax = 11.33 
+            xmax = 11.34 
             text = "her" 
         intervals [38]:
-            xmin = 11.33 
+            xmin = 11.34 
             xmax = 11.62 
             text = "brother" 
         intervals [39]:
@@ -174,10 +174,10 @@ item []:
             text = "" 
         intervals [41]:
             xmin = 12.63 
-            xmax = 12.78 
+            xmax = 12.77 
             text = "we" 
         intervals [42]:
-            xmin = 12.78 
+            xmin = 12.77 
             xmax = 13.05 
             text = "also" 
         intervals [43]:
@@ -752,10 +752,10 @@ item []:
             text = "HH" 
         intervals [106]:
             xmin = 11.26 
-            xmax = 11.33 
+            xmax = 11.34 
             text = "ER0" 
         intervals [107]:
-            xmin = 11.33 
+            xmin = 11.34 
             xmax = 11.42 
             text = "B" 
         intervals [108]:
@@ -796,10 +796,10 @@ item []:
             text = "W" 
         intervals [117]:
             xmin = 12.7 
-            xmax = 12.78 
+            xmax = 12.77 
             text = "IY1" 
         intervals [118]:
-            xmin = 12.78 
+            xmin = 12.77 
             xmax = 12.83 
             text = "AO1" 
         intervals [119]:
@@ -964,10 +964,10 @@ item []:
             text = "IY0" 
         intervals [159]:
             xmin = 15.95 
-            xmax = 16.11 
+            xmax = 16.1 
             text = "K" 
         intervals [160]:
-            xmin = 16.11 
+            xmin = 16.1 
             xmax = 16.19 
             text = "IH1" 
         intervals [161]:

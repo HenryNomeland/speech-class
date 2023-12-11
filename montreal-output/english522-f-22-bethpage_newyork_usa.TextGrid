@@ -90,10 +90,10 @@ item []:
             text = "spoons" 
         intervals [20]:
             xmin = 4.57 
-            xmax = 4.71 
+            xmax = 4.7 
             text = "of" 
         intervals [21]:
-            xmin = 4.71 
+            xmin = 4.7 
             xmax = 4.95 
             text = "fresh" 
         intervals [22]:
@@ -564,10 +564,10 @@ item []:
             text = "AH0" 
         intervals [58]:
             xmin = 4.62 
-            xmax = 4.71 
+            xmax = 4.7 
             text = "V" 
         intervals [59]:
-            xmin = 4.71 
+            xmin = 4.7 
             xmax = 4.74 
             text = "F" 
         intervals [60]:

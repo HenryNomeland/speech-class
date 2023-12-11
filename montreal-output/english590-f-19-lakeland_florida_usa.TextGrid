@@ -66,10 +66,10 @@ item []:
             text = "her" 
         intervals [14]:
             xmin = 3.93 
-            xmax = 4.2 
+            xmax = 4.21 
             text = "from" 
         intervals [15]:
-            xmin = 4.2 
+            xmin = 4.21 
             xmax = 4.28 
             text = "the" 
         intervals [16]:
@@ -106,10 +106,10 @@ item []:
             text = "peas" 
         intervals [24]:
             xmin = 7.82 
-            xmax = 8.22 
+            xmax = 8.21 
             text = "" 
         intervals [25]:
-            xmin = 8.22 
+            xmin = 8.21 
             xmax = 8.65 
             text = "five" 
         intervals [26]:
@@ -488,14 +488,14 @@ item []:
             text = "AH1" 
         intervals [41]:
             xmin = 4.12 
-            xmax = 4.2 
+            xmax = 4.21 
             text = "M" 
         intervals [42]:
-            xmin = 4.2 
-            xmax = 4.22 
+            xmin = 4.21 
+            xmax = 4.23 
             text = "DH" 
         intervals [43]:
-            xmin = 4.22 
+            xmin = 4.23 
             xmax = 4.28 
             text = "AH0" 
         intervals [44]:
@@ -604,10 +604,10 @@ item []:
             text = "Z" 
         intervals [70]:
             xmin = 7.82 
-            xmax = 8.22 
+            xmax = 8.21 
             text = "" 
         intervals [71]:
-            xmin = 8.22 
+            xmin = 8.21 
             xmax = 8.3 
             text = "F" 
         intervals [72]:
@@ -953,7 +953,7 @@ item []:
         intervals [157]:
             xmin = 17.28 
             xmax = 17.33 
-            text = "IY0" 
+            text = "AH0" 
         intervals [158]:
             xmin = 17.33 
             xmax = 17.48 

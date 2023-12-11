@@ -824,10 +824,10 @@ item []:
             text = "N" 
         intervals [123]:
             xmin = 12.82 
-            xmax = 12.88 
+            xmax = 12.89 
             text = "IY1" 
         intervals [124]:
-            xmin = 12.88 
+            xmin = 12.89 
             xmax = 12.93 
             text = "D" 
         intervals [125]:

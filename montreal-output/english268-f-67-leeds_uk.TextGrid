@@ -106,10 +106,10 @@ item []:
             text = "peas" 
         intervals [24]:
             xmin = 5.49 
-            xmax = 5.65 
+            xmax = 5.66 
             text = "" 
         intervals [25]:
-            xmin = 5.65 
+            xmin = 5.66 
             xmax = 5.99 
             text = "five" 
         intervals [26]:
@@ -604,10 +604,10 @@ item []:
             text = "Z" 
         intervals [69]:
             xmin = 5.49 
-            xmax = 5.65 
+            xmax = 5.66 
             text = "" 
         intervals [70]:
-            xmin = 5.65 
+            xmin = 5.66 
             xmax = 5.77 
             text = "F" 
         intervals [71]:
@@ -949,7 +949,7 @@ item []:
         intervals [155]:
             xmin = 12.04 
             xmax = 12.09 
-            text = "IY0" 
+            text = "AH0" 
         intervals [156]:
             xmin = 12.09 
             xmax = 12.22 

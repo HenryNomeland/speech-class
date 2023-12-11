@@ -456,10 +456,10 @@ item []:
             text = "IH1" 
         intervals [31]:
             xmin = 3.68 
-            xmax = 3.77 
+            xmax = 3.76 
             text = "NG" 
         intervals [32]:
-            xmin = 3.77 
+            xmin = 3.76 
             xmax = 3.87 
             text = "Z" 
         intervals [33]:

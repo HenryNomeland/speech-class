@@ -18,10 +18,10 @@ item []:
             text = "" 
         intervals [2]:
             xmin = 0.32 
-            xmax = 0.6 
+            xmax = 0.59 
             text = "please" 
         intervals [3]:
-            xmin = 0.6 
+            xmin = 0.59 
             xmax = 0.83 
             text = "call" 
         intervals [4]:
@@ -344,10 +344,10 @@ item []:
             text = "IY1" 
         intervals [5]:
             xmin = 0.52 
-            xmax = 0.6 
+            xmax = 0.59 
             text = "Z" 
         intervals [6]:
-            xmin = 0.6 
+            xmin = 0.59 
             xmax = 0.68 
             text = "K" 
         intervals [7]:
@@ -852,10 +852,10 @@ item []:
             text = "S" 
         intervals [132]:
             xmin = 10.68 
-            xmax = 10.72 
+            xmax = 10.71 
             text = "T" 
         intervals [133]:
-            xmin = 10.72 
+            xmin = 10.71 
             xmax = 10.75 
             text = "IH0" 
         intervals [134]:

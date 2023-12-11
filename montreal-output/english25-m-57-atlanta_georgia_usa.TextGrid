@@ -130,10 +130,10 @@ item []:
             text = "and" 
         intervals [30]:
             xmin = 9.05 
-            xmax = 9.37 
+            xmax = 9.38 
             text = "maybe" 
         intervals [31]:
-            xmin = 9.37 
+            xmin = 9.38 
             xmax = 9.43 
             text = "a" 
         intervals [32]:
@@ -142,10 +142,10 @@ item []:
             text = "snack" 
         intervals [33]:
             xmin = 9.83 
-            xmax = 9.92 
+            xmax = 9.91 
             text = "for" 
         intervals [34]:
-            xmin = 9.92 
+            xmin = 9.91 
             xmax = 10.02 
             text = "her" 
         intervals [35]:
@@ -696,10 +696,10 @@ item []:
             text = "B" 
         intervals [93]:
             xmin = 9.27 
-            xmax = 9.37 
+            xmax = 9.38 
             text = "IY0" 
         intervals [94]:
-            xmin = 9.37 
+            xmin = 9.38 
             xmax = 9.43 
             text = "AH0" 
         intervals [95]:
@@ -724,14 +724,14 @@ item []:
             text = "F" 
         intervals [100]:
             xmin = 9.88 
-            xmax = 9.92 
+            xmax = 9.91 
             text = "ER0" 
         intervals [101]:
-            xmin = 9.92 
-            xmax = 9.93 
+            xmin = 9.91 
+            xmax = 9.92 
             text = "HH" 
         intervals [102]:
-            xmin = 9.93 
+            xmin = 9.92 
             xmax = 10.02 
             text = "ER0" 
         intervals [103]:
@@ -1076,10 +1076,10 @@ item []:
             text = "AE1" 
         intervals [188]:
             xmin = 18.9 
-            xmax = 18.97 
+            xmax = 18.96 
             text = "G" 
         intervals [189]:
-            xmin = 18.97 
+            xmin = 18.96 
             xmax = 19 
             text = "Z" 
         intervals [190]:

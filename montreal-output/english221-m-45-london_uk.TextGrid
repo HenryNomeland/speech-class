@@ -154,10 +154,10 @@ item []:
             text = "for" 
         intervals [36]:
             xmin = 9.74 
-            xmax = 9.94 
+            xmax = 9.93 
             text = "her" 
         intervals [37]:
-            xmin = 9.94 
+            xmin = 9.93 
             xmax = 10.2 
             text = "brother" 
         intervals [38]:
@@ -206,10 +206,10 @@ item []:
             text = "a" 
         intervals [49]:
             xmin = 13.06 
-            xmax = 13.31 
+            xmax = 13.3 
             text = "big" 
         intervals [50]:
-            xmin = 13.31 
+            xmin = 13.3 
             xmax = 13.55 
             text = "toy" 
         intervals [51]:
@@ -314,10 +314,10 @@ item []:
             text = "train" 
         intervals [76]:
             xmin = 20.03 
-            xmax = 22.14 
+            xmax = 22.17 
             text = "station" 
         intervals [77]:
-            xmin = 22.14 
+            xmin = 22.17 
             xmax = 22.361451 
             text = "" 
     item [2]:
@@ -748,10 +748,10 @@ item []:
             text = "HH" 
         intervals [106]:
             xmin = 9.75 
-            xmax = 9.94 
+            xmax = 9.93 
             text = "ER1" 
         intervals [107]:
-            xmin = 9.94 
+            xmin = 9.93 
             xmax = 10.02 
             text = "B" 
         intervals [108]:
@@ -912,10 +912,10 @@ item []:
             text = "IH1" 
         intervals [147]:
             xmin = 13.21 
-            xmax = 13.31 
+            xmax = 13.3 
             text = "G" 
         intervals [148]:
-            xmin = 13.31 
+            xmin = 13.3 
             xmax = 13.39 
             text = "T" 
         intervals [149]:
@@ -1240,9 +1240,9 @@ item []:
             text = "AH0" 
         intervals [229]:
             xmin = 20.44 
-            xmax = 22.14 
+            xmax = 22.17 
             text = "N" 
         intervals [230]:
-            xmin = 22.14 
+            xmin = 22.17 
             xmax = 22.361451 
             text = "" 

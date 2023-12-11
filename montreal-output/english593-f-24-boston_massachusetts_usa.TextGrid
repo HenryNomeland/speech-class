@@ -704,10 +704,10 @@ item []:
             text = "B" 
         intervals [88]:
             xmin = 8.27 
-            xmax = 8.31 
+            xmax = 8.3 
             text = "L" 
         intervals [89]:
-            xmin = 8.31 
+            xmin = 8.3 
             xmax = 8.41 
             text = "UW1" 
         intervals [90]:

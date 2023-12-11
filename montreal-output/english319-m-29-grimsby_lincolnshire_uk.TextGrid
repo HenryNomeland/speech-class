@@ -732,10 +732,10 @@ item []:
             text = "S" 
         intervals [100]:
             xmin = 9.41 
-            xmax = 9.48 
+            xmax = 9.47 
             text = "N" 
         intervals [101]:
-            xmin = 9.48 
+            xmin = 9.47 
             xmax = 9.55 
             text = "AE1" 
         intervals [102]:
@@ -1196,10 +1196,10 @@ item []:
             text = "EY2" 
         intervals [216]:
             xmin = 18.88 
-            xmax = 18.92 
+            xmax = 18.93 
             text = "AE1" 
         intervals [217]:
-            xmin = 18.92 
+            xmin = 18.93 
             xmax = 18.97 
             text = "T" 
         intervals [218]:

@@ -74,10 +74,10 @@ item []:
             text = "from" 
         intervals [16]:
             xmin = 5.16 
-            xmax = 5.24 
+            xmax = 5.26 
             text = "the" 
         intervals [17]:
-            xmin = 5.24 
+            xmin = 5.26 
             xmax = 5.81 
             text = "store" 
         intervals [18]:
@@ -516,10 +516,10 @@ item []:
             text = "DH" 
         intervals [44]:
             xmin = 5.18 
-            xmax = 5.24 
+            xmax = 5.26 
             text = "AH0" 
         intervals [45]:
-            xmin = 5.24 
+            xmin = 5.26 
             xmax = 5.39 
             text = "S" 
         intervals [46]:
@@ -988,10 +988,10 @@ item []:
             text = "K" 
         intervals [162]:
             xmin = 19.35 
-            xmax = 19.49 
+            xmax = 19.5 
             text = "IH1" 
         intervals [163]:
-            xmin = 19.49 
+            xmin = 19.5 
             xmax = 19.66 
             text = "D" 
         intervals [164]:

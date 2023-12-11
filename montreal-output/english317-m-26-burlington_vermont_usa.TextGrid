@@ -250,10 +250,10 @@ item []:
             text = "kids" 
         intervals [60]:
             xmin = 17.45 
-            xmax = 18.23 
+            xmax = 18.24 
             text = "" 
         intervals [61]:
-            xmin = 18.23 
+            xmin = 18.24 
             xmax = 18.37 
             text = "she" 
         intervals [62]:
@@ -1004,10 +1004,10 @@ item []:
             text = "Z" 
         intervals [166]:
             xmin = 17.45 
-            xmax = 18.23 
+            xmax = 18.24 
             text = "" 
         intervals [167]:
-            xmin = 18.23 
+            xmin = 18.24 
             xmax = 18.33 
             text = "SH" 
         intervals [168]:

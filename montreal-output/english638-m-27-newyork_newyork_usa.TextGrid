@@ -290,10 +290,10 @@ item []:
             text = "we" 
         intervals [70]:
             xmin = 19.4 
-            xmax = 19.55 
+            xmax = 19.56 
             text = "will" 
         intervals [71]:
-            xmin = 19.55 
+            xmin = 19.56 
             xmax = 19.8 
             text = "go" 
         intervals [72]:
@@ -812,10 +812,10 @@ item []:
             text = "AO1" 
         intervals [119]:
             xmin = 12.25 
-            xmax = 12.3 
+            xmax = 12.29 
             text = "L" 
         intervals [120]:
-            xmin = 12.3 
+            xmin = 12.29 
             xmax = 12.4 
             text = "S" 
         intervals [121]:
@@ -1144,10 +1144,10 @@ item []:
             text = "AH0" 
         intervals [202]:
             xmin = 19.51 
-            xmax = 19.55 
+            xmax = 19.56 
             text = "L" 
         intervals [203]:
-            xmin = 19.55 
+            xmin = 19.56 
             xmax = 19.64 
             text = "G" 
         intervals [204]:

@@ -816,10 +816,10 @@ item []:
             text = "IY1" 
         intervals [118]:
             xmin = 12.8 
-            xmax = 12.87 
+            xmax = 12.88 
             text = "AO1" 
         intervals [119]:
-            xmin = 12.87 
+            xmin = 12.88 
             xmax = 12.92 
             text = "L" 
         intervals [120]:
@@ -1240,10 +1240,10 @@ item []:
             text = "R" 
         intervals [224]:
             xmin = 23.08 
-            xmax = 23.17 
+            xmax = 23.18 
             text = "EY1" 
         intervals [225]:
-            xmin = 23.17 
+            xmin = 23.18 
             xmax = 23.23 
             text = "N" 
         intervals [226]:

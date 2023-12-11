@@ -186,10 +186,10 @@ item []:
             text = "bob" 
         intervals [44]:
             xmin = 14.22 
-            xmax = 15.17 
+            xmax = 15.18 
             text = "" 
         intervals [45]:
-            xmin = 15.17 
+            xmin = 15.18 
             xmax = 15.35 
             text = "we" 
         intervals [46]:
@@ -334,14 +334,14 @@ item []:
             text = "wednesday" 
         intervals [81]:
             xmin = 27.67 
-            xmax = 27.92 
+            xmax = 27.93 
             text = "at" 
         intervals [82]:
-            xmin = 27.92 
-            xmax = 27.97 
+            xmin = 27.93 
+            xmax = 27.99 
             text = "the" 
         intervals [83]:
-            xmin = 27.97 
+            xmin = 27.99 
             xmax = 28.34 
             text = "train" 
         intervals [84]:
@@ -656,10 +656,10 @@ item []:
             text = "F" 
         intervals [75]:
             xmin = 9.76 
-            xmax = 10.03 
+            xmax = 10.05 
             text = "AY1" 
         intervals [76]:
-            xmin = 10.03 
+            xmin = 10.05 
             xmax = 10.1 
             text = "V" 
         intervals [77]:
@@ -832,10 +832,10 @@ item []:
             text = "B" 
         intervals [119]:
             xmin = 14.22 
-            xmax = 15.17 
+            xmax = 15.18 
             text = "" 
         intervals [120]:
-            xmin = 15.17 
+            xmin = 15.18 
             xmax = 15.22 
             text = "W" 
         intervals [121]:
@@ -1252,18 +1252,18 @@ item []:
             text = "AE1" 
         intervals [224]:
             xmin = 27.87 
-            xmax = 27.92 
+            xmax = 27.93 
             text = "T" 
         intervals [225]:
-            xmin = 27.92 
-            xmax = 27.94 
+            xmin = 27.93 
+            xmax = 27.95 
             text = "DH" 
         intervals [226]:
-            xmin = 27.94 
-            xmax = 27.97 
+            xmin = 27.95 
+            xmax = 27.99 
             text = "AH0" 
         intervals [227]:
-            xmin = 27.97 
+            xmin = 27.99 
             xmax = 28.11 
             text = "T" 
         intervals [228]:

@@ -400,10 +400,10 @@ item []:
             text = "K" 
         intervals [7]:
             xmin = 1.26 
-            xmax = 1.33 
+            xmax = 1.29 
             text = "AO1" 
         intervals [8]:
-            xmin = 1.33 
+            xmin = 1.29 
             xmax = 1.49 
             text = "L" 
         intervals [9]:
@@ -692,10 +692,10 @@ item []:
             text = "L" 
         intervals [80]:
             xmin = 11.81 
-            xmax = 12.04 
+            xmax = 12.03 
             text = "AE1" 
         intervals [81]:
-            xmin = 12.04 
+            xmin = 12.03 
             xmax = 12.16 
             text = "B" 
         intervals [82]:
@@ -860,10 +860,10 @@ item []:
             text = "" 
         intervals [122]:
             xmin = 18.97 
-            xmax = 19.06 
+            xmax = 19.05 
             text = "W" 
         intervals [123]:
-            xmin = 19.06 
+            xmin = 19.05 
             xmax = 19.17 
             text = "IY1" 
         intervals [124]:
@@ -984,10 +984,10 @@ item []:
             text = "B" 
         intervals [153]:
             xmin = 22.6 
-            xmax = 22.72 
+            xmax = 22.73 
             text = "IH1" 
         intervals [154]:
-            xmin = 22.72 
+            xmin = 22.73 
             xmax = 22.84 
             text = "G" 
         intervals [155]:
@@ -1260,10 +1260,10 @@ item []:
             text = "W" 
         intervals [222]:
             xmin = 33.15 
-            xmax = 33.29 
+            xmax = 33.28 
             text = "EH1" 
         intervals [223]:
-            xmin = 33.29 
+            xmin = 33.28 
             xmax = 33.38 
             text = "N" 
         intervals [224]:
@@ -1304,10 +1304,10 @@ item []:
             text = "R" 
         intervals [233]:
             xmin = 34 
-            xmax = 34.11 
+            xmax = 34.09 
             text = "EY1" 
         intervals [234]:
-            xmin = 34.11 
+            xmin = 34.09 
             xmax = 34.18 
             text = "N" 
         intervals [235]:

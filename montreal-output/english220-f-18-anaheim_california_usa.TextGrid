@@ -310,10 +310,10 @@ item []:
             text = "go" 
         intervals [75]:
             xmin = 19.98 
-            xmax = 20.24 
+            xmax = 20.25 
             text = "meet" 
         intervals [76]:
-            xmin = 20.24 
+            xmin = 20.25 
             xmax = 20.34 
             text = "her" 
         intervals [77]:
@@ -1108,10 +1108,10 @@ item []:
             text = "IY1" 
         intervals [191]:
             xmin = 18.57 
-            xmax = 18.6 
+            xmax = 18.61 
             text = "R" 
         intervals [192]:
-            xmin = 18.6 
+            xmin = 18.61 
             xmax = 18.72 
             text = "EH1" 
         intervals [193]:
@@ -1188,14 +1188,14 @@ item []:
             text = "IY1" 
         intervals [211]:
             xmin = 20.16 
-            xmax = 20.24 
+            xmax = 20.25 
             text = "T" 
         intervals [212]:
-            xmin = 20.24 
-            xmax = 20.25 
+            xmin = 20.25 
+            xmax = 20.26 
             text = "HH" 
         intervals [213]:
-            xmin = 20.25 
+            xmin = 20.26 
             xmax = 20.34 
             text = "ER0" 
         intervals [214]:

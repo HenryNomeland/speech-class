@@ -968,10 +968,10 @@ item []:
             text = "F" 
         intervals [155]:
             xmin = 19.68 
-            xmax = 19.74 
+            xmax = 19.75 
             text = "R" 
         intervals [156]:
-            xmin = 19.74 
+            xmin = 19.75 
             xmax = 20 
             text = "AA1" 
         intervals [157]:

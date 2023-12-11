@@ -1092,10 +1092,10 @@ item []:
             text = "AE1" 
         intervals [191]:
             xmin = 16.1 
-            xmax = 16.16 
+            xmax = 16.17 
             text = "G" 
         intervals [192]:
-            xmin = 16.16 
+            xmin = 16.17 
             xmax = 16.25 
             text = "Z" 
         intervals [193]:

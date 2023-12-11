@@ -218,10 +218,10 @@ item []:
             text = "a" 
         intervals [52]:
             xmin = 13.39 
-            xmax = 13.67 
+            xmax = 13.68 
             text = "big" 
         intervals [53]:
-            xmin = 13.67 
+            xmin = 13.68 
             xmax = 13.94 
             text = "toy" 
         intervals [54]:
@@ -836,10 +836,10 @@ item []:
             text = "OW0" 
         intervals [122]:
             xmin = 11.58 
-            xmax = 11.65 
+            xmax = 11.66 
             text = "N" 
         intervals [123]:
-            xmin = 11.65 
+            xmin = 11.66 
             xmax = 11.75 
             text = "IY1" 
         intervals [124]:
@@ -940,10 +940,10 @@ item []:
             text = "IH1" 
         intervals [148]:
             xmin = 13.59 
-            xmax = 13.67 
+            xmax = 13.68 
             text = "G" 
         intervals [149]:
-            xmin = 13.67 
+            xmin = 13.68 
             xmax = 13.8 
             text = "T" 
         intervals [150]:

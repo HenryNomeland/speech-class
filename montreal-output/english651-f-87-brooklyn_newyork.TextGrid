@@ -302,10 +302,10 @@ item []:
             text = "and" 
         intervals [73]:
             xmin = 29.81 
-            xmax = 30.03 
+            xmax = 29.95 
             text = "we" 
         intervals [74]:
-            xmin = 30.03 
+            xmin = 29.95 
             xmax = 30.33 
             text = "will" 
         intervals [75]:
@@ -584,10 +584,10 @@ item []:
             text = "UW1" 
         intervals [57]:
             xmin = 9.19 
-            xmax = 9.27 
+            xmax = 9.28 
             text = "N" 
         intervals [58]:
-            xmin = 9.27 
+            xmin = 9.28 
             xmax = 9.37 
             text = "Z" 
         intervals [59]:
@@ -1168,10 +1168,10 @@ item []:
             text = "W" 
         intervals [203]:
             xmin = 29.9 
-            xmax = 30.03 
+            xmax = 29.95 
             text = "IY1" 
         intervals [204]:
-            xmin = 30.03 
+            xmin = 29.95 
             xmax = 30.16 
             text = "W" 
         intervals [205]:

@@ -170,10 +170,10 @@ item []:
             text = "bob" 
         intervals [40]:
             xmin = 11.59 
-            xmax = 11.84 
+            xmax = 11.85 
             text = "" 
         intervals [41]:
-            xmin = 11.84 
+            xmin = 11.85 
             xmax = 11.94 
             text = "we" 
         intervals [42]:
@@ -364,10 +364,10 @@ item []:
             text = "L" 
         intervals [9]:
             xmin = 1.26 
-            xmax = 1.37 
+            xmax = 1.38 
             text = "S" 
         intervals [10]:
-            xmin = 1.37 
+            xmin = 1.38 
             xmax = 1.44 
             text = "T" 
         intervals [11]:
@@ -660,10 +660,10 @@ item []:
             text = "V" 
         intervals [83]:
             xmin = 8.53 
-            xmax = 8.56 
+            xmax = 8.57 
             text = "B" 
         intervals [84]:
-            xmin = 8.56 
+            xmin = 8.57 
             xmax = 8.64 
             text = "L" 
         intervals [85]:
@@ -784,10 +784,10 @@ item []:
             text = "B" 
         intervals [114]:
             xmin = 11.59 
-            xmax = 11.84 
+            xmax = 11.85 
             text = "" 
         intervals [115]:
-            xmin = 11.84 
+            xmin = 11.85 
             xmax = 11.89 
             text = "W" 
         intervals [116]:
@@ -860,10 +860,10 @@ item []:
             text = "S" 
         intervals [133]:
             xmin = 13 
-            xmax = 13.05 
+            xmax = 13.06 
             text = "T" 
         intervals [134]:
-            xmin = 13.05 
+            xmin = 13.06 
             xmax = 13.1 
             text = "IH0" 
         intervals [135]:
@@ -1160,10 +1160,10 @@ item []:
             text = "ER0" 
         intervals [208]:
             xmin = 19.45 
-            xmax = 19.59 
+            xmax = 19.58 
             text = "W" 
         intervals [209]:
-            xmin = 19.59 
+            xmin = 19.58 
             xmax = 19.64 
             text = "EH1" 
         intervals [210]:

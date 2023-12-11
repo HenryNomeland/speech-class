@@ -274,10 +274,10 @@ item []:
             text = "three" 
         intervals [66]:
             xmin = 17.16 
-            xmax = 17.39 
+            xmax = 17.4 
             text = "red" 
         intervals [67]:
-            xmin = 17.39 
+            xmin = 17.4 
             xmax = 17.74 
             text = "bags" 
         intervals [68]:
@@ -1016,10 +1016,10 @@ item []:
             text = "N" 
         intervals [169]:
             xmin = 15.87 
-            xmax = 15.96 
+            xmax = 15.95 
             text = "S" 
         intervals [170]:
-            xmin = 15.96 
+            xmin = 15.95 
             xmax = 16.01 
             text = "K" 
         intervals [171]:
@@ -1096,10 +1096,10 @@ item []:
             text = "EH1" 
         intervals [189]:
             xmin = 17.28 
-            xmax = 17.39 
+            xmax = 17.4 
             text = "D" 
         intervals [190]:
-            xmin = 17.39 
+            xmin = 17.4 
             xmax = 17.44 
             text = "B" 
         intervals [191]:

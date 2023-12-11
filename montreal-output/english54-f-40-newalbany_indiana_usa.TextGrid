@@ -58,10 +58,10 @@ item []:
             text = "with" 
         intervals [12]:
             xmin = 2.95 
-            xmax = 3.18 
+            xmax = 3.19 
             text = "her" 
         intervals [13]:
-            xmin = 3.18 
+            xmin = 3.19 
             xmax = 3.41 
             text = "from" 
         intervals [14]:
@@ -476,10 +476,10 @@ item []:
             text = "HH" 
         intervals [36]:
             xmin = 2.96 
-            xmax = 3.18 
-            text = "ER1" 
+            xmax = 3.19 
+            text = "ER0" 
         intervals [37]:
-            xmin = 3.18 
+            xmin = 3.19 
             xmax = 3.27 
             text = "F" 
         intervals [38]:

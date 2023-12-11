@@ -756,10 +756,10 @@ item []:
             text = "ER0" 
         intervals [107]:
             xmin = 11 
-            xmax = 11.08 
+            xmax = 11.07 
             text = "B" 
         intervals [108]:
-            xmin = 11.08 
+            xmin = 11.07 
             xmax = 11.13 
             text = "R" 
         intervals [109]:

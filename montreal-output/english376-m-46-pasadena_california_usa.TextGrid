@@ -696,14 +696,14 @@ item []:
             text = "" 
         intervals [90]:
             xmin = 9.46 
-            xmax = 9.5 
+            xmax = 9.51 
             text = "AE1" 
         intervals [91]:
-            xmin = 9.5 
-            xmax = 9.53 
+            xmin = 9.51 
+            xmax = 9.54 
             text = "N" 
         intervals [92]:
-            xmin = 9.53 
+            xmin = 9.54 
             xmax = 9.58 
             text = "D" 
         intervals [93]:

@@ -628,10 +628,10 @@ item []:
             text = "S" 
         intervals [77]:
             xmin = 7.31 
-            xmax = 7.37 
+            xmax = 7.38 
             text = "L" 
         intervals [78]:
-            xmin = 7.37 
+            xmin = 7.38 
             xmax = 7.48 
             text = "AE1" 
         intervals [79]:
@@ -1020,10 +1020,10 @@ item []:
             text = "IH1" 
         intervals [175]:
             xmin = 15.25 
-            xmax = 15.36 
+            xmax = 15.37 
             text = "NG" 
         intervals [176]:
-            xmin = 15.36 
+            xmin = 15.37 
             xmax = 15.4 
             text = "Z" 
         intervals [177]:

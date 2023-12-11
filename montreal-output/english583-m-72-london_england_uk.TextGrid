@@ -940,10 +940,10 @@ item []:
             text = "G" 
         intervals [149]:
             xmin = 14.93 
-            xmax = 15.03 
+            xmax = 15.04 
             text = "T" 
         intervals [150]:
-            xmin = 15.03 
+            xmin = 15.04 
             xmax = 15.22 
             text = "OY1" 
         intervals [151]:

@@ -688,10 +688,10 @@ item []:
             text = "CH" 
         intervals [88]:
             xmin = 8.53 
-            xmax = 8.68 
+            xmax = 8.69 
             text = "IY1" 
         intervals [89]:
-            xmin = 8.68 
+            xmin = 8.69 
             xmax = 8.85 
             text = "Z" 
         intervals [90]:

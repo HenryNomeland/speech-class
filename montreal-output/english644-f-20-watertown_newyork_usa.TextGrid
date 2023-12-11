@@ -70,14 +70,14 @@ item []:
             text = "from" 
         intervals [15]:
             xmin = 4.52 
-            xmax = 4.58 
+            xmax = 4.59 
             text = "the" 
         intervals [16]:
-            xmin = 4.58 
-            xmax = 5.01 
+            xmin = 4.59 
+            xmax = 5.02 
             text = "store" 
         intervals [17]:
-            xmin = 5.01 
+            xmin = 5.02 
             xmax = 5.35 
             text = "" 
         intervals [18]:
@@ -322,10 +322,10 @@ item []:
             text = "train" 
         intervals [78]:
             xmin = 21.17 
-            xmax = 21.69 
+            xmax = 21.68 
             text = "station" 
         intervals [79]:
-            xmin = 21.69 
+            xmin = 21.68 
             xmax = 22.217982 
             text = "" 
     item [2]:
@@ -504,10 +504,10 @@ item []:
             text = "DH" 
         intervals [43]:
             xmin = 4.54 
-            xmax = 4.58 
+            xmax = 4.59 
             text = "AH0" 
         intervals [44]:
-            xmin = 4.58 
+            xmin = 4.59 
             xmax = 4.67 
             text = "S" 
         intervals [45]:
@@ -520,10 +520,10 @@ item []:
             text = "AO1" 
         intervals [47]:
             xmin = 4.83 
-            xmax = 5.01 
+            xmax = 5.02 
             text = "R" 
         intervals [48]:
-            xmin = 5.01 
+            xmin = 5.02 
             xmax = 5.35 
             text = "" 
         intervals [49]:
@@ -1248,9 +1248,9 @@ item []:
             text = "AH0" 
         intervals [229]:
             xmin = 21.53 
-            xmax = 21.69 
+            xmax = 21.68 
             text = "N" 
         intervals [230]:
-            xmin = 21.69 
+            xmin = 21.68 
             xmax = 22.217982 
             text = "" 

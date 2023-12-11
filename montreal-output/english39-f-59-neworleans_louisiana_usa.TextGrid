@@ -552,10 +552,10 @@ item []:
             text = "P" 
         intervals [56]:
             xmin = 6.16 
-            xmax = 6.33 
+            xmax = 6.32 
             text = "UW1" 
         intervals [57]:
-            xmin = 6.33 
+            xmin = 6.32 
             xmax = 6.36 
             text = "N" 
         intervals [58]:
@@ -1068,10 +1068,10 @@ item []:
             text = "TH" 
         intervals [185]:
             xmin = 18.64 
-            xmax = 18.72 
+            xmax = 18.73 
             text = "R" 
         intervals [186]:
-            xmin = 18.72 
+            xmin = 18.73 
             xmax = 18.81 
             text = "IY1" 
         intervals [187]:
@@ -1172,10 +1172,10 @@ item []:
             text = "EH1" 
         intervals [211]:
             xmin = 20.78 
-            xmax = 20.85 
+            xmax = 20.84 
             text = "N" 
         intervals [212]:
-            xmin = 20.85 
+            xmin = 20.84 
             xmax = 20.93 
             text = "Z" 
         intervals [213]:

@@ -250,10 +250,10 @@ item []:
             text = "she" 
         intervals [60]:
             xmin = 18.33 
-            xmax = 19.37 
+            xmax = 19.36 
             text = "" 
         intervals [61]:
-            xmin = 19.37 
+            xmin = 19.36 
             xmax = 19.51 
             text = "can" 
         intervals [62]:
@@ -302,10 +302,10 @@ item []:
             text = "will" 
         intervals [73]:
             xmin = 22.74 
-            xmax = 22.99 
+            xmax = 23 
             text = "go" 
         intervals [74]:
-            xmin = 22.99 
+            xmin = 23 
             xmax = 23.34 
             text = "meet" 
         intervals [75]:
@@ -868,10 +868,10 @@ item []:
             text = "L" 
         intervals [131]:
             xmin = 15.41 
-            xmax = 15.54 
+            xmax = 15.55 
             text = "P" 
         intervals [132]:
-            xmin = 15.54 
+            xmin = 15.55 
             xmax = 15.58 
             text = "L" 
         intervals [133]:
@@ -1008,10 +1008,10 @@ item []:
             text = "IY1" 
         intervals [166]:
             xmin = 18.33 
-            xmax = 19.37 
+            xmax = 19.36 
             text = "" 
         intervals [167]:
-            xmin = 19.37 
+            xmin = 19.36 
             xmax = 19.42 
             text = "K" 
         intervals [168]:
@@ -1164,10 +1164,10 @@ item []:
             text = "G" 
         intervals [205]:
             xmin = 22.85 
-            xmax = 22.99 
+            xmax = 23 
             text = "OW1" 
         intervals [206]:
-            xmin = 22.99 
+            xmin = 23 
             xmax = 23.1 
             text = "M" 
         intervals [207]:

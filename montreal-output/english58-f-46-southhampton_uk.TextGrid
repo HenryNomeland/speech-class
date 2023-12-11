@@ -74,10 +74,10 @@ item []:
             text = "the" 
         intervals [16]:
             xmin = 4.84 
-            xmax = 5.48 
+            xmax = 5.49 
             text = "store" 
         intervals [17]:
-            xmin = 5.48 
+            xmin = 5.49 
             xmax = 5.75 
             text = "" 
         intervals [18]:
@@ -110,10 +110,10 @@ item []:
             text = "peas" 
         intervals [25]:
             xmin = 8.17 
-            xmax = 8.53 
+            xmax = 8.52 
             text = "" 
         intervals [26]:
-            xmin = 8.53 
+            xmin = 8.52 
             xmax = 8.97 
             text = "five" 
         intervals [27]:
@@ -520,10 +520,10 @@ item []:
             text = "AO1" 
         intervals [47]:
             xmin = 5.39 
-            xmax = 5.48 
+            xmax = 5.49 
             text = "R" 
         intervals [48]:
-            xmin = 5.48 
+            xmin = 5.49 
             xmax = 5.75 
             text = "" 
         intervals [49]:
@@ -616,10 +616,10 @@ item []:
             text = "Z" 
         intervals [71]:
             xmin = 8.17 
-            xmax = 8.53 
+            xmax = 8.52 
             text = "" 
         intervals [72]:
-            xmin = 8.53 
+            xmin = 8.52 
             xmax = 8.65 
             text = "F" 
         intervals [73]:
@@ -812,10 +812,10 @@ item []:
             text = "L" 
         intervals [120]:
             xmin = 13.88 
-            xmax = 13.98 
+            xmax = 13.99 
             text = "S" 
         intervals [121]:
-            xmin = 13.98 
+            xmin = 13.99 
             xmax = 14.09 
             text = "OW0" 
         intervals [122]:
@@ -844,10 +844,10 @@ item []:
             text = "M" 
         intervals [128]:
             xmin = 14.65 
-            xmax = 14.71 
+            xmax = 14.74 
             text = "AO1" 
         intervals [129]:
-            xmin = 14.71 
+            xmin = 14.74 
             xmax = 14.79 
             text = "L" 
         intervals [130]:

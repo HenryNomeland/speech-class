@@ -90,10 +90,10 @@ item []:
             text = "spoons" 
         intervals [20]:
             xmin = 6.21 
-            xmax = 6.32 
+            xmax = 6.33 
             text = "of" 
         intervals [21]:
-            xmin = 6.32 
+            xmin = 6.33 
             xmax = 6.7 
             text = "fresh" 
         intervals [22]:
@@ -286,10 +286,10 @@ item []:
             text = "and" 
         intervals [69]:
             xmin = 20.35 
-            xmax = 20.46 
+            xmax = 20.45 
             text = "we" 
         intervals [70]:
-            xmin = 20.46 
+            xmin = 20.45 
             xmax = 20.57 
             text = "will" 
         intervals [71]:
@@ -572,10 +572,10 @@ item []:
             text = "AH1" 
         intervals [59]:
             xmin = 6.27 
-            xmax = 6.32 
+            xmax = 6.33 
             text = "V" 
         intervals [60]:
-            xmin = 6.32 
+            xmin = 6.33 
             xmax = 6.43 
             text = "F" 
         intervals [61]:
@@ -1132,10 +1132,10 @@ item []:
             text = "W" 
         intervals [199]:
             xmin = 20.38 
-            xmax = 20.46 
+            xmax = 20.45 
             text = "IY1" 
         intervals [200]:
-            xmin = 20.46 
+            xmin = 20.45 
             xmax = 20.51 
             text = "W" 
         intervals [201]:

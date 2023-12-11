@@ -206,10 +206,10 @@ item []:
             text = "plastic" 
         intervals [49]:
             xmin = 15.49 
-            xmax = 15.92 
+            xmax = 15.91 
             text = "snake" 
         intervals [50]:
-            xmin = 15.92 
+            xmin = 15.91 
             xmax = 15.98 
             text = "" 
         intervals [51]:
@@ -218,10 +218,10 @@ item []:
             text = "and" 
         intervals [52]:
             xmin = 16.26 
-            xmax = 16.37 
+            xmax = 16.36 
             text = "a" 
         intervals [53]:
-            xmin = 16.37 
+            xmin = 16.36 
             xmax = 16.65 
             text = "big" 
         intervals [54]:
@@ -904,10 +904,10 @@ item []:
             text = "EY1" 
         intervals [142]:
             xmin = 15.78 
-            xmax = 15.92 
+            xmax = 15.91 
             text = "K" 
         intervals [143]:
-            xmin = 15.92 
+            xmin = 15.91 
             xmax = 15.98 
             text = "" 
         intervals [144]:
@@ -924,10 +924,10 @@ item []:
             text = "D" 
         intervals [147]:
             xmin = 16.26 
-            xmax = 16.37 
+            xmax = 16.36 
             text = "AH0" 
         intervals [148]:
-            xmin = 16.37 
+            xmin = 16.36 
             xmax = 16.48 
             text = "B" 
         intervals [149]:

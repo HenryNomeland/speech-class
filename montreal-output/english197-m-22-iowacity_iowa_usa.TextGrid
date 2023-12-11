@@ -1200,10 +1200,10 @@ item []:
             text = "R" 
         intervals [219]:
             xmin = 20.39 
-            xmax = 20.49 
+            xmax = 20.5 
             text = "EY1" 
         intervals [220]:
-            xmin = 20.49 
+            xmin = 20.5 
             xmax = 20.57 
             text = "N" 
         intervals [221]:

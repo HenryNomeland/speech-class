@@ -46,10 +46,10 @@ item []:
             text = "to" 
         intervals [9]:
             xmin = 2.57 
-            xmax = 3 
+            xmax = 2.99 
             text = "bring" 
         intervals [10]:
-            xmin = 3 
+            xmin = 2.99 
             xmax = 3.3 
             text = "these" 
         intervals [11]:
@@ -150,10 +150,10 @@ item []:
             text = "snack" 
         intervals [35]:
             xmin = 10.81 
-            xmax = 11.01 
+            xmax = 11.03 
             text = "for" 
         intervals [36]:
-            xmin = 11.01 
+            xmin = 11.03 
             xmax = 11.08 
             text = "her" 
         intervals [37]:
@@ -428,14 +428,14 @@ item []:
             text = "IH1" 
         intervals [25]:
             xmin = 2.79 
-            xmax = 3 
+            xmax = 2.99 
             text = "NG" 
         intervals [26]:
-            xmin = 3 
-            xmax = 3.02 
+            xmin = 2.99 
+            xmax = 3.01 
             text = "DH" 
         intervals [27]:
-            xmin = 3.02 
+            xmin = 3.01 
             xmax = 3.18 
             text = "IY1" 
         intervals [28]:
@@ -740,14 +740,14 @@ item []:
             text = "F" 
         intervals [103]:
             xmin = 10.95 
-            xmax = 11.01 
+            xmax = 11.03 
             text = "ER0" 
         intervals [104]:
-            xmin = 11.01 
-            xmax = 11.02 
+            xmin = 11.03 
+            xmax = 11.04 
             text = "HH" 
         intervals [105]:
-            xmin = 11.02 
+            xmin = 11.04 
             xmax = 11.08 
             text = "ER0" 
         intervals [106]:
@@ -1032,10 +1032,10 @@ item []:
             text = "TH" 
         intervals [176]:
             xmin = 17.78 
-            xmax = 17.86 
+            xmax = 17.85 
             text = "IH1" 
         intervals [177]:
-            xmin = 17.86 
+            xmin = 17.85 
             xmax = 17.93 
             text = "NG" 
         intervals [178]:

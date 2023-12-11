@@ -306,10 +306,10 @@ item []:
             text = "meet" 
         intervals [74]:
             xmin = 19.94 
-            xmax = 20.16 
+            xmax = 20.15 
             text = "her" 
         intervals [75]:
-            xmin = 20.16 
+            xmin = 20.15 
             xmax = 20.77 
             text = "wednesday" 
         intervals [76]:
@@ -1180,10 +1180,10 @@ item []:
             text = "HH" 
         intervals [210]:
             xmin = 19.95 
-            xmax = 20.16 
+            xmax = 20.15 
             text = "ER0" 
         intervals [211]:
-            xmin = 20.16 
+            xmin = 20.15 
             xmax = 20.25 
             text = "W" 
         intervals [212]:

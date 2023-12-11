@@ -368,10 +368,10 @@ item []:
             text = "K" 
         intervals [7]:
             xmin = 0.9 
-            xmax = 0.97 
+            xmax = 0.96 
             text = "AO1" 
         intervals [8]:
-            xmin = 0.97 
+            xmin = 0.96 
             xmax = 1.12 
             text = "L" 
         intervals [9]:
@@ -472,10 +472,10 @@ item []:
             text = "Z" 
         intervals [33]:
             xmin = 4.17 
-            xmax = 4.24 
+            xmax = 4.25 
             text = "W" 
         intervals [34]:
-            xmin = 4.24 
+            xmin = 4.25 
             xmax = 4.29 
             text = "IH0" 
         intervals [35]:

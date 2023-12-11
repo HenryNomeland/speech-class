@@ -274,10 +274,10 @@ item []:
             text = "bags" 
         intervals [66]:
             xmin = 17.44 
-            xmax = 17.6 
+            xmax = 17.61 
             text = "and" 
         intervals [67]:
-            xmin = 17.6 
+            xmin = 17.61 
             xmax = 17.68 
             text = "we" 
         intervals [68]:
@@ -1100,10 +1100,10 @@ item []:
             text = "N" 
         intervals [194]:
             xmin = 17.52 
-            xmax = 17.6 
+            xmax = 17.61 
             text = "D" 
         intervals [195]:
-            xmin = 17.6 
+            xmin = 17.61 
             xmax = 17.64 
             text = "W" 
         intervals [196]:

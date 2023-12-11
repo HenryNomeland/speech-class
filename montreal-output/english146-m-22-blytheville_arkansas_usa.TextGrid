@@ -348,10 +348,10 @@ item []:
             text = "L" 
         intervals [4]:
             xmin = 0.82 
-            xmax = 0.87 
+            xmax = 0.86 
             text = "IY1" 
         intervals [5]:
-            xmin = 0.87 
+            xmin = 0.86 
             xmax = 0.98 
             text = "Z" 
         intervals [6]:
@@ -548,10 +548,10 @@ item []:
             text = "P" 
         intervals [54]:
             xmin = 5.55 
-            xmax = 5.71 
+            xmax = 5.72 
             text = "UW1" 
         intervals [55]:
-            xmin = 5.71 
+            xmin = 5.72 
             xmax = 5.77 
             text = "N" 
         intervals [56]:
@@ -884,10 +884,10 @@ item []:
             text = "N" 
         intervals [138]:
             xmin = 14.35 
-            xmax = 14.54 
+            xmax = 14.55 
             text = "EY1" 
         intervals [139]:
-            xmin = 14.54 
+            xmin = 14.55 
             xmax = 14.68 
             text = "K" 
         intervals [140]:

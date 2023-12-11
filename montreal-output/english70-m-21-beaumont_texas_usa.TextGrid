@@ -86,10 +86,10 @@ item []:
             text = "six" 
         intervals [19]:
             xmin = 3.96 
-            xmax = 4.25 
+            xmax = 4.26 
             text = "spoons" 
         intervals [20]:
-            xmin = 4.25 
+            xmin = 4.26 
             xmax = 4.33 
             text = "of" 
         intervals [21]:
@@ -548,18 +548,18 @@ item []:
             text = "UW1" 
         intervals [55]:
             xmin = 4.18 
-            xmax = 4.22 
+            xmax = 4.23 
             text = "N" 
         intervals [56]:
-            xmin = 4.22 
-            xmax = 4.25 
+            xmin = 4.23 
+            xmax = 4.26 
             text = "Z" 
         intervals [57]:
-            xmin = 4.25 
-            xmax = 4.28 
+            xmin = 4.26 
+            xmax = 4.29 
             text = "AH0" 
         intervals [58]:
-            xmin = 4.28 
+            xmin = 4.29 
             xmax = 4.33 
             text = "V" 
         intervals [59]:

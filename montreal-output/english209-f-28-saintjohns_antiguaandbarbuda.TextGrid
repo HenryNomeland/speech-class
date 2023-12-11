@@ -78,10 +78,10 @@ item []:
             text = "from" 
         intervals [17]:
             xmin = 4.9 
-            xmax = 4.97 
+            xmax = 4.96 
             text = "the" 
         intervals [18]:
-            xmin = 4.97 
+            xmin = 4.96 
             xmax = 5.44 
             text = "store" 
         intervals [19]:
@@ -214,10 +214,10 @@ item []:
             text = "and" 
         intervals [51]:
             xmin = 15.77 
-            xmax = 15.82 
+            xmax = 15.83 
             text = "a" 
         intervals [52]:
-            xmin = 15.82 
+            xmin = 15.83 
             xmax = 16.19 
             text = "big" 
         intervals [53]:
@@ -380,10 +380,10 @@ item []:
             text = "T" 
         intervals [12]:
             xmin = 1.52 
-            xmax = 1.64 
+            xmax = 1.63 
             text = "EH1" 
         intervals [13]:
-            xmin = 1.64 
+            xmin = 1.63 
             xmax = 1.78 
             text = "L" 
         intervals [14]:
@@ -432,10 +432,10 @@ item []:
             text = "B" 
         intervals [25]:
             xmin = 3.55 
-            xmax = 3.59 
+            xmax = 3.58 
             text = "R" 
         intervals [26]:
-            xmin = 3.59 
+            xmin = 3.58 
             xmax = 3.63 
             text = "IH1" 
         intervals [27]:
@@ -512,10 +512,10 @@ item []:
             text = "DH" 
         intervals [45]:
             xmin = 4.92 
-            xmax = 4.97 
+            xmax = 4.96 
             text = "AH0" 
         intervals [46]:
-            xmin = 4.97 
+            xmin = 4.96 
             xmax = 5.09 
             text = "S" 
         intervals [47]:
@@ -916,10 +916,10 @@ item []:
             text = "D" 
         intervals [146]:
             xmin = 15.77 
-            xmax = 15.82 
+            xmax = 15.83 
             text = "AH0" 
         intervals [147]:
-            xmin = 15.82 
+            xmin = 15.83 
             xmax = 15.97 
             text = "B" 
         intervals [148]:

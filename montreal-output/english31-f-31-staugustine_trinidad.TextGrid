@@ -154,10 +154,10 @@ item []:
             text = "snack" 
         intervals [36]:
             xmin = 9.56 
-            xmax = 9.65 
+            xmax = 9.71 
             text = "for" 
         intervals [37]:
-            xmin = 9.65 
+            xmin = 9.71 
             xmax = 9.78 
             text = "her" 
         intervals [38]:
@@ -540,10 +540,10 @@ item []:
             text = "S" 
         intervals [49]:
             xmin = 4.59 
-            xmax = 4.63 
+            xmax = 4.62 
             text = "IH1" 
         intervals [50]:
-            xmin = 4.63 
+            xmin = 4.62 
             xmax = 4.67 
             text = "K" 
         intervals [51]:
@@ -756,14 +756,14 @@ item []:
             text = "F" 
         intervals [103]:
             xmin = 9.62 
-            xmax = 9.65 
+            xmax = 9.71 
             text = "ER0" 
         intervals [104]:
-            xmin = 9.65 
-            xmax = 9.66 
+            xmin = 9.71 
+            xmax = 9.72 
             text = "HH" 
         intervals [105]:
-            xmin = 9.66 
+            xmin = 9.72 
             xmax = 9.78 
             text = "ER1" 
         intervals [106]:

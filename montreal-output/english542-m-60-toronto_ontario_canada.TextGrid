@@ -972,14 +972,14 @@ item []:
             text = "K" 
         intervals [159]:
             xmin = 12.51 
-            xmax = 12.56 
+            xmax = 12.55 
             text = "IH1" 
         intervals [160]:
-            xmin = 12.56 
-            xmax = 12.71 
+            xmin = 12.55 
+            xmax = 12.7 
             text = "D" 
         intervals [161]:
-            xmin = 12.71 
+            xmin = 12.7 
             xmax = 12.82 
             text = "Z" 
         intervals [162]:

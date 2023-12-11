@@ -30,10 +30,10 @@ item []:
             text = "stella" 
         intervals [5]:
             xmin = 2.34 
-            xmax = 3.14 
+            xmax = 3.13 
             text = "" 
         intervals [6]:
-            xmin = 3.14 
+            xmin = 3.13 
             xmax = 3.4 
             text = "ask" 
         intervals [7]:
@@ -400,10 +400,10 @@ item []:
             text = "AH0" 
         intervals [14]:
             xmin = 2.34 
-            xmax = 3.14 
+            xmax = 3.13 
             text = "" 
         intervals [15]:
-            xmin = 3.14 
+            xmin = 3.13 
             xmax = 3.31 
             text = "AE1" 
         intervals [16]:
@@ -616,10 +616,10 @@ item []:
             text = "P" 
         intervals [68]:
             xmin = 8.58 
-            xmax = 8.97 
+            xmax = 8.96 
             text = "IY1" 
         intervals [69]:
-            xmin = 8.97 
+            xmin = 8.96 
             xmax = 9.21 
             text = "Z" 
         intervals [70]:

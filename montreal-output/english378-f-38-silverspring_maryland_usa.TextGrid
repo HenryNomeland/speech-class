@@ -30,10 +30,10 @@ item []:
             text = "stella" 
         intervals [5]:
             xmin = 1.35 
-            xmax = 1.7 
+            xmax = 1.71 
             text = "" 
         intervals [6]:
-            xmin = 1.7 
+            xmin = 1.71 
             xmax = 1.94 
             text = "ask" 
         intervals [7]:
@@ -58,14 +58,14 @@ item []:
             text = "things" 
         intervals [12]:
             xmin = 2.8 
-            xmax = 3 
+            xmax = 3.18 
             text = "with" 
         intervals [13]:
-            xmin = 3 
-            xmax = 3.1 
+            xmin = 3.18 
+            xmax = 3.25 
             text = "her" 
         intervals [14]:
-            xmin = 3.1 
+            xmin = 3.25 
             xmax = 3.32 
             text = "from" 
         intervals [15]:
@@ -384,10 +384,10 @@ item []:
             text = "AH0" 
         intervals [14]:
             xmin = 1.35 
-            xmax = 1.7 
+            xmax = 1.71 
             text = "" 
         intervals [15]:
-            xmin = 1.7 
+            xmin = 1.71 
             xmax = 1.81 
             text = "AE1" 
         intervals [16]:
@@ -464,30 +464,30 @@ item []:
             text = "W" 
         intervals [34]:
             xmin = 2.85 
-            xmax = 2.95 
+            xmax = 3.15 
             text = "IH1" 
         intervals [35]:
-            xmin = 2.95 
-            xmax = 3 
+            xmin = 3.15 
+            xmax = 3.18 
             text = "TH" 
         intervals [36]:
-            xmin = 3 
-            xmax = 3.01 
+            xmin = 3.18 
+            xmax = 3.19 
             text = "HH" 
         intervals [37]:
-            xmin = 3.01 
-            xmax = 3.1 
+            xmin = 3.19 
+            xmax = 3.25 
             text = "ER0" 
         intervals [38]:
-            xmin = 3.1 
-            xmax = 3.18 
+            xmin = 3.25 
+            xmax = 3.26 
             text = "F" 
         intervals [39]:
-            xmin = 3.18 
-            xmax = 3.24 
+            xmin = 3.26 
+            xmax = 3.29 
             text = "ER0" 
         intervals [40]:
-            xmin = 3.24 
+            xmin = 3.29 
             xmax = 3.32 
             text = "M" 
         intervals [41]:
@@ -568,10 +568,10 @@ item []:
             text = "F" 
         intervals [60]:
             xmin = 5.01 
-            xmax = 5.05 
+            xmax = 5.04 
             text = "R" 
         intervals [61]:
-            xmin = 5.05 
+            xmin = 5.04 
             xmax = 5.14 
             text = "EH1" 
         intervals [62]:

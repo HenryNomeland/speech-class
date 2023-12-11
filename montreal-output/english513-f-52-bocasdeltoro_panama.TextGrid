@@ -218,10 +218,10 @@ item []:
             text = "snake" 
         intervals [52]:
             xmin = 18.81 
-            xmax = 18.87 
+            xmax = 18.88 
             text = "" 
         intervals [53]:
-            xmin = 18.87 
+            xmin = 18.88 
             xmax = 19.02 
             text = "and" 
         intervals [54]:
@@ -456,10 +456,10 @@ item []:
             text = "R" 
         intervals [24]:
             xmin = 2.91 
-            xmax = 3 
+            xmax = 3.01 
             text = "IH1" 
         intervals [25]:
-            xmin = 3 
+            xmin = 3.01 
             xmax = 3.15 
             text = "NG" 
         intervals [26]:
@@ -944,10 +944,10 @@ item []:
             text = "K" 
         intervals [146]:
             xmin = 18.81 
-            xmax = 18.87 
+            xmax = 18.88 
             text = "" 
         intervals [147]:
-            xmin = 18.87 
+            xmin = 18.88 
             xmax = 18.95 
             text = "AE1" 
         intervals [148]:

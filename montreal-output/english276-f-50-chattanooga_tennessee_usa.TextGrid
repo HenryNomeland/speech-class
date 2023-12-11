@@ -22,10 +22,10 @@ item []:
             text = "please" 
         intervals [3]:
             xmin = 0.53 
-            xmax = 0.85 
+            xmax = 0.88 
             text = "call" 
         intervals [4]:
-            xmin = 0.85 
+            xmin = 0.88 
             xmax = 1.29 
             text = "stella" 
         intervals [5]:
@@ -372,14 +372,14 @@ item []:
             text = "AO1" 
         intervals [8]:
             xmin = 0.74 
-            xmax = 0.85 
+            xmax = 0.88 
             text = "L" 
         intervals [9]:
-            xmin = 0.85 
-            xmax = 0.89 
+            xmin = 0.88 
+            xmax = 0.91 
             text = "S" 
         intervals [10]:
-            xmin = 0.89 
+            xmin = 0.91 
             xmax = 0.94 
             text = "T" 
         intervals [11]:
@@ -568,10 +568,10 @@ item []:
             text = "Z" 
         intervals [57]:
             xmin = 5.7 
-            xmax = 5.75 
+            xmax = 5.74 
             text = "AH0" 
         intervals [58]:
-            xmin = 5.75 
+            xmin = 5.74 
             xmax = 5.84 
             text = "V" 
         intervals [59]:

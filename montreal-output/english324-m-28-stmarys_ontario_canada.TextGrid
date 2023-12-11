@@ -26,10 +26,10 @@ item []:
             text = "call" 
         intervals [4]:
             xmin = 0.88 
-            xmax = 1.32 
+            xmax = 1.33 
             text = "stella" 
         intervals [5]:
-            xmin = 1.32 
+            xmin = 1.33 
             xmax = 1.45 
             text = "" 
         intervals [6]:
@@ -234,10 +234,10 @@ item []:
             text = "the" 
         intervals [56]:
             xmin = 12.01 
-            xmax = 12.6 
+            xmax = 12.59 
             text = "kids" 
         intervals [57]:
-            xmin = 12.6 
+            xmin = 12.59 
             xmax = 12.81 
             text = "" 
         intervals [58]:
@@ -388,10 +388,10 @@ item []:
             text = "L" 
         intervals [13]:
             xmin = 1.16 
-            xmax = 1.32 
+            xmax = 1.33 
             text = "AH0" 
         intervals [14]:
-            xmin = 1.32 
+            xmin = 1.33 
             xmax = 1.45 
             text = "" 
         intervals [15]:
@@ -492,10 +492,10 @@ item []:
             text = "F" 
         intervals [39]:
             xmin = 2.93 
-            xmax = 2.97 
+            xmax = 2.96 
             text = "ER0" 
         intervals [40]:
-            xmin = 2.97 
+            xmin = 2.96 
             xmax = 3.03 
             text = "M" 
         intervals [41]:
@@ -980,10 +980,10 @@ item []:
             text = "D" 
         intervals [161]:
             xmin = 12.33 
-            xmax = 12.6 
+            xmax = 12.59 
             text = "Z" 
         intervals [162]:
-            xmin = 12.6 
+            xmin = 12.59 
             xmax = 12.81 
             text = "" 
         intervals [163]:
@@ -1240,10 +1240,10 @@ item []:
             text = "T" 
         intervals [226]:
             xmin = 17.09 
-            xmax = 17.15 
+            xmax = 17.16 
             text = "EY1" 
         intervals [227]:
-            xmin = 17.15 
+            xmin = 17.16 
             xmax = 17.32 
             text = "SH" 
         intervals [228]:

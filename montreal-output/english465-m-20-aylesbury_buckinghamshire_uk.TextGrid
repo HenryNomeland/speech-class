@@ -306,10 +306,10 @@ item []:
             text = "wednesday" 
         intervals [74]:
             xmin = 19.71 
-            xmax = 19.89 
+            xmax = 19.88 
             text = "at" 
         intervals [75]:
-            xmin = 19.89 
+            xmin = 19.88 
             xmax = 19.94 
             text = "the" 
         intervals [76]:
@@ -556,10 +556,10 @@ item []:
             text = "Z" 
         intervals [57]:
             xmin = 5.34 
-            xmax = 5.46 
+            xmax = 5.47 
             text = "AH0" 
         intervals [58]:
-            xmin = 5.46 
+            xmin = 5.47 
             xmax = 5.58 
             text = "V" 
         intervals [59]:
@@ -776,10 +776,10 @@ item []:
             text = "B" 
         intervals [112]:
             xmin = 10.89 
-            xmax = 10.98 
+            xmax = 10.99 
             text = "AA1" 
         intervals [113]:
-            xmin = 10.98 
+            xmin = 10.99 
             xmax = 11.55 
             text = "B" 
         intervals [114]:
@@ -1144,10 +1144,10 @@ item []:
             text = "M" 
         intervals [204]:
             xmin = 18.9 
-            xmax = 19 
+            xmax = 18.99 
             text = "IY1" 
         intervals [205]:
-            xmin = 19 
+            xmin = 18.99 
             xmax = 19.06 
             text = "T" 
         intervals [206]:
@@ -1188,14 +1188,14 @@ item []:
             text = "AE1" 
         intervals [215]:
             xmin = 19.83 
-            xmax = 19.89 
+            xmax = 19.88 
             text = "T" 
         intervals [216]:
-            xmin = 19.89 
-            xmax = 19.91 
+            xmin = 19.88 
+            xmax = 19.9 
             text = "DH" 
         intervals [217]:
-            xmin = 19.91 
+            xmin = 19.9 
             xmax = 19.94 
             text = "AH0" 
         intervals [218]:

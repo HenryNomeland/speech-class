@@ -314,10 +314,10 @@ item []:
             text = "her" 
         intervals [76]:
             xmin = 27.94 
-            xmax = 28.62 
+            xmax = 28.63 
             text = "wednesday" 
         intervals [77]:
-            xmin = 28.62 
+            xmin = 28.63 
             xmax = 28.69 
             text = "" 
         intervals [78]:
@@ -388,10 +388,10 @@ item []:
             text = "T" 
         intervals [11]:
             xmin = 1.65 
-            xmax = 1.77 
+            xmax = 1.78 
             text = "EH1" 
         intervals [12]:
-            xmin = 1.77 
+            xmin = 1.78 
             xmax = 1.89 
             text = "L" 
         intervals [13]:
@@ -1216,10 +1216,10 @@ item []:
             text = "D" 
         intervals [218]:
             xmin = 28.43 
-            xmax = 28.62 
+            xmax = 28.63 
             text = "EY2" 
         intervals [219]:
-            xmin = 28.62 
+            xmin = 28.63 
             xmax = 28.69 
             text = "" 
         intervals [220]:

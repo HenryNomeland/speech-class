@@ -360,10 +360,10 @@ item []:
             text = "K" 
         intervals [7]:
             xmin = 1.53 
-            xmax = 1.58 
+            xmax = 1.59 
             text = "AO1" 
         intervals [8]:
-            xmin = 1.58 
+            xmin = 1.59 
             xmax = 1.69 
             text = "L" 
         intervals [9]:

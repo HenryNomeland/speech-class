@@ -126,10 +126,10 @@ item []:
             text = "blue" 
         intervals [29]:
             xmin = 7.15 
-            xmax = 7.6 
+            xmax = 7.61 
             text = "cheese" 
         intervals [30]:
-            xmin = 7.6 
+            xmin = 7.61 
             xmax = 7.96 
             text = "" 
         intervals [31]:
@@ -668,10 +668,10 @@ item []:
             text = "IY1" 
         intervals [87]:
             xmin = 7.49 
-            xmax = 7.6 
+            xmax = 7.61 
             text = "Z" 
         intervals [88]:
-            xmin = 7.6 
+            xmin = 7.61 
             xmax = 7.96 
             text = "" 
         intervals [89]:
@@ -992,10 +992,10 @@ item []:
             text = "K" 
         intervals [168]:
             xmin = 14.44 
-            xmax = 14.53 
+            xmax = 14.54 
             text = "UW1" 
         intervals [169]:
-            xmin = 14.53 
+            xmin = 14.54 
             xmax = 14.61 
             text = "P" 
         intervals [170]:

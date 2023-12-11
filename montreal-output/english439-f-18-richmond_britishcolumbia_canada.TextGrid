@@ -38,10 +38,10 @@ item []:
             text = "ask" 
         intervals [7]:
             xmin = 2.44 
-            xmax = 2.49 
+            xmax = 2.5 
             text = "her" 
         intervals [8]:
-            xmin = 2.49 
+            xmin = 2.5 
             xmax = 2.59 
             text = "to" 
         intervals [9]:
@@ -54,10 +54,10 @@ item []:
             text = "these" 
         intervals [11]:
             xmin = 3.1 
-            xmax = 3.47 
+            xmax = 3.46 
             text = "things" 
         intervals [12]:
-            xmin = 3.47 
+            xmin = 3.46 
             xmax = 3.67 
             text = "with" 
         intervals [13]:
@@ -198,10 +198,10 @@ item []:
             text = "a" 
         intervals [47]:
             xmin = 12.62 
-            xmax = 12.95 
+            xmax = 12.94 
             text = "small" 
         intervals [48]:
-            xmin = 12.95 
+            xmin = 12.94 
             xmax = 13.46 
             text = "plastic" 
         intervals [49]:
@@ -424,10 +424,10 @@ item []:
             text = "HH" 
         intervals [19]:
             xmin = 2.45 
-            xmax = 2.49 
+            xmax = 2.5 
             text = "ER0" 
         intervals [20]:
-            xmin = 2.49 
+            xmin = 2.5 
             xmax = 2.54 
             text = "T" 
         intervals [21]:
@@ -476,10 +476,10 @@ item []:
             text = "NG" 
         intervals [32]:
             xmin = 3.36 
-            xmax = 3.47 
+            xmax = 3.46 
             text = "Z" 
         intervals [33]:
-            xmin = 3.47 
+            xmin = 3.46 
             xmax = 3.5 
             text = "W" 
         intervals [34]:
@@ -868,10 +868,10 @@ item []:
             text = "AO1" 
         intervals [130]:
             xmin = 12.9 
-            xmax = 12.95 
+            xmax = 12.94 
             text = "L" 
         intervals [131]:
-            xmin = 12.95 
+            xmin = 12.94 
             xmax = 13.06 
             text = "P" 
         intervals [132]:

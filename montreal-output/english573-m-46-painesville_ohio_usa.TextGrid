@@ -496,10 +496,10 @@ item []:
             text = "F" 
         intervals [39]:
             xmin = 2.93 
-            xmax = 2.98 
+            xmax = 2.99 
             text = "ER0" 
         intervals [40]:
-            xmin = 2.98 
+            xmin = 2.99 
             xmax = 3.07 
             text = "M" 
         intervals [41]:
@@ -1140,14 +1140,14 @@ item []:
             text = "IY1" 
         intervals [200]:
             xmin = 19.3 
-            xmax = 19.35 
+            xmax = 19.36 
             text = "W" 
         intervals [201]:
-            xmin = 19.35 
-            xmax = 19.37 
+            xmin = 19.36 
+            xmax = 19.38 
             text = "AH0" 
         intervals [202]:
-            xmin = 19.37 
+            xmin = 19.38 
             xmax = 19.42 
             text = "L" 
         intervals [203]:

@@ -364,10 +364,10 @@ item []:
             text = "L" 
         intervals [9]:
             xmin = 0.98 
-            xmax = 1.07 
+            xmax = 1.06 
             text = "S" 
         intervals [10]:
-            xmin = 1.07 
+            xmin = 1.06 
             xmax = 1.12 
             text = "T" 
         intervals [11]:
@@ -1164,10 +1164,10 @@ item []:
             text = "W" 
         intervals [209]:
             xmin = 19.38 
-            xmax = 19.48 
+            xmax = 19.49 
             text = "EH1" 
         intervals [210]:
-            xmin = 19.48 
+            xmin = 19.49 
             xmax = 19.55 
             text = "N" 
         intervals [211]:
@@ -1232,10 +1232,10 @@ item []:
             text = "SH" 
         intervals [226]:
             xmin = 20.67 
-            xmax = 20.72 
+            xmax = 20.74 
             text = "AH0" 
         intervals [227]:
-            xmin = 20.72 
+            xmin = 20.74 
             xmax = 20.92 
             text = "N" 
         intervals [228]:

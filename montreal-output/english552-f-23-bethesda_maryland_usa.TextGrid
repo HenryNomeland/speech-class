@@ -1172,10 +1172,10 @@ item []:
             text = "N" 
         intervals [211]:
             xmin = 15.86 
-            xmax = 15.94 
+            xmax = 15.93 
             text = "Z" 
         intervals [212]:
-            xmin = 15.94 
+            xmin = 15.93 
             xmax = 15.98 
             text = "D" 
         intervals [213]:

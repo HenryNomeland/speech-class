@@ -536,10 +536,10 @@ item []:
             text = "T" 
         intervals [46]:
             xmin = 4.06 
-            xmax = 4.19 
+            xmax = 4.2 
             text = "AO1" 
         intervals [47]:
-            xmin = 4.19 
+            xmin = 4.2 
             xmax = 4.33 
             text = "R" 
         intervals [48]:
@@ -1032,10 +1032,10 @@ item []:
             text = "K" 
         intervals [170]:
             xmin = 18.19 
-            xmax = 18.22 
+            xmax = 18.23 
             text = "AH0" 
         intervals [171]:
-            xmin = 18.22 
+            xmin = 18.23 
             xmax = 18.32 
             text = "N" 
         intervals [172]:

@@ -242,14 +242,14 @@ item []:
             text = "for" 
         intervals [58]:
             xmin = 21.12 
-            xmax = 22.18 
+            xmax = 22.16 
             text = "the" 
         intervals [59]:
-            xmin = 22.18 
-            xmax = 22.21 
+            xmin = 22.16 
+            xmax = 22.19 
             text = "" 
         intervals [60]:
-            xmin = 22.21 
+            xmin = 22.19 
             xmax = 22.73 
             text = "kids" 
         intervals [61]:
@@ -350,10 +350,10 @@ item []:
             text = "at" 
         intervals [85]:
             xmin = 32.26 
-            xmax = 32.33 
+            xmax = 32.4 
             text = "the" 
         intervals [86]:
-            xmin = 32.33 
+            xmin = 32.4 
             xmax = 33.15 
             text = "train" 
         intervals [87]:
@@ -380,10 +380,10 @@ item []:
             text = "" 
         intervals [2]:
             xmin = 0.5 
-            xmax = 0.56 
+            xmax = 0.57 
             text = "P" 
         intervals [3]:
-            xmin = 0.56 
+            xmin = 0.57 
             xmax = 0.62 
             text = "L" 
         intervals [4]:
@@ -1024,14 +1024,14 @@ item []:
             text = "DH" 
         intervals [163]:
             xmin = 21.15 
-            xmax = 22.18 
+            xmax = 22.16 
             text = "AH0" 
         intervals [164]:
-            xmin = 22.18 
-            xmax = 22.21 
+            xmin = 22.16 
+            xmax = 22.19 
             text = "" 
         intervals [165]:
-            xmin = 22.21 
+            xmin = 22.19 
             xmax = 22.26 
             text = "K" 
         intervals [166]:
@@ -1152,10 +1152,10 @@ item []:
             text = "IY1" 
         intervals [195]:
             xmin = 27.44 
-            xmax = 27.48 
+            xmax = 27.49 
             text = "R" 
         intervals [196]:
-            xmin = 27.48 
+            xmin = 27.49 
             xmax = 27.7 
             text = "EH1" 
         intervals [197]:
@@ -1292,14 +1292,14 @@ item []:
             text = "DH" 
         intervals [230]:
             xmin = 32.28 
-            xmax = 32.33 
-            text = "AH0" 
-        intervals [231]:
-            xmin = 32.33 
             xmax = 32.4 
+            text = "AH1" 
+        intervals [231]:
+            xmin = 32.4 
+            xmax = 32.41 
             text = "T" 
         intervals [232]:
-            xmin = 32.4 
+            xmin = 32.41 
             xmax = 32.44 
             text = "R" 
         intervals [233]:

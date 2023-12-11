@@ -70,14 +70,14 @@ item []:
             text = "from" 
         intervals [15]:
             xmin = 3.36 
-            xmax = 3.42 
+            xmax = 3.41 
             text = "the" 
         intervals [16]:
-            xmin = 3.42 
-            xmax = 3.81 
+            xmin = 3.41 
+            xmax = 3.8 
             text = "store" 
         intervals [17]:
-            xmin = 3.81 
+            xmin = 3.8 
             xmax = 4.5 
             text = "" 
         intervals [18]:
@@ -110,10 +110,10 @@ item []:
             text = "" 
         intervals [25]:
             xmin = 6.27 
-            xmax = 6.47 
+            xmax = 6.48 
             text = "five" 
         intervals [26]:
-            xmin = 6.47 
+            xmin = 6.48 
             xmax = 6.71 
             text = "thick" 
         intervals [27]:
@@ -504,10 +504,10 @@ item []:
             text = "DH" 
         intervals [42]:
             xmin = 3.38 
-            xmax = 3.42 
+            xmax = 3.41 
             text = "AH0" 
         intervals [43]:
-            xmin = 3.42 
+            xmin = 3.41 
             xmax = 3.5 
             text = "S" 
         intervals [44]:
@@ -520,10 +520,10 @@ item []:
             text = "AO1" 
         intervals [46]:
             xmin = 3.59 
-            xmax = 3.81 
+            xmax = 3.8 
             text = "R" 
         intervals [47]:
-            xmin = 3.81 
+            xmin = 3.8 
             xmax = 4.5 
             text = "" 
         intervals [48]:
@@ -592,10 +592,10 @@ item []:
             text = "S" 
         intervals [64]:
             xmin = 5.41 
-            xmax = 5.46 
+            xmax = 5.47 
             text = "N" 
         intervals [65]:
-            xmin = 5.46 
+            xmin = 5.47 
             xmax = 5.55 
             text = "OW1" 
         intervals [66]:
@@ -624,10 +624,10 @@ item []:
             text = "AY1" 
         intervals [72]:
             xmin = 6.41 
-            xmax = 6.47 
+            xmax = 6.48 
             text = "V" 
         intervals [73]:
-            xmin = 6.47 
+            xmin = 6.48 
             xmax = 6.57 
             text = "TH" 
         intervals [74]:

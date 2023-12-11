@@ -94,10 +94,10 @@ item []:
             text = "spoons" 
         intervals [21]:
             xmin = 7.15 
-            xmax = 7.33 
+            xmax = 7.31 
             text = "of" 
         intervals [22]:
-            xmin = 7.33 
+            xmin = 7.31 
             xmax = 7.59 
             text = "fresh" 
         intervals [23]:
@@ -270,10 +270,10 @@ item []:
             text = "things" 
         intervals [65]:
             xmin = 21.52 
-            xmax = 22.01 
+            xmax = 22 
             text = "into" 
         intervals [66]:
-            xmin = 22.01 
+            xmin = 22 
             xmax = 22.37 
             text = "three" 
         intervals [67]:
@@ -576,10 +576,10 @@ item []:
             text = "AH1" 
         intervals [59]:
             xmin = 7.25 
-            xmax = 7.33 
+            xmax = 7.31 
             text = "V" 
         intervals [60]:
-            xmin = 7.33 
+            xmin = 7.31 
             xmax = 7.43 
             text = "F" 
         intervals [61]:
@@ -1084,10 +1084,10 @@ item []:
             text = "T" 
         intervals [186]:
             xmin = 21.75 
-            xmax = 22.01 
+            xmax = 22 
             text = "UW1" 
         intervals [187]:
-            xmin = 22.01 
+            xmin = 22 
             xmax = 22.13 
             text = "TH" 
         intervals [188]:

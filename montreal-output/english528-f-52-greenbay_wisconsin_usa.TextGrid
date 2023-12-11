@@ -286,10 +286,10 @@ item []:
             text = "we" 
         intervals [69]:
             xmin = 19.28 
-            xmax = 19.39 
+            xmax = 19.38 
             text = "will" 
         intervals [70]:
-            xmin = 19.39 
+            xmin = 19.38 
             xmax = 19.57 
             text = "go" 
         intervals [71]:
@@ -988,10 +988,10 @@ item []:
             text = "K" 
         intervals [165]:
             xmin = 16.76 
-            xmax = 16.82 
+            xmax = 16.8 
             text = "AH0" 
         intervals [166]:
-            xmin = 16.82 
+            xmin = 16.8 
             xmax = 16.86 
             text = "N" 
         intervals [167]:
@@ -1128,10 +1128,10 @@ item []:
             text = "AH0" 
         intervals [200]:
             xmin = 19.35 
-            xmax = 19.39 
+            xmax = 19.38 
             text = "L" 
         intervals [201]:
-            xmin = 19.39 
+            xmin = 19.38 
             xmax = 19.47 
             text = "G" 
         intervals [202]:

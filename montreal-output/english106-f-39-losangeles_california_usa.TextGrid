@@ -556,10 +556,10 @@ item []:
             text = "P" 
         intervals [54]:
             xmin = 5.04 
-            xmax = 5.15 
+            xmax = 5.16 
             text = "UW1" 
         intervals [55]:
-            xmin = 5.15 
+            xmin = 5.16 
             xmax = 5.26 
             text = "N" 
         intervals [56]:

@@ -130,10 +130,10 @@ item []:
             text = "slabs" 
         intervals [30]:
             xmin = 9.36 
-            xmax = 9.5 
+            xmax = 9.51 
             text = "of" 
         intervals [31]:
-            xmin = 9.5 
+            xmin = 9.51 
             xmax = 9.72 
             text = "blue" 
         intervals [32]:
@@ -392,10 +392,10 @@ item []:
             text = "EH1" 
         intervals [12]:
             xmin = 1.48 
-            xmax = 1.59 
+            xmax = 1.58 
             text = "L" 
         intervals [13]:
-            xmin = 1.59 
+            xmin = 1.58 
             xmax = 1.85 
             text = "AH0" 
         intervals [14]:
@@ -684,10 +684,10 @@ item []:
             text = "AH0" 
         intervals [85]:
             xmin = 9.43 
-            xmax = 9.5 
+            xmax = 9.51 
             text = "V" 
         intervals [86]:
-            xmin = 9.5 
+            xmin = 9.51 
             xmax = 9.54 
             text = "B" 
         intervals [87]:
@@ -1244,10 +1244,10 @@ item []:
             text = "R" 
         intervals [225]:
             xmin = 23.38 
-            xmax = 23.41 
+            xmax = 23.42 
             text = "EY1" 
         intervals [226]:
-            xmin = 23.41 
+            xmin = 23.42 
             xmax = 23.52 
             text = "N" 
         intervals [227]:

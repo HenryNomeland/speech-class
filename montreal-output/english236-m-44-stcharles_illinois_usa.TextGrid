@@ -776,10 +776,10 @@ item []:
             text = "B" 
         intervals [112]:
             xmin = 9.82 
-            xmax = 10.12 
+            xmax = 10.08 
             text = "AA1" 
         intervals [113]:
-            xmin = 10.12 
+            xmin = 10.08 
             xmax = 10.16 
             text = "B" 
         intervals [114]:
@@ -1216,10 +1216,10 @@ item []:
             text = "N" 
         intervals [222]:
             xmin = 19.76 
-            xmax = 19.85 
+            xmax = 19.86 
             text = "S" 
         intervals [223]:
-            xmin = 19.85 
+            xmin = 19.86 
             xmax = 19.91 
             text = "T" 
         intervals [224]:

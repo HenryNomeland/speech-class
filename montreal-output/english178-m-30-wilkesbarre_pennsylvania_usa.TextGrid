@@ -158,10 +158,10 @@ item []:
             text = "for" 
         intervals [37]:
             xmin = 12.52 
-            xmax = 12.62 
+            xmax = 12.61 
             text = "her" 
         intervals [38]:
-            xmin = 12.62 
+            xmin = 12.61 
             xmax = 12.93 
             text = "brother" 
         intervals [39]:
@@ -246,10 +246,10 @@ item []:
             text = "kids" 
         intervals [59]:
             xmin = 19.54 
-            xmax = 20.4 
+            xmax = 20.41 
             text = "" 
         intervals [60]:
-            xmin = 20.4 
+            xmin = 20.41 
             xmax = 20.51 
             text = "she" 
         intervals [61]:
@@ -768,10 +768,10 @@ item []:
             text = "HH" 
         intervals [105]:
             xmin = 12.53 
-            xmax = 12.62 
+            xmax = 12.61 
             text = "ER0" 
         intervals [106]:
-            xmin = 12.62 
+            xmin = 12.61 
             xmax = 12.7 
             text = "B" 
         intervals [107]:
@@ -1004,10 +1004,10 @@ item []:
             text = "Z" 
         intervals [164]:
             xmin = 19.54 
-            xmax = 20.4 
+            xmax = 20.41 
             text = "" 
         intervals [165]:
-            xmin = 20.4 
+            xmin = 20.41 
             xmax = 20.48 
             text = "SH" 
         intervals [166]:

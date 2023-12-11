@@ -26,10 +26,10 @@ item []:
             text = "call" 
         intervals [4]:
             xmin = 1.33 
-            xmax = 1.93 
+            xmax = 1.92 
             text = "stella" 
         intervals [5]:
-            xmin = 1.93 
+            xmin = 1.92 
             xmax = 2.26 
             text = "" 
         intervals [6]:
@@ -294,10 +294,10 @@ item []:
             text = "go" 
         intervals [71]:
             xmin = 18.2 
-            xmax = 18.44 
+            xmax = 18.45 
             text = "meet" 
         intervals [72]:
-            xmin = 18.44 
+            xmin = 18.45 
             xmax = 18.56 
             text = "her" 
         intervals [73]:
@@ -380,10 +380,10 @@ item []:
             text = "L" 
         intervals [13]:
             xmin = 1.7 
-            xmax = 1.93 
+            xmax = 1.92 
             text = "AH0" 
         intervals [14]:
-            xmin = 1.93 
+            xmin = 1.92 
             xmax = 2.26 
             text = "" 
         intervals [15]:
@@ -636,10 +636,10 @@ item []:
             text = "S" 
         intervals [77]:
             xmin = 7.76 
-            xmax = 7.85 
+            xmax = 7.84 
             text = "L" 
         intervals [78]:
-            xmin = 7.85 
+            xmin = 7.84 
             xmax = 7.95 
             text = "AE1" 
         intervals [79]:
@@ -1080,10 +1080,10 @@ item []:
             text = "D" 
         intervals [188]:
             xmin = 17.24 
-            xmax = 17.27 
+            xmax = 17.28 
             text = "B" 
         intervals [189]:
-            xmin = 17.27 
+            xmin = 17.28 
             xmax = 17.49 
             text = "AE1" 
         intervals [190]:
@@ -1148,14 +1148,14 @@ item []:
             text = "IY1" 
         intervals [205]:
             xmin = 18.36 
-            xmax = 18.44 
+            xmax = 18.45 
             text = "T" 
         intervals [206]:
-            xmin = 18.44 
-            xmax = 18.45 
+            xmin = 18.45 
+            xmax = 18.46 
             text = "HH" 
         intervals [207]:
-            xmin = 18.45 
+            xmin = 18.46 
             xmax = 18.56 
             text = "ER0" 
         intervals [208]:

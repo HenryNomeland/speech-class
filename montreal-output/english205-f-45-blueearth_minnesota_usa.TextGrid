@@ -154,10 +154,10 @@ item []:
             text = "snack" 
         intervals [36]:
             xmin = 8.83 
-            xmax = 8.91 
+            xmax = 8.89 
             text = "for" 
         intervals [37]:
-            xmin = 8.91 
+            xmin = 8.89 
             xmax = 8.97 
             text = "her" 
         intervals [38]:
@@ -194,10 +194,10 @@ item []:
             text = "small" 
         intervals [46]:
             xmin = 11.15 
-            xmax = 11.29 
+            xmax = 11.28 
             text = "" 
         intervals [47]:
-            xmin = 11.29 
+            xmin = 11.28 
             xmax = 11.68 
             text = "plastic" 
         intervals [48]:
@@ -752,14 +752,14 @@ item []:
             text = "F" 
         intervals [104]:
             xmin = 8.86 
-            xmax = 8.91 
+            xmax = 8.89 
             text = "ER0" 
         intervals [105]:
-            xmin = 8.91 
-            xmax = 8.92 
+            xmin = 8.89 
+            xmax = 8.9 
             text = "HH" 
         intervals [106]:
-            xmin = 8.92 
+            xmin = 8.9 
             xmax = 8.97 
             text = "ER0" 
         intervals [107]:
@@ -856,10 +856,10 @@ item []:
             text = "L" 
         intervals [130]:
             xmin = 11.15 
-            xmax = 11.29 
+            xmax = 11.28 
             text = "" 
         intervals [131]:
-            xmin = 11.29 
+            xmin = 11.28 
             xmax = 11.34 
             text = "P" 
         intervals [132]:
@@ -872,10 +872,10 @@ item []:
             text = "AE1" 
         intervals [134]:
             xmin = 11.46 
-            xmax = 11.52 
+            xmax = 11.51 
             text = "S" 
         intervals [135]:
-            xmin = 11.52 
+            xmin = 11.51 
             xmax = 11.59 
             text = "T" 
         intervals [136]:
@@ -1248,10 +1248,10 @@ item []:
             text = "EY1" 
         intervals [228]:
             xmin = 18.56 
-            xmax = 18.67 
+            xmax = 18.66 
             text = "SH" 
         intervals [229]:
-            xmin = 18.67 
+            xmin = 18.66 
             xmax = 18.71 
             text = "AH0" 
         intervals [230]:

@@ -142,10 +142,10 @@ item []:
             text = "" 
         intervals [33]:
             xmin = 9.29 
-            xmax = 9.77 
+            xmax = 9.76 
             text = "and" 
         intervals [34]:
-            xmin = 9.77 
+            xmin = 9.76 
             xmax = 10.04 
             text = "maybe" 
         intervals [35]:
@@ -166,10 +166,10 @@ item []:
             text = "her" 
         intervals [39]:
             xmin = 10.82 
-            xmax = 11.09 
+            xmax = 11.1 
             text = "brother" 
         intervals [40]:
-            xmin = 11.09 
+            xmin = 11.1 
             xmax = 11.62 
             text = "bob" 
         intervals [41]:
@@ -250,10 +250,10 @@ item []:
             text = "she" 
         intervals [60]:
             xmin = 16.4 
-            xmax = 16.58 
+            xmax = 16.59 
             text = "can" 
         intervals [61]:
-            xmin = 16.58 
+            xmin = 16.59 
             xmax = 17.07 
             text = "scoop" 
         intervals [62]:
@@ -708,14 +708,14 @@ item []:
             text = "AE1" 
         intervals [92]:
             xmin = 9.49 
-            xmax = 9.59 
+            xmax = 9.6 
             text = "N" 
         intervals [93]:
-            xmin = 9.59 
-            xmax = 9.77 
+            xmin = 9.6 
+            xmax = 9.76 
             text = "D" 
         intervals [94]:
-            xmin = 9.77 
+            xmin = 9.76 
             xmax = 9.8 
             text = "M" 
         intervals [95]:
@@ -784,10 +784,10 @@ item []:
             text = "DH" 
         intervals [111]:
             xmin = 11.03 
-            xmax = 11.09 
+            xmax = 11.1 
             text = "ER0" 
         intervals [112]:
-            xmin = 11.09 
+            xmin = 11.1 
             xmax = 11.2 
             text = "B" 
         intervals [113]:
@@ -864,10 +864,10 @@ item []:
             text = "P" 
         intervals [131]:
             xmin = 13.15 
-            xmax = 13.22 
+            xmax = 13.21 
             text = "L" 
         intervals [132]:
-            xmin = 13.22 
+            xmin = 13.21 
             xmax = 13.34 
             text = "AE1" 
         intervals [133]:
@@ -1012,10 +1012,10 @@ item []:
             text = "AH0" 
         intervals [168]:
             xmin = 16.52 
-            xmax = 16.58 
+            xmax = 16.59 
             text = "N" 
         intervals [169]:
-            xmin = 16.58 
+            xmin = 16.59 
             xmax = 16.75 
             text = "S" 
         intervals [170]:

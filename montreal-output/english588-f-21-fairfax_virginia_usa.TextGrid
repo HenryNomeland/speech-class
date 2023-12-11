@@ -222,10 +222,10 @@ item []:
             text = "toy" 
         intervals [53]:
             xmin = 14.52 
-            xmax = 14.86 
+            xmax = 14.87 
             text = "frog" 
         intervals [54]:
-            xmin = 14.86 
+            xmin = 14.87 
             xmax = 14.94 
             text = "" 
         intervals [55]:
@@ -952,10 +952,10 @@ item []:
             text = "AA1" 
         intervals [153]:
             xmin = 14.79 
-            xmax = 14.86 
+            xmax = 14.87 
             text = "G" 
         intervals [154]:
-            xmin = 14.86 
+            xmin = 14.87 
             xmax = 14.94 
             text = "" 
         intervals [155]:

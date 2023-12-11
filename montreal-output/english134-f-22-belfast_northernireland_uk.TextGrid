@@ -166,10 +166,10 @@ item []:
             text = "bob" 
         intervals [39]:
             xmin = 13.6 
-            xmax = 14.39 
+            xmax = 14.38 
             text = "" 
         intervals [40]:
-            xmin = 14.39 
+            xmin = 14.38 
             xmax = 14.59 
             text = "we" 
         intervals [41]:
@@ -640,10 +640,10 @@ item []:
             text = "L" 
         intervals [78]:
             xmin = 10.04 
-            xmax = 10.19 
+            xmax = 10.18 
             text = "AE1" 
         intervals [79]:
-            xmin = 10.19 
+            xmin = 10.18 
             xmax = 10.26 
             text = "B" 
         intervals [80]:
@@ -780,10 +780,10 @@ item []:
             text = "B" 
         intervals [113]:
             xmin = 13.6 
-            xmax = 14.39 
+            xmax = 14.38 
             text = "" 
         intervals [114]:
-            xmin = 14.39 
+            xmin = 14.38 
             xmax = 14.48 
             text = "W" 
         intervals [115]:

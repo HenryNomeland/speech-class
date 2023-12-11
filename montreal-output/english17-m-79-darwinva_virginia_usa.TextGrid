@@ -154,10 +154,10 @@ item []:
             text = "maybe" 
         intervals [36]:
             xmin = 8.81 
-            xmax = 8.93 
+            xmax = 8.94 
             text = "a" 
         intervals [37]:
-            xmin = 8.93 
+            xmin = 8.94 
             xmax = 9.24 
             text = "snack" 
         intervals [38]:
@@ -752,10 +752,10 @@ item []:
             text = "IY0" 
         intervals [99]:
             xmin = 8.81 
-            xmax = 8.93 
+            xmax = 8.94 
             text = "AH0" 
         intervals [100]:
-            xmin = 8.93 
+            xmin = 8.94 
             xmax = 8.99 
             text = "S" 
         intervals [101]:

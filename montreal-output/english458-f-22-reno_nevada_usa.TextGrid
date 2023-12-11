@@ -150,10 +150,10 @@ item []:
             text = "maybe" 
         intervals [35]:
             xmin = 7.54 
-            xmax = 7.63 
+            xmax = 7.6 
             text = "a" 
         intervals [36]:
-            xmin = 7.63 
+            xmin = 7.6 
             xmax = 7.95 
             text = "snack" 
         intervals [37]:
@@ -740,10 +740,10 @@ item []:
             text = "IY0" 
         intervals [98]:
             xmin = 7.54 
-            xmax = 7.63 
+            xmax = 7.6 
             text = "AH0" 
         intervals [99]:
-            xmin = 7.63 
+            xmin = 7.6 
             xmax = 7.7 
             text = "S" 
         intervals [100]:
@@ -1180,10 +1180,10 @@ item []:
             text = "M" 
         intervals [208]:
             xmin = 15.8 
-            xmax = 15.88 
+            xmax = 15.87 
             text = "IY1" 
         intervals [209]:
-            xmin = 15.88 
+            xmin = 15.87 
             xmax = 15.96 
             text = "T" 
         intervals [210]:
@@ -1244,10 +1244,10 @@ item []:
             text = "R" 
         intervals [224]:
             xmin = 16.73 
-            xmax = 16.8 
+            xmax = 16.78 
             text = "EY1" 
         intervals [225]:
-            xmin = 16.8 
+            xmin = 16.78 
             xmax = 16.85 
             text = "N" 
         intervals [226]:

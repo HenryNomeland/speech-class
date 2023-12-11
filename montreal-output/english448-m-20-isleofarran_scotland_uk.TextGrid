@@ -520,10 +520,10 @@ item []:
             text = "T" 
         intervals [45]:
             xmin = 4.34 
-            xmax = 4.43 
+            xmax = 4.42 
             text = "AO1" 
         intervals [46]:
-            xmin = 4.43 
+            xmin = 4.42 
             xmax = 4.57 
             text = "R" 
         intervals [47]:
@@ -932,10 +932,10 @@ item []:
             text = "B" 
         intervals [148]:
             xmin = 13.77 
-            xmax = 13.84 
+            xmax = 13.85 
             text = "IH1" 
         intervals [149]:
-            xmin = 13.84 
+            xmin = 13.85 
             xmax = 13.93 
             text = "G" 
         intervals [150]:

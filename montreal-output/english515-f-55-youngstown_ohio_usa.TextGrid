@@ -118,10 +118,10 @@ item []:
             text = "of" 
         intervals [27]:
             xmin = 6.86 
-            xmax = 7.05 
+            xmax = 7.04 
             text = "blue" 
         intervals [28]:
-            xmin = 7.05 
+            xmin = 7.04 
             xmax = 7.56 
             text = "cheese" 
         intervals [29]:
@@ -158,10 +158,10 @@ item []:
             text = "bob" 
         intervals [37]:
             xmin = 9.5 
-            xmax = 9.95 
+            xmax = 9.96 
             text = "" 
         intervals [38]:
-            xmin = 9.95 
+            xmin = 9.96 
             xmax = 10.06 
             text = "we" 
         intervals [39]:
@@ -660,10 +660,10 @@ item []:
             text = "L" 
         intervals [83]:
             xmin = 6.94 
-            xmax = 7.05 
+            xmax = 7.04 
             text = "UW1" 
         intervals [84]:
-            xmin = 7.05 
+            xmin = 7.04 
             xmax = 7.23 
             text = "CH" 
         intervals [85]:
@@ -772,10 +772,10 @@ item []:
             text = "B" 
         intervals [111]:
             xmin = 9.5 
-            xmax = 9.95 
+            xmax = 9.96 
             text = "" 
         intervals [112]:
-            xmin = 9.95 
+            xmin = 9.96 
             xmax = 10 
             text = "W" 
         intervals [113]:
@@ -924,10 +924,10 @@ item []:
             text = "R" 
         intervals [149]:
             xmin = 13.15 
-            xmax = 13.3 
+            xmax = 13.31 
             text = "AA1" 
         intervals [150]:
-            xmin = 13.3 
+            xmin = 13.31 
             xmax = 13.37 
             text = "G" 
         intervals [151]:
@@ -1024,10 +1024,10 @@ item []:
             text = "IH1" 
         intervals [174]:
             xmin = 15.56 
-            xmax = 15.67 
+            xmax = 15.66 
             text = "NG" 
         intervals [175]:
-            xmin = 15.67 
+            xmin = 15.66 
             xmax = 15.74 
             text = "Z" 
         intervals [176]:

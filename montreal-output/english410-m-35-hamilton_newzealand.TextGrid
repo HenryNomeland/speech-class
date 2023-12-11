@@ -1156,14 +1156,14 @@ item []:
             text = "IY1" 
         intervals [203]:
             xmin = 23.13 
-            xmax = 23.22 
+            xmax = 23.19 
             text = "W" 
         intervals [204]:
-            xmin = 23.22 
-            xmax = 23.24 
+            xmin = 23.19 
+            xmax = 23.21 
             text = "AH0" 
         intervals [205]:
-            xmin = 23.24 
+            xmin = 23.21 
             xmax = 23.27 
             text = "L" 
         intervals [206]:

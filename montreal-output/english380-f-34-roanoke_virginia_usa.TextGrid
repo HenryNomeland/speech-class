@@ -314,10 +314,10 @@ item []:
             text = "train" 
         intervals [76]:
             xmin = 19.61 
-            xmax = 20.08 
+            xmax = 20.09 
             text = "station" 
         intervals [77]:
-            xmin = 20.08 
+            xmin = 20.09 
             xmax = 20.480499 
             text = "" 
     item [2]:
@@ -372,10 +372,10 @@ item []:
             text = "EH1" 
         intervals [12]:
             xmin = 1.39 
-            xmax = 1.46 
+            xmax = 1.48 
             text = "L" 
         intervals [13]:
-            xmin = 1.46 
+            xmin = 1.48 
             xmax = 1.64 
             text = "AH0" 
         intervals [14]:
@@ -444,10 +444,10 @@ item []:
             text = "TH" 
         intervals [30]:
             xmin = 3.06 
-            xmax = 3.13 
+            xmax = 3.14 
             text = "IH1" 
         intervals [31]:
-            xmin = 3.13 
+            xmin = 3.14 
             xmax = 3.22 
             text = "NG" 
         intervals [32]:
@@ -456,10 +456,10 @@ item []:
             text = "Z" 
         intervals [33]:
             xmin = 3.27 
-            xmax = 3.33 
+            xmax = 3.34 
             text = "W" 
         intervals [34]:
-            xmin = 3.33 
+            xmin = 3.34 
             xmax = 3.39 
             text = "IH0" 
         intervals [35]:
@@ -608,10 +608,10 @@ item []:
             text = "F" 
         intervals [71]:
             xmin = 6.88 
-            xmax = 7.08 
+            xmax = 7.07 
             text = "AY1" 
         intervals [72]:
-            xmin = 7.08 
+            xmin = 7.07 
             xmax = 7.14 
             text = "V" 
         intervals [73]:
@@ -1228,9 +1228,9 @@ item []:
             text = "AH0" 
         intervals [226]:
             xmin = 19.96 
-            xmax = 20.08 
+            xmax = 20.09 
             text = "N" 
         intervals [227]:
-            xmin = 20.08 
+            xmin = 20.09 
             xmax = 20.480499 
             text = "" 

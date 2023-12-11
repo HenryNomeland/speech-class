@@ -392,10 +392,10 @@ item []:
             text = "AE1" 
         intervals [16]:
             xmin = 2.24 
-            xmax = 2.34 
+            xmax = 2.33 
             text = "S" 
         intervals [17]:
-            xmin = 2.34 
+            xmin = 2.33 
             xmax = 2.39 
             text = "K" 
         intervals [18]:
@@ -640,10 +640,10 @@ item []:
             text = "L" 
         intervals [78]:
             xmin = 8.33 
-            xmax = 8.45 
+            xmax = 8.46 
             text = "AE1" 
         intervals [79]:
-            xmin = 8.45 
+            xmin = 8.46 
             xmax = 8.55 
             text = "B" 
         intervals [80]:
@@ -1104,14 +1104,14 @@ item []:
             text = "" 
         intervals [194]:
             xmin = 19.92 
-            xmax = 19.96 
+            xmax = 19.97 
             text = "AE1" 
         intervals [195]:
-            xmin = 19.96 
-            xmax = 19.99 
+            xmin = 19.97 
+            xmax = 20 
             text = "N" 
         intervals [196]:
-            xmin = 19.99 
+            xmin = 20 
             xmax = 20.05 
             text = "D" 
         intervals [197]:

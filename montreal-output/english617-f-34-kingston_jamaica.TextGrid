@@ -26,10 +26,10 @@ item []:
             text = "call" 
         intervals [4]:
             xmin = 1.37 
-            xmax = 2.01 
+            xmax = 2.02 
             text = "stella" 
         intervals [5]:
-            xmin = 2.01 
+            xmin = 2.02 
             xmax = 2.21 
             text = "" 
         intervals [6]:
@@ -282,10 +282,10 @@ item []:
             text = "" 
         intervals [68]:
             xmin = 20.12 
-            xmax = 20.27 
+            xmax = 20.26 
             text = "and" 
         intervals [69]:
-            xmin = 20.27 
+            xmin = 20.26 
             xmax = 20.36 
             text = "we" 
         intervals [70]:
@@ -384,10 +384,10 @@ item []:
             text = "L" 
         intervals [13]:
             xmin = 1.7 
-            xmax = 2.01 
+            xmax = 2.02 
             text = "AH0" 
         intervals [14]:
-            xmin = 2.01 
+            xmin = 2.02 
             xmax = 2.21 
             text = "" 
         intervals [15]:
@@ -544,10 +544,10 @@ item []:
             text = "S" 
         intervals [53]:
             xmin = 5.44 
-            xmax = 5.51 
+            xmax = 5.5 
             text = "P" 
         intervals [54]:
-            xmin = 5.51 
+            xmin = 5.5 
             xmax = 5.63 
             text = "UW1" 
         intervals [55]:
@@ -712,10 +712,10 @@ item []:
             text = "EY1" 
         intervals [95]:
             xmin = 10.25 
-            xmax = 10.32 
+            xmax = 10.33 
             text = "B" 
         intervals [96]:
-            xmin = 10.32 
+            xmin = 10.33 
             xmax = 10.36 
             text = "IY0" 
         intervals [97]:
@@ -1124,10 +1124,10 @@ item []:
             text = "N" 
         intervals [198]:
             xmin = 20.23 
-            xmax = 20.27 
+            xmax = 20.26 
             text = "D" 
         intervals [199]:
-            xmin = 20.27 
+            xmin = 20.26 
             xmax = 20.3 
             text = "W" 
         intervals [200]:

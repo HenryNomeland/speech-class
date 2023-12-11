@@ -190,10 +190,10 @@ item []:
             text = "a" 
         intervals [45]:
             xmin = 9.61 
-            xmax = 10.02 
+            xmax = 10.01 
             text = "small" 
         intervals [46]:
-            xmin = 10.02 
+            xmin = 10.01 
             xmax = 10.49 
             text = "plastic" 
         intervals [47]:
@@ -676,10 +676,10 @@ item []:
             text = "B" 
         intervals [84]:
             xmin = 6.63 
-            xmax = 6.71 
+            xmax = 6.7 
             text = "L" 
         intervals [85]:
-            xmin = 6.71 
+            xmin = 6.7 
             xmax = 6.77 
             text = "UW1" 
         intervals [86]:
@@ -852,10 +852,10 @@ item []:
             text = "AO1" 
         intervals [128]:
             xmin = 9.96 
-            xmax = 10.02 
+            xmax = 10.01 
             text = "L" 
         intervals [129]:
-            xmin = 10.02 
+            xmin = 10.01 
             xmax = 10.11 
             text = "P" 
         intervals [130]:
@@ -1232,10 +1232,10 @@ item []:
             text = "R" 
         intervals [223]:
             xmin = 17.46 
-            xmax = 17.5 
+            xmax = 17.49 
             text = "EY1" 
         intervals [224]:
-            xmin = 17.5 
+            xmin = 17.49 
             xmax = 17.54 
             text = "N" 
         intervals [225]:

@@ -26,10 +26,10 @@ item []:
             text = "call" 
         intervals [4]:
             xmin = 0.91 
-            xmax = 1.43 
+            xmax = 1.44 
             text = "stella" 
         intervals [5]:
-            xmin = 1.43 
+            xmin = 1.44 
             xmax = 1.87 
             text = "" 
         intervals [6]:
@@ -78,10 +78,10 @@ item []:
             text = "store" 
         intervals [17]:
             xmin = 4.22 
-            xmax = 4.68 
+            xmax = 4.69 
             text = "" 
         intervals [18]:
-            xmin = 4.68 
+            xmin = 4.69 
             xmax = 5.02 
             text = "six" 
         intervals [19]:
@@ -214,10 +214,10 @@ item []:
             text = "big" 
         intervals [51]:
             xmin = 13.49 
-            xmax = 13.76 
+            xmax = 13.75 
             text = "toy" 
         intervals [52]:
-            xmin = 13.76 
+            xmin = 13.75 
             xmax = 14.2 
             text = "frog" 
         intervals [53]:
@@ -380,10 +380,10 @@ item []:
             text = "L" 
         intervals [13]:
             xmin = 1.28 
-            xmax = 1.43 
+            xmax = 1.44 
             text = "AH0" 
         intervals [14]:
-            xmin = 1.43 
+            xmin = 1.44 
             xmax = 1.87 
             text = "" 
         intervals [15]:
@@ -516,10 +516,10 @@ item []:
             text = "R" 
         intervals [47]:
             xmin = 4.22 
-            xmax = 4.68 
+            xmax = 4.69 
             text = "" 
         intervals [48]:
-            xmin = 4.68 
+            xmin = 4.69 
             xmax = 4.86 
             text = "S" 
         intervals [49]:
@@ -920,10 +920,10 @@ item []:
             text = "T" 
         intervals [148]:
             xmin = 13.59 
-            xmax = 13.76 
+            xmax = 13.75 
             text = "OY1" 
         intervals [149]:
-            xmin = 13.76 
+            xmin = 13.75 
             xmax = 13.88 
             text = "F" 
         intervals [150]:

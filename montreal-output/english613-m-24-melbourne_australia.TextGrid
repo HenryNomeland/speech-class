@@ -1124,10 +1124,10 @@ item []:
             text = "M" 
         intervals [202]:
             xmin = 18.16 
-            xmax = 18.27 
+            xmax = 18.28 
             text = "IY1" 
         intervals [203]:
-            xmin = 18.27 
+            xmin = 18.28 
             xmax = 18.37 
             text = "T" 
         intervals [204]:

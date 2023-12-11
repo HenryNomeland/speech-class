@@ -258,10 +258,10 @@ item []:
             text = "scoop" 
         intervals [62]:
             xmin = 17.45 
-            xmax = 17.66 
+            xmax = 17.65 
             text = "these" 
         intervals [63]:
-            xmin = 17.66 
+            xmin = 17.65 
             xmax = 18 
             text = "things" 
         intervals [64]:
@@ -330,10 +330,10 @@ item []:
             text = "train" 
         intervals [80]:
             xmin = 21.4 
-            xmax = 21.88 
+            xmax = 21.87 
             text = "station" 
         intervals [81]:
-            xmin = 21.88 
+            xmin = 21.87 
             xmax = 22.698299 
             text = "" 
     item [2]:
@@ -460,10 +460,10 @@ item []:
             text = "TH" 
         intervals [30]:
             xmin = 3.15 
-            xmax = 3.23 
+            xmax = 3.22 
             text = "IH1" 
         intervals [31]:
-            xmin = 3.23 
+            xmin = 3.22 
             xmax = 3.32 
             text = "NG" 
         intervals [32]:
@@ -1040,10 +1040,10 @@ item []:
             text = "IY1" 
         intervals [175]:
             xmin = 17.58 
-            xmax = 17.66 
+            xmax = 17.65 
             text = "Z" 
         intervals [176]:
-            xmin = 17.66 
+            xmin = 17.65 
             xmax = 17.72 
             text = "TH" 
         intervals [177]:
@@ -1260,9 +1260,9 @@ item []:
             text = "AH0" 
         intervals [230]:
             xmin = 21.75 
-            xmax = 21.88 
+            xmax = 21.87 
             text = "N" 
         intervals [231]:
-            xmin = 21.88 
+            xmin = 21.87 
             xmax = 22.698299 
             text = "" 

@@ -234,10 +234,10 @@ item []:
             text = "kids" 
         intervals [56]:
             xmin = 12.51 
-            xmax = 12.75 
+            xmax = 12.73 
             text = "" 
         intervals [57]:
-            xmin = 12.75 
+            xmin = 12.73 
             xmax = 12.89 
             text = "she" 
         intervals [58]:
@@ -724,10 +724,10 @@ item []:
             text = "S" 
         intervals [99]:
             xmin = 8.09 
-            xmax = 8.13 
+            xmax = 8.14 
             text = "N" 
         intervals [100]:
-            xmin = 8.13 
+            xmin = 8.14 
             xmax = 8.27 
             text = "AE1" 
         intervals [101]:
@@ -880,10 +880,10 @@ item []:
             text = "N" 
         intervals [138]:
             xmin = 10.8 
-            xmax = 10.94 
+            xmax = 10.93 
             text = "EY1" 
         intervals [139]:
-            xmin = 10.94 
+            xmin = 10.93 
             xmax = 10.98 
             text = "K" 
         intervals [140]:
@@ -972,10 +972,10 @@ item []:
             text = "Z" 
         intervals [161]:
             xmin = 12.51 
-            xmax = 12.75 
+            xmax = 12.73 
             text = "" 
         intervals [162]:
-            xmin = 12.75 
+            xmin = 12.73 
             xmax = 12.84 
             text = "SH" 
         intervals [163]:

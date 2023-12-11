@@ -274,10 +274,10 @@ item []:
             text = "into" 
         intervals [66]:
             xmin = 20.21 
-            xmax = 20.68 
+            xmax = 20.67 
             text = "three" 
         intervals [67]:
-            xmin = 20.68 
+            xmin = 20.67 
             xmax = 20.77 
             text = "" 
         intervals [68]:
@@ -1100,10 +1100,10 @@ item []:
             text = "R" 
         intervals [188]:
             xmin = 20.45 
-            xmax = 20.68 
+            xmax = 20.67 
             text = "IY1" 
         intervals [189]:
-            xmin = 20.68 
+            xmin = 20.67 
             xmax = 20.77 
             text = "" 
         intervals [190]:

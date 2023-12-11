@@ -66,10 +66,10 @@ item []:
             text = "her" 
         intervals [14]:
             xmin = 3.77 
-            xmax = 3.94 
+            xmax = 3.95 
             text = "from" 
         intervals [15]:
-            xmin = 3.94 
+            xmin = 3.95 
             xmax = 4 
             text = "the" 
         intervals [16]:
@@ -250,10 +250,10 @@ item []:
             text = "these" 
         intervals [60]:
             xmin = 18.3 
-            xmax = 18.64 
+            xmax = 18.63 
             text = "things" 
         intervals [61]:
-            xmin = 18.64 
+            xmin = 18.63 
             xmax = 18.85 
             text = "into" 
         intervals [62]:
@@ -480,14 +480,14 @@ item []:
             text = "ER0" 
         intervals [40]:
             xmin = 3.88 
-            xmax = 3.94 
+            xmax = 3.95 
             text = "M" 
         intervals [41]:
-            xmin = 3.94 
-            xmax = 3.96 
+            xmin = 3.95 
+            xmax = 3.97 
             text = "DH" 
         intervals [42]:
-            xmin = 3.96 
+            xmin = 3.97 
             xmax = 4 
             text = "AH0" 
         intervals [43]:
@@ -1024,10 +1024,10 @@ item []:
             text = "NG" 
         intervals [176]:
             xmin = 18.56 
-            xmax = 18.64 
+            xmax = 18.63 
             text = "Z" 
         intervals [177]:
-            xmin = 18.64 
+            xmin = 18.63 
             xmax = 18.67 
             text = "IH0" 
         intervals [178]:

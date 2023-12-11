@@ -226,10 +226,10 @@ item []:
             text = "toy" 
         intervals [54]:
             xmin = 16.72 
-            xmax = 17.15 
+            xmax = 17.14 
             text = "frog" 
         intervals [55]:
-            xmin = 17.15 
+            xmin = 17.14 
             xmax = 17.25 
             text = "for" 
         intervals [56]:
@@ -314,10 +314,10 @@ item []:
             text = "wednesday" 
         intervals [76]:
             xmin = 23.25 
-            xmax = 23.34 
+            xmax = 23.35 
             text = "at" 
         intervals [77]:
-            xmin = 23.34 
+            xmin = 23.35 
             xmax = 23.4 
             text = "the" 
         intervals [78]:
@@ -952,10 +952,10 @@ item []:
             text = "AA1" 
         intervals [154]:
             xmin = 17.08 
-            xmax = 17.15 
+            xmax = 17.14 
             text = "G" 
         intervals [155]:
-            xmin = 17.15 
+            xmin = 17.14 
             xmax = 17.22 
             text = "F" 
         intervals [156]:
@@ -1204,14 +1204,14 @@ item []:
             text = "AE1" 
         intervals [217]:
             xmin = 23.29 
-            xmax = 23.34 
+            xmax = 23.35 
             text = "T" 
         intervals [218]:
-            xmin = 23.34 
-            xmax = 23.36 
+            xmin = 23.35 
+            xmax = 23.37 
             text = "DH" 
         intervals [219]:
-            xmin = 23.36 
+            xmin = 23.37 
             xmax = 23.4 
             text = "AH0" 
         intervals [220]:

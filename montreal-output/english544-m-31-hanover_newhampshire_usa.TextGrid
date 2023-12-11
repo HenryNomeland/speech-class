@@ -242,10 +242,10 @@ item []:
             text = "she" 
         intervals [58]:
             xmin = 13.73 
-            xmax = 13.86 
+            xmax = 13.87 
             text = "can" 
         intervals [59]:
-            xmin = 13.86 
+            xmin = 13.87 
             xmax = 14.14 
             text = "scoop" 
         intervals [60]:
@@ -756,10 +756,10 @@ item []:
             text = "B" 
         intervals [107]:
             xmin = 8.72 
-            xmax = 8.77 
+            xmax = 8.78 
             text = "R" 
         intervals [108]:
-            xmin = 8.77 
+            xmin = 8.78 
             xmax = 8.82 
             text = "AH1" 
         intervals [109]:
@@ -953,7 +953,7 @@ item []:
         intervals [156]:
             xmin = 12.65 
             xmax = 12.7 
-            text = "IY0" 
+            text = "AH0" 
         intervals [157]:
             xmin = 12.7 
             xmax = 12.8 
@@ -992,10 +992,10 @@ item []:
             text = "AH0" 
         intervals [166]:
             xmin = 13.82 
-            xmax = 13.86 
+            xmax = 13.87 
             text = "N" 
         intervals [167]:
-            xmin = 13.86 
+            xmin = 13.87 
             xmax = 13.94 
             text = "S" 
         intervals [168]:

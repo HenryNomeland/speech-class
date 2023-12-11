@@ -592,10 +592,10 @@ item []:
             text = "S" 
         intervals [64]:
             xmin = 5.84 
-            xmax = 5.89 
+            xmax = 5.9 
             text = "N" 
         intervals [65]:
-            xmin = 5.89 
+            xmin = 5.9 
             xmax = 6 
             text = "OW1" 
         intervals [66]:
@@ -760,14 +760,14 @@ item []:
             text = "ER1" 
         intervals [106]:
             xmin = 9.78 
-            xmax = 9.87 
+            xmax = 9.86 
             text = "B" 
         intervals [107]:
-            xmin = 9.87 
-            xmax = 9.9 
+            xmin = 9.86 
+            xmax = 9.89 
             text = "R" 
         intervals [108]:
-            xmin = 9.9 
+            xmin = 9.89 
             xmax = 9.95 
             text = "AH1" 
         intervals [109]:

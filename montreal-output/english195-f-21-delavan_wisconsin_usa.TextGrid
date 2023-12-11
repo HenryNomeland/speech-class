@@ -234,10 +234,10 @@ item []:
             text = "kids" 
         intervals [56]:
             xmin = 16.29 
-            xmax = 16.85 
+            xmax = 16.84 
             text = "" 
         intervals [57]:
-            xmin = 16.85 
+            xmin = 16.84 
             xmax = 17.02 
             text = "she" 
         intervals [58]:
@@ -592,10 +592,10 @@ item []:
             text = "OW1" 
         intervals [66]:
             xmin = 6.44 
-            xmax = 6.62 
+            xmax = 6.61 
             text = "P" 
         intervals [67]:
-            xmin = 6.62 
+            xmin = 6.61 
             xmax = 6.88 
             text = "IY1" 
         intervals [68]:
@@ -688,10 +688,10 @@ item []:
             text = "AE1" 
         intervals [90]:
             xmin = 9.54 
-            xmax = 9.6 
+            xmax = 9.58 
             text = "N" 
         intervals [91]:
-            xmin = 9.6 
+            xmin = 9.58 
             xmax = 9.64 
             text = "D" 
         intervals [92]:
@@ -928,10 +928,10 @@ item []:
             text = "F" 
         intervals [150]:
             xmin = 15.18 
-            xmax = 15.23 
+            xmax = 15.22 
             text = "R" 
         intervals [151]:
-            xmin = 15.23 
+            xmin = 15.22 
             xmax = 15.39 
             text = "AA1" 
         intervals [152]:
@@ -972,10 +972,10 @@ item []:
             text = "Z" 
         intervals [161]:
             xmin = 16.29 
-            xmax = 16.85 
+            xmax = 16.84 
             text = "" 
         intervals [162]:
-            xmin = 16.85 
+            xmin = 16.84 
             xmax = 16.98 
             text = "SH" 
         intervals [163]:

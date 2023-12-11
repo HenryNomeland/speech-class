@@ -860,10 +860,10 @@ item []:
             text = "P" 
         intervals [131]:
             xmin = 15.57 
-            xmax = 15.6 
+            xmax = 15.61 
             text = "L" 
         intervals [132]:
-            xmin = 15.6 
+            xmin = 15.61 
             xmax = 15.66 
             text = "AE1" 
         intervals [133]:

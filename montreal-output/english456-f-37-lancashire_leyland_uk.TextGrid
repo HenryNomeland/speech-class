@@ -38,10 +38,10 @@ item []:
             text = "ask" 
         intervals [7]:
             xmin = 2.69 
-            xmax = 2.75 
+            xmax = 2.76 
             text = "her" 
         intervals [8]:
-            xmin = 2.75 
+            xmin = 2.76 
             xmax = 2.88 
             text = "to" 
         intervals [9]:
@@ -404,10 +404,10 @@ item []:
             text = "HH" 
         intervals [19]:
             xmin = 2.7 
-            xmax = 2.75 
+            xmax = 2.76 
             text = "ER0" 
         intervals [20]:
-            xmin = 2.75 
+            xmin = 2.76 
             xmax = 2.83 
             text = "T" 
         intervals [21]:
@@ -1184,10 +1184,10 @@ item []:
             text = "EY2" 
         intervals [214]:
             xmin = 19.09 
-            xmax = 19.14 
+            xmax = 19.13 
             text = "AE1" 
         intervals [215]:
-            xmin = 19.14 
+            xmin = 19.13 
             xmax = 19.2 
             text = "T" 
         intervals [216]:

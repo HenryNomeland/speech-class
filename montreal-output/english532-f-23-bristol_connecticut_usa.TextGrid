@@ -760,10 +760,10 @@ item []:
             text = "B" 
         intervals [109]:
             xmin = 9.87 
-            xmax = 9.9 
+            xmax = 9.91 
             text = "R" 
         intervals [110]:
-            xmin = 9.9 
+            xmin = 9.91 
             xmax = 9.99 
             text = "AH1" 
         intervals [111]:
@@ -1096,10 +1096,10 @@ item []:
             text = "AE1" 
         intervals [193]:
             xmin = 17.51 
-            xmax = 17.6 
+            xmax = 17.59 
             text = "G" 
         intervals [194]:
-            xmin = 17.6 
+            xmin = 17.59 
             xmax = 17.68 
             text = "Z" 
         intervals [195]:

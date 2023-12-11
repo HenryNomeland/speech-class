@@ -560,10 +560,10 @@ item []:
             text = "UW1" 
         intervals [55]:
             xmin = 7.86 
-            xmax = 7.97 
+            xmax = 7.98 
             text = "N" 
         intervals [56]:
-            xmin = 7.97 
+            xmin = 7.98 
             xmax = 8.07 
             text = "Z" 
         intervals [57]:
@@ -656,10 +656,10 @@ item []:
             text = "AE1" 
         intervals [79]:
             xmin = 11.26 
-            xmax = 11.34 
+            xmax = 11.35 
             text = "B" 
         intervals [80]:
-            xmin = 11.34 
+            xmin = 11.35 
             xmax = 11.42 
             text = "Z" 
         intervals [81]:

@@ -266,10 +266,10 @@ item []:
             text = "these" 
         intervals [64]:
             xmin = 22.69 
-            xmax = 23.3 
+            xmax = 23.29 
             text = "things" 
         intervals [65]:
-            xmin = 23.3 
+            xmin = 23.29 
             xmax = 23.44 
             text = "" 
         intervals [66]:
@@ -322,10 +322,10 @@ item []:
             text = "" 
         intervals [78]:
             xmin = 27.27 
-            xmax = 27.82 
+            xmax = 27.81 
             text = "wednesday" 
         intervals [79]:
-            xmin = 27.82 
+            xmin = 27.81 
             xmax = 27.93 
             text = "" 
         intervals [80]:
@@ -1080,10 +1080,10 @@ item []:
             text = "NG" 
         intervals [182]:
             xmin = 23.02 
-            xmax = 23.3 
+            xmax = 23.29 
             text = "Z" 
         intervals [183]:
-            xmin = 23.3 
+            xmin = 23.29 
             xmax = 23.44 
             text = "" 
         intervals [184]:
@@ -1232,10 +1232,10 @@ item []:
             text = "D" 
         intervals [220]:
             xmin = 27.59 
-            xmax = 27.82 
+            xmax = 27.81 
             text = "EY2" 
         intervals [221]:
-            xmin = 27.82 
+            xmin = 27.81 
             xmax = 27.93 
             text = "" 
         intervals [222]:

@@ -158,10 +158,10 @@ item []:
             text = "brother" 
         intervals [37]:
             xmin = 8.96 
-            xmax = 9.34 
+            xmax = 9.29 
             text = "bob" 
         intervals [38]:
-            xmin = 9.34 
+            xmin = 9.29 
             xmax = 10.08 
             text = "" 
         intervals [39]:
@@ -764,10 +764,10 @@ item []:
             text = "AA1" 
         intervals [111]:
             xmin = 9.11 
-            xmax = 9.34 
+            xmax = 9.29 
             text = "B" 
         intervals [112]:
-            xmin = 9.34 
+            xmin = 9.29 
             xmax = 10.08 
             text = "" 
         intervals [113]:

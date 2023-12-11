@@ -508,10 +508,10 @@ item []:
             text = "T" 
         intervals [45]:
             xmin = 3.65 
-            xmax = 3.83 
+            xmax = 3.85 
             text = "AO1" 
         intervals [46]:
-            xmin = 3.83 
+            xmin = 3.85 
             xmax = 3.96 
             text = "R" 
         intervals [47]:

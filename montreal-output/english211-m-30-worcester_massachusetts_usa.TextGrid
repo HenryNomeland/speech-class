@@ -576,10 +576,10 @@ item []:
             text = "F" 
         intervals [61]:
             xmin = 5.83 
-            xmax = 5.88 
+            xmax = 5.87 
             text = "R" 
         intervals [62]:
-            xmin = 5.88 
+            xmin = 5.87 
             xmax = 5.93 
             text = "EH1" 
         intervals [63]:
@@ -1172,10 +1172,10 @@ item []:
             text = "ER0" 
         intervals [210]:
             xmin = 19.42 
-            xmax = 19.51 
+            xmax = 19.5 
             text = "W" 
         intervals [211]:
-            xmin = 19.51 
+            xmin = 19.5 
             xmax = 19.58 
             text = "EH1" 
         intervals [212]:

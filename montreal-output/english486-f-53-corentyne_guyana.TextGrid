@@ -322,10 +322,10 @@ item []:
             text = "" 
         intervals [78]:
             xmin = 23.89 
-            xmax = 24.43 
+            xmax = 24.44 
             text = "wednesday" 
         intervals [79]:
-            xmin = 24.43 
+            xmin = 24.44 
             xmax = 24.61 
             text = "at" 
         intervals [80]:
@@ -1220,10 +1220,10 @@ item []:
             text = "D" 
         intervals [218]:
             xmin = 24.22 
-            xmax = 24.43 
+            xmax = 24.44 
             text = "EY2" 
         intervals [219]:
-            xmin = 24.43 
+            xmin = 24.44 
             xmax = 24.55 
             text = "AE1" 
         intervals [220]:

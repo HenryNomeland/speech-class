@@ -996,10 +996,10 @@ item []:
             text = "IH1" 
         intervals [162]:
             xmin = 16.42 
-            xmax = 16.58 
+            xmax = 16.57 
             text = "D" 
         intervals [163]:
-            xmin = 16.58 
+            xmin = 16.57 
             xmax = 16.7 
             text = "Z" 
         intervals [164]:

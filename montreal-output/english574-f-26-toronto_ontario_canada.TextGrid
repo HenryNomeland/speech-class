@@ -580,10 +580,10 @@ item []:
             text = "R" 
         intervals [61]:
             xmin = 6.12 
-            xmax = 6.21 
+            xmax = 6.2 
             text = "EH1" 
         intervals [62]:
-            xmin = 6.21 
+            xmin = 6.2 
             xmax = 6.37 
             text = "SH" 
         intervals [63]:
@@ -620,10 +620,10 @@ item []:
             text = "F" 
         intervals [71]:
             xmin = 7.6 
-            xmax = 7.74 
+            xmax = 7.73 
             text = "AY1" 
         intervals [72]:
-            xmin = 7.74 
+            xmin = 7.73 
             xmax = 7.85 
             text = "V" 
         intervals [73]:
@@ -1224,10 +1224,10 @@ item []:
             text = "R" 
         intervals [222]:
             xmin = 21.19 
-            xmax = 21.28 
+            xmax = 21.29 
             text = "EY1" 
         intervals [223]:
-            xmin = 21.28 
+            xmin = 21.29 
             xmax = 21.34 
             text = "N" 
         intervals [224]:

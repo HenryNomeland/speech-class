@@ -198,10 +198,10 @@ item []:
             text = "" 
         intervals [47]:
             xmin = 15.62 
-            xmax = 15.81 
+            xmax = 15.8 
             text = "and" 
         intervals [48]:
-            xmin = 15.81 
+            xmin = 15.8 
             xmax = 15.85 
             text = "a" 
         intervals [49]:
@@ -568,10 +568,10 @@ item []:
             text = "F" 
         intervals [60]:
             xmin = 6.7 
-            xmax = 6.77 
+            xmax = 6.76 
             text = "R" 
         intervals [61]:
-            xmin = 6.77 
+            xmin = 6.76 
             xmax = 6.9 
             text = "EH1" 
         intervals [62]:
@@ -892,10 +892,10 @@ item []:
             text = "N" 
         intervals [141]:
             xmin = 15.77 
-            xmax = 15.81 
+            xmax = 15.8 
             text = "D" 
         intervals [142]:
-            xmin = 15.81 
+            xmin = 15.8 
             xmax = 15.85 
             text = "AH0" 
         intervals [143]:

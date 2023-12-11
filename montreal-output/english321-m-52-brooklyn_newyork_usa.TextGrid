@@ -98,10 +98,10 @@ item []:
             text = "fresh" 
         intervals [22]:
             xmin = 5.45 
-            xmax = 5.72 
+            xmax = 5.71 
             text = "snow" 
         intervals [23]:
-            xmin = 5.72 
+            xmin = 5.71 
             xmax = 6.21 
             text = "peas" 
         intervals [24]:
@@ -214,10 +214,10 @@ item []:
             text = "big" 
         intervals [51]:
             xmin = 13.29 
-            xmax = 13.55 
+            xmax = 13.56 
             text = "toy" 
         intervals [52]:
-            xmin = 13.55 
+            xmin = 13.56 
             xmax = 13.92 
             text = "frog" 
         intervals [53]:
@@ -584,10 +584,10 @@ item []:
             text = "N" 
         intervals [65]:
             xmin = 5.59 
-            xmax = 5.72 
+            xmax = 5.71 
             text = "OW1" 
         intervals [66]:
-            xmin = 5.72 
+            xmin = 5.71 
             xmax = 5.84 
             text = "P" 
         intervals [67]:
@@ -916,10 +916,10 @@ item []:
             text = "T" 
         intervals [148]:
             xmin = 13.38 
-            xmax = 13.55 
+            xmax = 13.56 
             text = "OY1" 
         intervals [149]:
-            xmin = 13.55 
+            xmin = 13.56 
             xmax = 13.68 
             text = "F" 
         intervals [150]:
@@ -1000,10 +1000,10 @@ item []:
             text = "K" 
         intervals [169]:
             xmin = 15.34 
-            xmax = 15.43 
+            xmax = 15.42 
             text = "UW1" 
         intervals [170]:
-            xmin = 15.43 
+            xmin = 15.42 
             xmax = 15.54 
             text = "P" 
         intervals [171]:

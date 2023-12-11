@@ -138,10 +138,10 @@ item []:
             text = "and" 
         intervals [32]:
             xmin = 7.95 
-            xmax = 8.2 
+            xmax = 8.19 
             text = "maybe" 
         intervals [33]:
-            xmin = 8.2 
+            xmin = 8.19 
             xmax = 8.26 
             text = "a" 
         intervals [34]:
@@ -700,10 +700,10 @@ item []:
             text = "B" 
         intervals [95]:
             xmin = 8.14 
-            xmax = 8.2 
+            xmax = 8.19 
             text = "IY0" 
         intervals [96]:
-            xmin = 8.2 
+            xmin = 8.19 
             xmax = 8.26 
             text = "AH0" 
         intervals [97]:
@@ -1168,10 +1168,10 @@ item []:
             text = "EY2" 
         intervals [212]:
             xmin = 17.08 
-            xmax = 17.2 
+            xmax = 17.19 
             text = "AE1" 
         intervals [213]:
-            xmin = 17.2 
+            xmin = 17.19 
             xmax = 17.27 
             text = "T" 
         intervals [214]:

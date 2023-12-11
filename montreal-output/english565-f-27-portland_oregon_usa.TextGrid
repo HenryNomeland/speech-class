@@ -536,10 +536,10 @@ item []:
             text = "S" 
         intervals [50]:
             xmin = 4.04 
-            xmax = 4.08 
+            xmax = 4.09 
             text = "IH1" 
         intervals [51]:
-            xmin = 4.08 
+            xmin = 4.09 
             xmax = 4.15 
             text = "K" 
         intervals [52]:

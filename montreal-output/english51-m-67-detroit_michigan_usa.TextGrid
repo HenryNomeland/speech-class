@@ -412,10 +412,10 @@ item []:
             text = "AH0" 
         intervals [22]:
             xmin = 2.86 
-            xmax = 2.93 
+            xmax = 2.94 
             text = "B" 
         intervals [23]:
-            xmin = 2.93 
+            xmin = 2.94 
             xmax = 3.01 
             text = "R" 
         intervals [24]:

@@ -286,14 +286,14 @@ item []:
             text = "bags" 
         intervals [69]:
             xmin = 19.31 
-            xmax = 19.6 
+            xmax = 19.61 
             text = "" 
         intervals [70]:
-            xmin = 19.6 
-            xmax = 19.69 
+            xmin = 19.61 
+            xmax = 19.7 
             text = "and" 
         intervals [71]:
-            xmin = 19.69 
+            xmin = 19.7 
             xmax = 19.78 
             text = "we" 
         intervals [72]:
@@ -600,10 +600,10 @@ item []:
             text = "S" 
         intervals [64]:
             xmin = 6.13 
-            xmax = 6.18 
+            xmax = 6.17 
             text = "N" 
         intervals [65]:
-            xmin = 6.18 
+            xmin = 6.17 
             xmax = 6.31 
             text = "OW1" 
         intervals [66]:
@@ -896,10 +896,10 @@ item []:
             text = "S" 
         intervals [138]:
             xmin = 14.08 
-            xmax = 14.13 
+            xmax = 14.12 
             text = "N" 
         intervals [139]:
-            xmin = 14.13 
+            xmin = 14.12 
             xmax = 14.28 
             text = "EY1" 
         intervals [140]:
@@ -1124,22 +1124,22 @@ item []:
             text = "Z" 
         intervals [195]:
             xmin = 19.31 
-            xmax = 19.6 
+            xmax = 19.61 
             text = "" 
         intervals [196]:
-            xmin = 19.6 
-            xmax = 19.63 
+            xmin = 19.61 
+            xmax = 19.64 
             text = "AH0" 
         intervals [197]:
-            xmin = 19.63 
-            xmax = 19.66 
+            xmin = 19.64 
+            xmax = 19.67 
             text = "N" 
         intervals [198]:
-            xmin = 19.66 
-            xmax = 19.69 
+            xmin = 19.67 
+            xmax = 19.7 
             text = "D" 
         intervals [199]:
-            xmin = 19.69 
+            xmin = 19.7 
             xmax = 19.73 
             text = "W" 
         intervals [200]:

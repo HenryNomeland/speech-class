@@ -572,10 +572,10 @@ item []:
             text = "F" 
         intervals [60]:
             xmin = 5.79 
-            xmax = 5.82 
+            xmax = 5.83 
             text = "R" 
         intervals [61]:
-            xmin = 5.82 
+            xmin = 5.83 
             xmax = 5.91 
             text = "EH1" 
         intervals [62]:

@@ -110,10 +110,10 @@ item []:
             text = "" 
         intervals [25]:
             xmin = 7.18 
-            xmax = 7.6 
+            xmax = 7.61 
             text = "five" 
         intervals [26]:
-            xmin = 7.6 
+            xmin = 7.61 
             xmax = 7.86 
             text = "thick" 
         intervals [27]:
@@ -158,10 +158,10 @@ item []:
             text = "for" 
         intervals [37]:
             xmin = 10.6 
-            xmax = 10.68 
+            xmax = 10.69 
             text = "her" 
         intervals [38]:
-            xmin = 10.68 
+            xmin = 10.69 
             xmax = 10.99 
             text = "brother" 
         intervals [39]:
@@ -326,10 +326,10 @@ item []:
             text = "train" 
         intervals [79]:
             xmin = 20.94 
-            xmax = 21.36 
+            xmax = 21.38 
             text = "station" 
         intervals [80]:
-            xmin = 21.36 
+            xmin = 21.38 
             xmax = 22.709116 
             text = "" 
     item [2]:
@@ -624,10 +624,10 @@ item []:
             text = "AY1" 
         intervals [72]:
             xmin = 7.5 
-            xmax = 7.6 
+            xmax = 7.61 
             text = "V" 
         intervals [73]:
-            xmin = 7.6 
+            xmin = 7.61 
             xmax = 7.69 
             text = "TH" 
         intervals [74]:
@@ -756,10 +756,10 @@ item []:
             text = "HH" 
         intervals [105]:
             xmin = 10.61 
-            xmax = 10.68 
+            xmax = 10.69 
             text = "ER0" 
         intervals [106]:
-            xmin = 10.68 
+            xmin = 10.69 
             xmax = 10.77 
             text = "B" 
         intervals [107]:
@@ -1252,9 +1252,9 @@ item []:
             text = "AH0" 
         intervals [229]:
             xmin = 21.29 
-            xmax = 21.36 
+            xmax = 21.38 
             text = "N" 
         intervals [230]:
-            xmin = 21.36 
+            xmin = 21.38 
             xmax = 22.709116 
             text = "" 

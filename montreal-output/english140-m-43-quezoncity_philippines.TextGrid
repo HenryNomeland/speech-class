@@ -286,10 +286,10 @@ item []:
             text = "and" 
         intervals [69]:
             xmin = 16.55 
-            xmax = 16.66 
+            xmax = 16.65 
             text = "we" 
         intervals [70]:
-            xmin = 16.66 
+            xmin = 16.65 
             xmax = 16.76 
             text = "will" 
         intervals [71]:
@@ -306,10 +306,10 @@ item []:
             text = "her" 
         intervals [74]:
             xmin = 17.25 
-            xmax = 17.96 
+            xmax = 17.95 
             text = "wednesday" 
         intervals [75]:
-            xmin = 17.96 
+            xmin = 17.95 
             xmax = 18.22 
             text = "" 
         intervals [76]:
@@ -1128,10 +1128,10 @@ item []:
             text = "W" 
         intervals [198]:
             xmin = 16.59 
-            xmax = 16.66 
+            xmax = 16.65 
             text = "IY1" 
         intervals [199]:
-            xmin = 16.66 
+            xmin = 16.65 
             xmax = 16.7 
             text = "W" 
         intervals [200]:
@@ -1180,10 +1180,10 @@ item []:
             text = "EH1" 
         intervals [211]:
             xmin = 17.42 
-            xmax = 17.49 
+            xmax = 17.5 
             text = "N" 
         intervals [212]:
-            xmin = 17.49 
+            xmin = 17.5 
             xmax = 17.59 
             text = "Z" 
         intervals [213]:
@@ -1192,10 +1192,10 @@ item []:
             text = "D" 
         intervals [214]:
             xmin = 17.67 
-            xmax = 17.96 
+            xmax = 17.95 
             text = "EY2" 
         intervals [215]:
-            xmin = 17.96 
+            xmin = 17.95 
             xmax = 18.22 
             text = "" 
         intervals [216]:

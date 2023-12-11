@@ -182,10 +182,10 @@ item []:
             text = "need" 
         intervals [43]:
             xmin = 14.36 
-            xmax = 14.68 
+            xmax = 14.69 
             text = "a" 
         intervals [44]:
-            xmin = 14.68 
+            xmin = 14.69 
             xmax = 14.9 
             text = "" 
         intervals [45]:
@@ -696,10 +696,10 @@ item []:
             text = "AE1" 
         intervals [90]:
             xmin = 10.64 
-            xmax = 10.68 
+            xmax = 10.69 
             text = "N" 
         intervals [91]:
-            xmin = 10.68 
+            xmin = 10.69 
             xmax = 10.75 
             text = "D" 
         intervals [92]:
@@ -828,10 +828,10 @@ item []:
             text = "D" 
         intervals [123]:
             xmin = 14.36 
-            xmax = 14.68 
+            xmax = 14.69 
             text = "AH0" 
         intervals [124]:
-            xmin = 14.68 
+            xmin = 14.69 
             xmax = 14.9 
             text = "" 
         intervals [125]:
@@ -1004,10 +1004,10 @@ item []:
             text = "K" 
         intervals [167]:
             xmin = 21.03 
-            xmax = 21.13 
+            xmax = 21.12 
             text = "AH0" 
         intervals [168]:
-            xmin = 21.13 
+            xmin = 21.12 
             xmax = 21.17 
             text = "N" 
         intervals [169]:

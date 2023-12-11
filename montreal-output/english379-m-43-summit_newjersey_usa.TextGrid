@@ -130,10 +130,10 @@ item []:
             text = "of" 
         intervals [30]:
             xmin = 8.38 
-            xmax = 8.66 
+            xmax = 8.63 
             text = "blue" 
         intervals [31]:
-            xmin = 8.66 
+            xmin = 8.63 
             xmax = 9.17 
             text = "cheese" 
         intervals [32]:
@@ -154,10 +154,10 @@ item []:
             text = "a" 
         intervals [36]:
             xmin = 10.03 
-            xmax = 10.41 
+            xmax = 10.4 
             text = "snack" 
         intervals [37]:
-            xmin = 10.41 
+            xmin = 10.4 
             xmax = 10.55 
             text = "for" 
         intervals [38]:
@@ -680,10 +680,10 @@ item []:
             text = "L" 
         intervals [87]:
             xmin = 8.49 
-            xmax = 8.66 
+            xmax = 8.63 
             text = "UW1" 
         intervals [88]:
-            xmin = 8.66 
+            xmin = 8.63 
             xmax = 8.75 
             text = "CH" 
         intervals [89]:
@@ -740,14 +740,14 @@ item []:
             text = "N" 
         intervals [102]:
             xmin = 10.18 
-            xmax = 10.38 
+            xmax = 10.37 
             text = "AE1" 
         intervals [103]:
-            xmin = 10.38 
-            xmax = 10.41 
+            xmin = 10.37 
+            xmax = 10.4 
             text = "K" 
         intervals [104]:
-            xmin = 10.41 
+            xmin = 10.4 
             xmax = 10.44 
             text = "F" 
         intervals [105]:

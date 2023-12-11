@@ -266,10 +266,10 @@ item []:
             text = "into" 
         intervals [64]:
             xmin = 18.45 
-            xmax = 18.71 
+            xmax = 18.7 
             text = "three" 
         intervals [65]:
-            xmin = 18.71 
+            xmin = 18.7 
             xmax = 18.94 
             text = "red" 
         intervals [66]:
@@ -968,10 +968,10 @@ item []:
             text = "K" 
         intervals [159]:
             xmin = 16.03 
-            xmax = 16.18 
+            xmax = 16.19 
             text = "IH1" 
         intervals [160]:
-            xmin = 16.18 
+            xmin = 16.19 
             xmax = 16.27 
             text = "D" 
         intervals [161]:
@@ -1072,10 +1072,10 @@ item []:
             text = "R" 
         intervals [185]:
             xmin = 18.63 
-            xmax = 18.71 
+            xmax = 18.7 
             text = "IY1" 
         intervals [186]:
-            xmin = 18.71 
+            xmin = 18.7 
             xmax = 18.78 
             text = "R" 
         intervals [187]:

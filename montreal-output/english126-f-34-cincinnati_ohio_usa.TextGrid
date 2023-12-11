@@ -1196,10 +1196,10 @@ item []:
             text = "T" 
         intervals [218]:
             xmin = 18 
-            xmax = 18.04 
+            xmax = 18.05 
             text = "R" 
         intervals [219]:
-            xmin = 18.04 
+            xmin = 18.05 
             xmax = 18.14 
             text = "EY1" 
         intervals [220]:

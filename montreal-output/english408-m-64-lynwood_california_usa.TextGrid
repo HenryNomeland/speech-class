@@ -908,10 +908,10 @@ item []:
             text = "B" 
         intervals [146]:
             xmin = 16.89 
-            xmax = 17.04 
+            xmax = 17.03 
             text = "IH1" 
         intervals [147]:
-            xmin = 17.04 
+            xmin = 17.03 
             xmax = 17.07 
             text = "G" 
         intervals [148]:

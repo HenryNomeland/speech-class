@@ -14,10 +14,10 @@ item []:
         intervals: size = 81 
         intervals [1]:
             xmin = 0 
-            xmax = 0.85 
+            xmax = 0.84 
             text = "" 
         intervals [2]:
-            xmin = 0.85 
+            xmin = 0.84 
             xmax = 1.14 
             text = "please" 
         intervals [3]:
@@ -344,10 +344,10 @@ item []:
         intervals: size = 231 
         intervals [1]:
             xmin = 0 
-            xmax = 0.85 
+            xmax = 0.84 
             text = "" 
         intervals [2]:
-            xmin = 0.85 
+            xmin = 0.84 
             xmax = 0.92 
             text = "P" 
         intervals [3]:
@@ -364,10 +364,10 @@ item []:
             text = "Z" 
         intervals [6]:
             xmin = 1.14 
-            xmax = 1.24 
+            xmax = 1.25 
             text = "K" 
         intervals [7]:
-            xmin = 1.24 
+            xmin = 1.25 
             xmax = 1.32 
             text = "AO1" 
         intervals [8]:
@@ -952,10 +952,10 @@ item []:
             text = "R" 
         intervals [153]:
             xmin = 15.63 
-            xmax = 15.8 
+            xmax = 15.81 
             text = "AA1" 
         intervals [154]:
-            xmin = 15.8 
+            xmin = 15.81 
             xmax = 15.85 
             text = "G" 
         intervals [155]:

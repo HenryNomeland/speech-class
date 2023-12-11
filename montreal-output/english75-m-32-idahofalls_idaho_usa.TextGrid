@@ -170,10 +170,10 @@ item []:
             text = "brother" 
         intervals [40]:
             xmin = 11.38 
-            xmax = 11.84 
+            xmax = 11.83 
             text = "bob" 
         intervals [41]:
-            xmin = 11.84 
+            xmin = 11.83 
             xmax = 12.72 
             text = "" 
         intervals [42]:
@@ -238,14 +238,14 @@ item []:
             text = "the" 
         intervals [57]:
             xmin = 16.41 
-            xmax = 16.93 
+            xmax = 16.94 
             text = "kids" 
         intervals [58]:
-            xmin = 16.93 
-            xmax = 17.31 
+            xmin = 16.94 
+            xmax = 17.32 
             text = "" 
         intervals [59]:
-            xmin = 17.31 
+            xmin = 17.32 
             xmax = 17.48 
             text = "she" 
         intervals [60]:
@@ -552,10 +552,10 @@ item []:
             text = "P" 
         intervals [54]:
             xmin = 5.89 
-            xmax = 6.04 
+            xmax = 6.05 
             text = "UW1" 
         intervals [55]:
-            xmin = 6.04 
+            xmin = 6.05 
             xmax = 6.17 
             text = "N" 
         intervals [56]:
@@ -792,14 +792,14 @@ item []:
             text = "B" 
         intervals [114]:
             xmin = 11.47 
-            xmax = 11.72 
+            xmax = 11.71 
             text = "AA1" 
         intervals [115]:
-            xmin = 11.72 
-            xmax = 11.84 
+            xmin = 11.71 
+            xmax = 11.83 
             text = "B" 
         intervals [116]:
-            xmin = 11.84 
+            xmin = 11.83 
             xmax = 12.72 
             text = "" 
         intervals [117]:
@@ -988,14 +988,14 @@ item []:
             text = "D" 
         intervals [163]:
             xmin = 16.78 
-            xmax = 16.93 
+            xmax = 16.94 
             text = "Z" 
         intervals [164]:
-            xmin = 16.93 
-            xmax = 17.31 
+            xmin = 16.94 
+            xmax = 17.32 
             text = "" 
         intervals [165]:
-            xmin = 17.31 
+            xmin = 17.32 
             xmax = 17.45 
             text = "SH" 
         intervals [166]:

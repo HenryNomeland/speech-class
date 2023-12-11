@@ -142,10 +142,10 @@ item []:
             text = "blue" 
         intervals [33]:
             xmin = 9.4 
-            xmax = 9.8 
+            xmax = 9.78 
             text = "cheese" 
         intervals [34]:
-            xmin = 9.8 
+            xmin = 9.78 
             xmax = 10.66 
             text = "" 
         intervals [35]:
@@ -330,10 +330,10 @@ item []:
             text = "train" 
         intervals [80]:
             xmin = 21.87 
-            xmax = 22.47 
+            xmax = 22.48 
             text = "station" 
         intervals [81]:
-            xmin = 22.47 
+            xmin = 22.48 
             xmax = 23.342313 
             text = "" 
     item [2]:
@@ -568,10 +568,10 @@ item []:
             text = "P" 
         intervals [57]:
             xmin = 6.27 
-            xmax = 6.39 
+            xmax = 6.4 
             text = "UW1" 
         intervals [58]:
-            xmin = 6.39 
+            xmin = 6.4 
             xmax = 6.44 
             text = "N" 
         intervals [59]:
@@ -708,10 +708,10 @@ item []:
             text = "IY1" 
         intervals [92]:
             xmin = 9.74 
-            xmax = 9.8 
+            xmax = 9.78 
             text = "Z" 
         intervals [93]:
-            xmin = 9.8 
+            xmin = 9.78 
             xmax = 10.66 
             text = "" 
         intervals [94]:
@@ -1268,9 +1268,9 @@ item []:
             text = "AH0" 
         intervals [232]:
             xmin = 22.34 
-            xmax = 22.47 
+            xmax = 22.48 
             text = "N" 
         intervals [233]:
-            xmin = 22.47 
+            xmin = 22.48 
             xmax = 23.342313 
             text = "" 

@@ -14,10 +14,10 @@ item []:
         intervals: size = 81 
         intervals [1]:
             xmin = 0 
-            xmax = 0.23 
+            xmax = 0.24 
             text = "" 
         intervals [2]:
-            xmin = 0.23 
+            xmin = 0.24 
             xmax = 0.52 
             text = "please" 
         intervals [3]:
@@ -230,10 +230,10 @@ item []:
             text = "toy" 
         intervals [55]:
             xmin = 13.28 
-            xmax = 13.66 
+            xmax = 13.65 
             text = "frog" 
         intervals [56]:
-            xmin = 13.66 
+            xmin = 13.65 
             xmax = 13.81 
             text = "for" 
         intervals [57]:
@@ -344,10 +344,10 @@ item []:
         intervals: size = 231 
         intervals [1]:
             xmin = 0 
-            xmax = 0.23 
+            xmax = 0.24 
             text = "" 
         intervals [2]:
-            xmin = 0.23 
+            xmin = 0.24 
             xmax = 0.33 
             text = "P" 
         intervals [3]:
@@ -596,10 +596,10 @@ item []:
             text = "S" 
         intervals [64]:
             xmin = 5.39 
-            xmax = 5.43 
+            xmax = 5.42 
             text = "N" 
         intervals [65]:
-            xmin = 5.43 
+            xmin = 5.42 
             xmax = 5.52 
             text = "OW1" 
         intervals [66]:
@@ -960,10 +960,10 @@ item []:
             text = "AA1" 
         intervals [155]:
             xmin = 13.57 
-            xmax = 13.66 
+            xmax = 13.65 
             text = "G" 
         intervals [156]:
-            xmin = 13.66 
+            xmin = 13.65 
             xmax = 13.74 
             text = "F" 
         intervals [157]:
@@ -1248,10 +1248,10 @@ item []:
             text = "T" 
         intervals [227]:
             xmin = 19.74 
-            xmax = 19.86 
+            xmax = 19.87 
             text = "EY1" 
         intervals [228]:
-            xmin = 19.86 
+            xmin = 19.87 
             xmax = 19.91 
             text = "SH" 
         intervals [229]:

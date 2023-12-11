@@ -94,10 +94,10 @@ item []:
             text = "of" 
         intervals [21]:
             xmin = 4.86 
-            xmax = 5.13 
+            xmax = 5.12 
             text = "fresh" 
         intervals [22]:
-            xmin = 5.13 
+            xmin = 5.12 
             xmax = 5.37 
             text = "snow" 
         intervals [23]:
@@ -572,10 +572,10 @@ item []:
             text = "EH1" 
         intervals [62]:
             xmin = 5.03 
-            xmax = 5.13 
+            xmax = 5.12 
             text = "SH" 
         intervals [63]:
-            xmin = 5.13 
+            xmin = 5.12 
             xmax = 5.18 
             text = "S" 
         intervals [64]:
@@ -656,10 +656,10 @@ item []:
             text = "B" 
         intervals [83]:
             xmin = 7.01 
-            xmax = 7.07 
+            xmax = 7.08 
             text = "L" 
         intervals [84]:
-            xmin = 7.07 
+            xmin = 7.08 
             xmax = 7.15 
             text = "UW1" 
         intervals [85]:
@@ -956,10 +956,10 @@ item []:
             text = "IH1" 
         intervals [158]:
             xmin = 13.31 
-            xmax = 13.38 
+            xmax = 13.37 
             text = "D" 
         intervals [159]:
-            xmin = 13.38 
+            xmin = 13.37 
             xmax = 13.5 
             text = "Z" 
         intervals [160]:

@@ -18,10 +18,10 @@ item []:
             text = "" 
         intervals [2]:
             xmin = 0.52 
-            xmax = 0.79 
+            xmax = 0.8 
             text = "please" 
         intervals [3]:
-            xmin = 0.79 
+            xmin = 0.8 
             xmax = 1.09 
             text = "call" 
         intervals [4]:
@@ -134,10 +134,10 @@ item []:
             text = "cheese" 
         intervals [31]:
             xmin = 8.61 
-            xmax = 8.94 
+            xmax = 8.95 
             text = "" 
         intervals [32]:
-            xmin = 8.94 
+            xmin = 8.95 
             xmax = 9.07 
             text = "and" 
         intervals [33]:
@@ -352,10 +352,10 @@ item []:
             text = "IY1" 
         intervals [5]:
             xmin = 0.71 
-            xmax = 0.79 
+            xmax = 0.8 
             text = "Z" 
         intervals [6]:
-            xmin = 0.79 
+            xmin = 0.8 
             xmax = 0.87 
             text = "K" 
         intervals [7]:
@@ -584,10 +584,10 @@ item []:
             text = "SH" 
         intervals [63]:
             xmin = 5.82 
-            xmax = 5.97 
+            xmax = 5.96 
             text = "S" 
         intervals [64]:
-            xmin = 5.97 
+            xmin = 5.96 
             xmax = 6.02 
             text = "N" 
         intervals [65]:
@@ -688,14 +688,14 @@ item []:
             text = "Z" 
         intervals [89]:
             xmin = 8.61 
-            xmax = 8.94 
+            xmax = 8.95 
             text = "" 
         intervals [90]:
-            xmin = 8.94 
-            xmax = 9 
-            text = "AH0" 
+            xmin = 8.95 
+            xmax = 8.99 
+            text = "AE1" 
         intervals [91]:
-            xmin = 9 
+            xmin = 8.99 
             xmax = 9.03 
             text = "N" 
         intervals [92]:

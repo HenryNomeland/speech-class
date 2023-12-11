@@ -700,10 +700,10 @@ item []:
             text = "D" 
         intervals [93]:
             xmin = 9.14 
-            xmax = 9.17 
+            xmax = 9.18 
             text = "M" 
         intervals [94]:
-            xmin = 9.17 
+            xmin = 9.18 
             xmax = 9.26 
             text = "EY1" 
         intervals [95]:

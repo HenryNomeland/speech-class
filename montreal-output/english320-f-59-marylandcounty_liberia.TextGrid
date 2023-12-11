@@ -688,10 +688,10 @@ item []:
             text = "R" 
         intervals [66]:
             xmin = 8.9 
-            xmax = 8.98 
+            xmax = 8.97 
             text = "EH1" 
         intervals [67]:
-            xmin = 8.98 
+            xmin = 8.97 
             xmax = 9.2 
             text = "SH" 
         intervals [68]:

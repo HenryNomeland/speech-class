@@ -206,10 +206,10 @@ item []:
             text = "plastic" 
         intervals [49]:
             xmin = 16.3 
-            xmax = 16.87 
+            xmax = 16.86 
             text = "snake" 
         intervals [50]:
-            xmin = 16.87 
+            xmin = 16.86 
             xmax = 17.11 
             text = "" 
         intervals [51]:
@@ -756,10 +756,10 @@ item []:
             text = "N" 
         intervals [101]:
             xmin = 12.17 
-            xmax = 12.33 
+            xmax = 12.34 
             text = "AE1" 
         intervals [102]:
-            xmin = 12.33 
+            xmin = 12.34 
             xmax = 12.45 
             text = "K" 
         intervals [103]:
@@ -844,10 +844,10 @@ item []:
             text = "OW0" 
         intervals [123]:
             xmin = 14.8 
-            xmax = 14.88 
+            xmax = 14.89 
             text = "N" 
         intervals [124]:
-            xmin = 14.88 
+            xmin = 14.89 
             xmax = 15.02 
             text = "IY1" 
         intervals [125]:
@@ -920,10 +920,10 @@ item []:
             text = "EY1" 
         intervals [142]:
             xmin = 16.67 
-            xmax = 16.87 
+            xmax = 16.86 
             text = "K" 
         intervals [143]:
-            xmin = 16.87 
+            xmin = 16.86 
             xmax = 17.11 
             text = "" 
         intervals [144]:
@@ -1004,10 +1004,10 @@ item []:
             text = "IH1" 
         intervals [163]:
             xmin = 19 
-            xmax = 19.13 
+            xmax = 19.09 
             text = "D" 
         intervals [164]:
-            xmin = 19.13 
+            xmin = 19.09 
             xmax = 19.36 
             text = "Z" 
         intervals [165]:
@@ -1280,14 +1280,14 @@ item []:
             text = "EY1" 
         intervals [232]:
             xmin = 26.32 
-            xmax = 26.44 
+            xmax = 26.45 
             text = "SH" 
         intervals [233]:
-            xmin = 26.44 
-            xmax = 26.52 
+            xmin = 26.45 
+            xmax = 26.51 
             text = "AH0" 
         intervals [234]:
-            xmin = 26.52 
+            xmin = 26.51 
             xmax = 26.66 
             text = "N" 
         intervals [235]:

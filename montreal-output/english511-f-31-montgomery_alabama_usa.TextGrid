@@ -74,10 +74,10 @@ item []:
             text = "the" 
         intervals [16]:
             xmin = 3.44 
-            xmax = 3.95 
+            xmax = 3.93 
             text = "store" 
         intervals [17]:
-            xmin = 3.95 
+            xmin = 3.93 
             xmax = 4.23 
             text = "" 
         intervals [18]:
@@ -238,10 +238,10 @@ item []:
             text = "kids" 
         intervals [57]:
             xmin = 15.27 
-            xmax = 15.54 
+            xmax = 15.55 
             text = "" 
         intervals [58]:
-            xmin = 15.54 
+            xmin = 15.55 
             xmax = 15.74 
             text = "she" 
         intervals [59]:
@@ -516,10 +516,10 @@ item []:
             text = "AO1" 
         intervals [46]:
             xmin = 3.68 
-            xmax = 3.95 
+            xmax = 3.93 
             text = "R" 
         intervals [47]:
-            xmin = 3.95 
+            xmin = 3.93 
             xmax = 4.23 
             text = "" 
         intervals [48]:
@@ -980,10 +980,10 @@ item []:
             text = "Z" 
         intervals [162]:
             xmin = 15.27 
-            xmax = 15.54 
+            xmax = 15.55 
             text = "" 
         intervals [163]:
-            xmin = 15.54 
+            xmin = 15.55 
             xmax = 15.69 
             text = "SH" 
         intervals [164]:

@@ -254,10 +254,10 @@ item []:
             text = "kids" 
         intervals [61]:
             xmin = 19.29 
-            xmax = 20.07 
+            xmax = 20.08 
             text = "" 
         intervals [62]:
-            xmin = 20.07 
+            xmin = 20.08 
             xmax = 20.31 
             text = "she" 
         intervals [63]:
@@ -334,10 +334,10 @@ item []:
             text = "at" 
         intervals [81]:
             xmin = 26.08 
-            xmax = 26.15 
+            xmax = 26.14 
             text = "the" 
         intervals [82]:
-            xmin = 26.15 
+            xmin = 26.14 
             xmax = 26.51 
             text = "train" 
         intervals [83]:
@@ -672,10 +672,10 @@ item []:
             text = "L" 
         intervals [80]:
             xmin = 8.86 
-            xmax = 9.1 
+            xmax = 9.09 
             text = "AE1" 
         intervals [81]:
-            xmin = 9.1 
+            xmin = 9.09 
             xmax = 9.18 
             text = "B" 
         intervals [82]:
@@ -764,10 +764,10 @@ item []:
             text = "N" 
         intervals [103]:
             xmin = 11.59 
-            xmax = 11.85 
+            xmax = 11.84 
             text = "AE1" 
         intervals [104]:
-            xmin = 11.85 
+            xmin = 11.84 
             xmax = 12.03 
             text = "K" 
         intervals [105]:
@@ -1024,10 +1024,10 @@ item []:
             text = "Z" 
         intervals [168]:
             xmin = 19.29 
-            xmax = 20.07 
+            xmax = 20.08 
             text = "" 
         intervals [169]:
-            xmin = 20.07 
+            xmin = 20.08 
             xmax = 20.21 
             text = "SH" 
         intervals [170]:
@@ -1252,10 +1252,10 @@ item []:
             text = "DH" 
         intervals [225]:
             xmin = 26.1 
-            xmax = 26.15 
+            xmax = 26.14 
             text = "AH0" 
         intervals [226]:
-            xmin = 26.15 
+            xmin = 26.14 
             xmax = 26.24 
             text = "T" 
         intervals [227]:

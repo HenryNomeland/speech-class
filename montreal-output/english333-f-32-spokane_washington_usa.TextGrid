@@ -290,10 +290,10 @@ item []:
             text = "will" 
         intervals [70]:
             xmin = 15.44 
-            xmax = 15.65 
+            xmax = 15.66 
             text = "go" 
         intervals [71]:
-            xmin = 15.65 
+            xmin = 15.66 
             xmax = 15.95 
             text = "meet" 
         intervals [72]:
@@ -620,10 +620,10 @@ item []:
             text = "V" 
         intervals [73]:
             xmin = 5.99 
-            xmax = 6.06 
+            xmax = 6.05 
             text = "TH" 
         intervals [74]:
-            xmin = 6.06 
+            xmin = 6.05 
             xmax = 6.11 
             text = "IH1" 
         intervals [75]:
@@ -1136,10 +1136,10 @@ item []:
             text = "G" 
         intervals [202]:
             xmin = 15.53 
-            xmax = 15.65 
+            xmax = 15.66 
             text = "OW1" 
         intervals [203]:
-            xmin = 15.65 
+            xmin = 15.66 
             xmax = 15.75 
             text = "M" 
         intervals [204]:

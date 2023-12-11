@@ -94,10 +94,10 @@ item []:
             text = "of" 
         intervals [21]:
             xmin = 7.52 
-            xmax = 7.79 
+            xmax = 7.78 
             text = "fresh" 
         intervals [22]:
-            xmin = 7.79 
+            xmin = 7.78 
             xmax = 8.09 
             text = "snow" 
         intervals [23]:
@@ -142,10 +142,10 @@ item []:
             text = "and" 
         intervals [33]:
             xmin = 11.92 
-            xmax = 12.2 
+            xmax = 12.19 
             text = "maybe" 
         intervals [34]:
-            xmin = 12.2 
+            xmin = 12.19 
             xmax = 12.26 
             text = "a" 
         intervals [35]:
@@ -166,10 +166,10 @@ item []:
             text = "brother" 
         intervals [39]:
             xmin = 13.2 
-            xmax = 13.64 
+            xmax = 13.65 
             text = "bob" 
         intervals [40]:
-            xmin = 13.64 
+            xmin = 13.65 
             xmax = 15.06 
             text = "" 
         intervals [41]:
@@ -592,10 +592,10 @@ item []:
             text = "EH1" 
         intervals [62]:
             xmin = 7.66 
-            xmax = 7.79 
+            xmax = 7.78 
             text = "SH" 
         intervals [63]:
-            xmin = 7.79 
+            xmin = 7.78 
             xmax = 7.9 
             text = "S" 
         intervals [64]:
@@ -728,10 +728,10 @@ item []:
             text = "B" 
         intervals [96]:
             xmin = 12.12 
-            xmax = 12.2 
+            xmax = 12.19 
             text = "IY0" 
         intervals [97]:
-            xmin = 12.2 
+            xmin = 12.19 
             xmax = 12.26 
             text = "AH0" 
         intervals [98]:
@@ -796,10 +796,10 @@ item []:
             text = "AA1" 
         intervals [113]:
             xmin = 13.45 
-            xmax = 13.64 
+            xmax = 13.65 
             text = "B" 
         intervals [114]:
-            xmin = 13.64 
+            xmin = 13.65 
             xmax = 15.06 
             text = "" 
         intervals [115]:

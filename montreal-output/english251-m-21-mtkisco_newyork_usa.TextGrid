@@ -110,10 +110,10 @@ item []:
             text = "" 
         intervals [25]:
             xmin = 7.47 
-            xmax = 7.86 
+            xmax = 7.85 
             text = "five" 
         intervals [26]:
-            xmin = 7.86 
+            xmin = 7.85 
             xmax = 8.07 
             text = "thick" 
         intervals [27]:
@@ -130,10 +130,10 @@ item []:
             text = "blue" 
         intervals [30]:
             xmin = 8.76 
-            xmax = 9.32 
+            xmax = 9.31 
             text = "cheese" 
         intervals [31]:
-            xmin = 9.32 
+            xmin = 9.31 
             xmax = 9.79 
             text = "" 
         intervals [32]:
@@ -616,10 +616,10 @@ item []:
             text = "AY1" 
         intervals [72]:
             xmin = 7.79 
-            xmax = 7.86 
+            xmax = 7.85 
             text = "V" 
         intervals [73]:
-            xmin = 7.86 
+            xmin = 7.85 
             xmax = 7.96 
             text = "TH" 
         intervals [74]:
@@ -680,10 +680,10 @@ item []:
             text = "IY1" 
         intervals [88]:
             xmin = 9.13 
-            xmax = 9.32 
+            xmax = 9.31 
             text = "Z" 
         intervals [89]:
-            xmin = 9.32 
+            xmin = 9.31 
             xmax = 9.79 
             text = "" 
         intervals [90]:

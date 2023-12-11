@@ -844,10 +844,10 @@ item []:
             text = "M" 
         intervals [127]:
             xmin = 12.66 
-            xmax = 12.7 
+            xmax = 12.69 
             text = "AO1" 
         intervals [128]:
-            xmin = 12.7 
+            xmin = 12.69 
             xmax = 12.87 
             text = "L" 
         intervals [129]:

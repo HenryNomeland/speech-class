@@ -182,10 +182,10 @@ item []:
             text = "also" 
         intervals [43]:
             xmin = 15.51 
-            xmax = 15.72 
+            xmax = 15.71 
             text = "need" 
         intervals [44]:
-            xmin = 15.72 
+            xmin = 15.71 
             xmax = 15.8 
             text = "a" 
         intervals [45]:
@@ -820,14 +820,14 @@ item []:
             text = "N" 
         intervals [123]:
             xmin = 15.6 
-            xmax = 15.69 
+            xmax = 15.68 
             text = "IY1" 
         intervals [124]:
-            xmin = 15.69 
-            xmax = 15.72 
+            xmin = 15.68 
+            xmax = 15.71 
             text = "D" 
         intervals [125]:
-            xmin = 15.72 
+            xmin = 15.71 
             xmax = 15.8 
             text = "AH0" 
         intervals [126]:

@@ -74,10 +74,10 @@ item []:
             text = "the" 
         intervals [16]:
             xmin = 4.95 
-            xmax = 5.59 
+            xmax = 5.58 
             text = "store" 
         intervals [17]:
-            xmin = 5.59 
+            xmin = 5.58 
             xmax = 5.96 
             text = "" 
         intervals [18]:
@@ -198,10 +198,10 @@ item []:
             text = "plastic" 
         intervals [47]:
             xmin = 15.65 
-            xmax = 16.27 
+            xmax = 16.26 
             text = "snake" 
         intervals [48]:
-            xmin = 16.27 
+            xmin = 16.26 
             xmax = 16.35 
             text = "" 
         intervals [49]:
@@ -520,10 +520,10 @@ item []:
             text = "AO1" 
         intervals [47]:
             xmin = 5.33 
-            xmax = 5.59 
+            xmax = 5.58 
             text = "R" 
         intervals [48]:
-            xmin = 5.59 
+            xmin = 5.58 
             xmax = 5.96 
             text = "" 
         intervals [49]:
@@ -892,10 +892,10 @@ item []:
             text = "EY1" 
         intervals [140]:
             xmin = 16.08 
-            xmax = 16.27 
+            xmax = 16.26 
             text = "K" 
         intervals [141]:
-            xmin = 16.27 
+            xmin = 16.26 
             xmax = 16.35 
             text = "" 
         intervals [142]:

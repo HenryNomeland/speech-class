@@ -246,10 +246,10 @@ item []:
             text = "the" 
         intervals [59]:
             xmin = 13.54 
-            xmax = 14.02 
+            xmax = 14.01 
             text = "kids" 
         intervals [60]:
-            xmin = 14.02 
+            xmin = 14.01 
             xmax = 14.57 
             text = "" 
         intervals [61]:
@@ -1012,10 +1012,10 @@ item []:
             text = "D" 
         intervals [165]:
             xmin = 13.9 
-            xmax = 14.02 
+            xmax = 14.01 
             text = "Z" 
         intervals [166]:
-            xmin = 14.02 
+            xmin = 14.01 
             xmax = 14.57 
             text = "" 
         intervals [167]:

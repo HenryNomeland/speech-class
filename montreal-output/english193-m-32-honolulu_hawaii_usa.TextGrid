@@ -306,10 +306,10 @@ item []:
             text = "her" 
         intervals [74]:
             xmin = 22.65 
-            xmax = 23.13 
+            xmax = 23.18 
             text = "wednesday" 
         intervals [75]:
-            xmin = 23.13 
+            xmin = 23.18 
             xmax = 23.33 
             text = "at" 
         intervals [76]:
@@ -640,10 +640,10 @@ item []:
             text = "S" 
         intervals [77]:
             xmin = 8.68 
-            xmax = 8.75 
+            xmax = 8.76 
             text = "L" 
         intervals [78]:
-            xmin = 8.75 
+            xmin = 8.76 
             xmax = 8.91 
             text = "AE1" 
         intervals [79]:
@@ -808,10 +808,10 @@ item []:
             text = "AO1" 
         intervals [119]:
             xmin = 13.36 
-            xmax = 13.5 
+            xmax = 13.49 
             text = "L" 
         intervals [120]:
-            xmin = 13.5 
+            xmin = 13.49 
             xmax = 13.58 
             text = "S" 
         intervals [121]:
@@ -888,10 +888,10 @@ item []:
             text = "N" 
         intervals [139]:
             xmin = 15.06 
-            xmax = 15.21 
+            xmax = 15.2 
             text = "EY1" 
         intervals [140]:
-            xmin = 15.21 
+            xmin = 15.2 
             xmax = 15.29 
             text = "K" 
         intervals [141]:
@@ -1117,7 +1117,7 @@ item []:
         intervals [196]:
             xmin = 21.57 
             xmax = 21.62 
-            text = "AE1" 
+            text = "AH0" 
         intervals [197]:
             xmin = 21.62 
             xmax = 21.65 
@@ -1196,10 +1196,10 @@ item []:
             text = "D" 
         intervals [216]:
             xmin = 23.06 
-            xmax = 23.13 
+            xmax = 23.18 
             text = "EY2" 
         intervals [217]:
-            xmin = 23.13 
+            xmin = 23.18 
             xmax = 23.24 
             text = "AE1" 
         intervals [218]:

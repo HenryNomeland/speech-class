@@ -30,10 +30,10 @@ item []:
             text = "stella" 
         intervals [5]:
             xmin = 1.7 
-            xmax = 2.01 
+            xmax = 2 
             text = "" 
         intervals [6]:
-            xmin = 2.01 
+            xmin = 2 
             xmax = 2.26 
             text = "ask" 
         intervals [7]:
@@ -376,10 +376,10 @@ item []:
             text = "AH0" 
         intervals [14]:
             xmin = 1.7 
-            xmax = 2.01 
+            xmax = 2 
             text = "" 
         intervals [15]:
-            xmin = 2.01 
+            xmin = 2 
             xmax = 2.13 
             text = "AE1" 
         intervals [16]:

@@ -38,14 +38,14 @@ item []:
             text = "ask" 
         intervals [7]:
             xmin = 2.55 
-            xmax = 2.68 
+            xmax = 2.67 
             text = "her" 
         intervals [8]:
-            xmin = 2.68 
-            xmax = 2.73 
+            xmin = 2.67 
+            xmax = 2.72 
             text = "to" 
         intervals [9]:
-            xmin = 2.73 
+            xmin = 2.72 
             xmax = 2.94 
             text = "bring" 
         intervals [10]:
@@ -274,10 +274,10 @@ item []:
             text = "red" 
         intervals [66]:
             xmin = 16.1 
-            xmax = 16.59 
+            xmax = 16.58 
             text = "bags" 
         intervals [67]:
-            xmin = 16.59 
+            xmin = 16.58 
             xmax = 16.67 
             text = "" 
         intervals [68]:
@@ -408,18 +408,18 @@ item []:
             text = "HH" 
         intervals [19]:
             xmin = 2.56 
-            xmax = 2.68 
+            xmax = 2.67 
             text = "ER0" 
         intervals [20]:
-            xmin = 2.68 
-            xmax = 2.71 
+            xmin = 2.67 
+            xmax = 2.7 
             text = "T" 
         intervals [21]:
-            xmin = 2.71 
-            xmax = 2.73 
+            xmin = 2.7 
+            xmax = 2.72 
             text = "IH0" 
         intervals [22]:
-            xmin = 2.73 
+            xmin = 2.72 
             xmax = 2.76 
             text = "B" 
         intervals [23]:
@@ -548,10 +548,10 @@ item []:
             text = "P" 
         intervals [54]:
             xmin = 5.21 
-            xmax = 5.33 
+            xmax = 5.34 
             text = "UW1" 
         intervals [55]:
-            xmin = 5.33 
+            xmin = 5.34 
             xmax = 5.38 
             text = "N" 
         intervals [56]:
@@ -1100,10 +1100,10 @@ item []:
             text = "G" 
         intervals [192]:
             xmin = 16.44 
-            xmax = 16.59 
+            xmax = 16.58 
             text = "Z" 
         intervals [193]:
-            xmin = 16.59 
+            xmin = 16.58 
             xmax = 16.67 
             text = "" 
         intervals [194]:
