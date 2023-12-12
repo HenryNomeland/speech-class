@@ -30,9 +30,9 @@ into a spreadsheet named formants.csv <br>
 
 ### Praat Scripts
 <p> These files correspond to Python files but with less functionality and running in Praat.</p>
-  - **wav-conversion.praat**
-  - **textgrid-creation.praat**
-  - **formant-extraction-praat**
+  - **wav-conversion.praat** <br>
+  - **textgrid-creation.praat** <br>
+  - **formant-extraction-praat** <br>
 
 ### Notes
 - Text alignment can be done without the custom_mfa_align.py file using the Montreal Forced Aligner directly in the terminal. <br>
