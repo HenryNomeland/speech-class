@@ -25,12 +25,15 @@ into a spreadsheet named formants.csv <br>
   - the `fit` method takes two arguments `model_type="rforest"` which is self explanatory and `NUM_SAMPLES=5` which is the number of //
 bootstraps samples that the method should take of undersampling the majority class 
 
-### Additional Files <br>
+### Additional Files and Directories<br>
 - **gmu_scraping.py** - this file scrapes all of the English language files and their demographic information as .wav files as seen in the specified directory <br>
 - **LICENSE** - basic MIT License <br>
 - **README** - this file <br>
 - **testing.ipynb** - jupyter notebook used for testing python code <br>
-- **formants.csv** - this is the output file of the praat script which speech metrics like formant values<br>
+- **testing.csv** - this is the output file of the praat script which speech metrics like formant values - other names can be used <br>
+- **gmu-montreal-input** and **gmu-montreal-output** - the files and aligned textgrids from all of the English language samples in the GMU archive <br>
+- **gmu-formants.csv** - this is the output file of all of the English language formant calculations from the GMU archive <br>
+- **mp3-input** - a directory for testing the mp3 conversion scripts <br>
 
 ### Praat Scripts
 <p> These files correspond to Python files but with less functionality and running in Praat.</p>
