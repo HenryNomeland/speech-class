@@ -7,9 +7,8 @@ can then be analyzed using a series of Python classes and methods. </p>
 
 - *note* - before the process begins labeled audio files must be put into the montreal-input and montreal-output directories <br>
 - **wav_conversion.py** - a Python script with a single function `convert_mp3_to_wav()` used to convert a directory of .mp3 files into .wav files (only necessary if this is not already the case) <br>
-- **textgrid_creation.py** - a Python script with a single function `create_textgrids()` used to generate a series of textgrids in the montreal-input directory that have the specified text as a single interval <br>
-
-- **formant-extraction** - a Praat script which extracts formant measurements and other sound metrics from each phoneme in the textgrids of the montreal-output directory, outputting results //
+- **textgrid_creation.py** - a Python script with a single function `create_textgrids()` used to generate a series of textgrids in the specified directory that have the specified text as a single interval <br>
+- **formant-extraction** - a Praat script which extracts formant measurements and other sound metrics from each phoneme in the textgrids of the specified directory, outputting results //
 into a spreadsheet named formants.csv <br>
 - **speech_modeling.py** - a Python script with two classes <br>
   - `h_input` - takes a dataframe of formants.csv and allows for various modifications of the raw data <br>
@@ -22,7 +21,7 @@ into a spreadsheet named formants.csv <br>
   - `h_model` <br>
 
 ### Additional Files <br>
-- **gmu_scraping.py** - this file scrapes all of the English language files and their demographic information as .wav files as seen in the montreal-input directory <br>
+- **gmu_scraping.py** - this file scrapes all of the English language files and their demographic information as .wav files as seen in the specified directory <br>
 - **LICENSE** - basic MIT License <br>
 - **README** - this file <br>
 - **testing.ipynb** - jupyter notebook used for testing python code <br>
