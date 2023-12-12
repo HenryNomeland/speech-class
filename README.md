@@ -37,8 +37,8 @@ into a spreadsheet named formants.csv <br>
 
 ### Notes
 - Text alignment can be done without the custom_mfa_align.py file using the Montreal Forced Aligner directly in the terminal. <br>
-- The following two lines of code download the models necessary for forced alignment. Other models may be used. <br>
-  - `mfa model download acoustic english_us_arpa` <br>
-  - `mfa model download dictionary english_us_arpa` <br>
-  - `mfa align --clean CORPUS_DIRECTORY DICTIONARY_PATH ACOUSTIC_MODEL_PATH OUTPUT_DIRECTORY` implements the forced aligner <br>
-  - `mfa align --clean /home/user/montreal-input english_us_arpa english_us_arpa /home/user/montreal-output` (example) <br>
+- The following lines of code download the models necessary for forced alignment. Other models may be used. <br>
+`mfa model download acoustic english_us_arpa` <br>
+`mfa model download dictionary english_us_arpa` <br>
+`mfa align --clean CORPUS_DIRECTORY DICTIONARY_PATH ACOUSTIC_MODEL_PATH OUTPUT_DIRECTORY` implements the forced aligner <br>
+`mfa align --clean /home/user/montreal-input english_us_arpa english_us_arpa /home/user/montreal-output` (example) <br>
