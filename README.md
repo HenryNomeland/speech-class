@@ -12,13 +12,15 @@ can then be analyzed using a series of Python classes and methods. </p>
 - **formant-extraction** - a Praat script which extracts formant measurements and other sound metrics from each phoneme in the textgrids of the specified directory, outputting results //
 into a spreadsheet named formants.csv <br>
 - **speech_modeling.py** - a Python script with two classes <br>
+  - **h_input**
   - `h_input` - takes a dataframe of formants.csv and allows for various modifications of the raw data <br>
-    - the instance variable `self.input_df` represents the processed dataframe <br>
-    - `process` method takes a single argument `drop_cols=True` <br>
-    - if `drop_cols==True` then features with majority zero values will be dropped from the input dataframe <br>
-    - `normalize` method takes a single argument `method='z'` <br>
-    - if `method=='z'` then features will be normalized using standardization, if `method=='minmax'`then features will be normalized using min-max normalization <br>
-    - `revert` method removes previous processing and brings the input dataframe back to its original state <br>
+  - the instance variable `self.input_df` represents the processed dataframe <br>
+  - `process` method takes a single argument `drop_cols=True` <br>
+  - if `drop_cols==True` then features with majority zero values will be dropped from the input dataframe <br>
+  - `normalize` method takes a single argument `method='z'` <br>
+  - if `method=='z'` then features will be normalized using standardization, if `method=='minmax'`then features will be normalized using min-max normalization <br>
+  - `revert` method removes previous processing and brings the input dataframe back to its original state <br>
+  - **h_model**
   - `h_model` <br>
 
 ### Additional Files <br>
