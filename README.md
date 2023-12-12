@@ -11,8 +11,9 @@ can then be analyzed using a series of Python classes and methods. </p>
 - **custom_mfa_align.py** - a Python script with a single function `align()` that runs a series of Montreal Forced Aligner terminal operations to align the textgrids in a specified directory <br> 
 - **formant-extraction** - a Praat script which extracts formant measurements and other sound metrics from each phoneme in the textgrids of the specified directory, outputting results //
 into a spreadsheet named formants.csv <br>
-- **speech_modeling.py** - a Python script with two classes <br>
-  **h_input**
+### speech_modeling.py
+<p> A Python script with two classes. </p>
+- **h_input**
   - takes a dataframe of formants.csv and allows for various modifications of the raw data <br>
   - the instance variable `self.input_df` represents the processed dataframe <br>
   - `process` method takes a single argument `drop_cols=True` <br>
@@ -20,7 +21,7 @@ into a spreadsheet named formants.csv <br>
   - `normalize` method takes a single argument `method='z'` <br>
   - if `method=='z'` then features will be normalized using standardization, if `method=='minmax'`then features will be normalized using min-max normalization <br>
   - `revert` method removes previous processing and brings the input dataframe back to its original state <br>
-  **h_model**
+- **h_model**
   - takes the dataframe from the processed `self.input_df` to be used in the implementation of different statistical models <br>
   - the `fit` method takes two arguments `model_type="rforest"` which is self explanatory and `NUM_SAMPLES=5` which is the number of //
 bootstraps samples that the method should take of undersampling the majority class 
