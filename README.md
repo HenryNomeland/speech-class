@@ -12,23 +12,25 @@ can then be analyzed using a series of Python classes and methods. </p>
 - **formant-extraction** - a Praat script which extracts formant measurements and other sound metrics from each phoneme in the textgrids of the specified directory, outputting results //
 into a spreadsheet named formants.csv <br>
 - **speech_modeling.py** - a Python script with two classes <br>
-  - **h_input**
-  - `h_input` - takes a dataframe of formants.csv and allows for various modifications of the raw data <br>
+  **h_input**
+  - takes a dataframe of formants.csv and allows for various modifications of the raw data <br>
   - the instance variable `self.input_df` represents the processed dataframe <br>
   - `process` method takes a single argument `drop_cols=True` <br>
   - if `drop_cols==True` then features with majority zero values will be dropped from the input dataframe <br>
   - `normalize` method takes a single argument `method='z'` <br>
   - if `method=='z'` then features will be normalized using standardization, if `method=='minmax'`then features will be normalized using min-max normalization <br>
   - `revert` method removes previous processing and brings the input dataframe back to its original state <br>
-  - **h_model**
-  - `h_model` <br>
+  **h_model**
+  - takes the dataframe from the processed `self.input_df` to be used in the implementation of different statistical models <br>
+  - the `fit` method takes two arguments `model_type="rforest"` which is self explanatory and `NUM_SAMPLES=5` which is the number of //
+bootstraps samples that the method should take of undersampling the majority class 
 
 ### Additional Files <br>
 - **gmu_scraping.py** - this file scrapes all of the English language files and their demographic information as .wav files as seen in the specified directory <br>
 - **LICENSE** - basic MIT License <br>
 - **README** - this file <br>
 - **testing.ipynb** - jupyter notebook used for testing python code <br>
-- **formants.csv** - this is the output file of the praat script which <br>
+- **formants.csv** - this is the output file of the praat script which speech metrics like formant values<br>
 
 ### Praat Scripts
 <p> These files correspond to Python files but with less functionality and running in Praat.</p>
