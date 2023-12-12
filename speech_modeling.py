@@ -157,59 +157,66 @@ class h_model():
         self.X = X
         self.y = y
         
-        self.n = len(self.y_m)
-        self.N = len(y)
+        self.n = len(self.y_m) #number of samples with main y label
+        self.N = len(y) #total number of samples
         self.nfeatures = len(self.features)
      
     #method for fitting and finding accuracy
-    def fit(self, model_type="rforest", NUM_SAMPLES=5):
+    def fit(self, model_type="rforest"):
         
-        #initiate leave one out cross validation class
+        ### undersample the majority class and establish X and y values
+        bs = self.X_n[np.random.choice(self.X_n.shape[0], self.n, replace=True)]
+        X_s = np.concatenate((self.X_m, bs), axis=0)
+        y_s = np.concatenate((self.y_m, self.y_n[:self.n]), axis=0)
+
+        ### model selection based on function parameter
+        print(f'Fitting model of type {model_type}')
+        if model_type=='rforest':
+            self.clf = RandomForestClassifier(random_state=1)
+        elif model_type=='ridge_classification':
+            self.clf = RidgeClassifier(alpha=0.0001, random_state=0)
+        else:
+            raise Exception("Improper model type provided.") 
+        
+        ### calculate accuracy using LOO cross validation
         cv = LeaveOneOut()
-        #create lists for measuring final accuracy
         true_output = []
         predicted_output = []
-        var_imp = np.empty((NUM_SAMPLES*2*self.n, self.nfeatures))
-        count = 0
-        #loop through the desired number of bootstrap samples
-        print(f'Fitting Model of type {model_type}')
-        for i in range(NUM_SAMPLES):
-            #undersample the majority class
-            bs = self.X_n[np.random.choice(self.X_n.shape[0], self.n, replace=True)]
-            X_s = np.concatenate((self.X_m, bs), axis=0)
-            y_s = np.concatenate((self.y_m, self.y_n[:self.n]), axis=0)
-            print(f"Modeling Sample {i+1} of {NUM_SAMPLES}")
-            #loop over every split and make predictions
-            for train, test in cv.split(X_s):
-                xtrain = X_s[train, :]
-                ytrain = y_s[train]
-                xtest = X_s[test, :]
-                ytest = y_s[test]
-                
-                ### model selection based on function parameter
-                if model_type=='rforest':
-                    m = RandomForestClassifier(random_state=1)
-                elif model_type=='ridge_classification':
-                    m = RidgeClassifier(alpha=0.0001, random_state=0)
-                else:
-                    raise Exception("Improper model type provided.") 
-                ###
-                
-                m.fit(xtrain, ytrain)
-                prediction = m.predict(xtest)
-                true_output.append(ytest[0])
-                predicted_output.append(prediction[0])
-                var_imp[count] = permutation_importance(m, X_s, y_s, random_state=20, n_jobs=2).importances_mean
-                count += 1
-        #calculate accuracy
+        var_imp = np.empty((2*self.n, self.nfeatures))
+        count=0
+        for train, test in cv.split(X_s):
+            xtrain = X_s[train, :]
+            ytrain = y_s[train]
+            xtest = X_s[test, :]
+            ytest = y_s[test]
+            self.clf.fit(xtrain, ytrain)
+            prediction = self.clf.predict(xtest)
+            true_output.append(ytest[0])
+            predicted_output.append(prediction[0])
+            var_imp[count] = permutation_importance(self.clf, X_s, y_s, random_state=20, n_jobs=2).importances_mean
+            if count%10 == 0: 
+                print(f'Fitting LOOCV split {count}')
+            count+=1
+
+        #calculate and show accuracy
         print(f"\nAccuracy: {round(accuracy_score(true_output, predicted_output), 3)}")
         
         #calculate variable importance and show top 10
         res_df = pd.DataFrame({"Feature":self.features, "Importance":np.mean(var_imp, axis=0)})
         print('\nVariable Importance Measurements:')
         print(res_df.sort_values(by='Importance', ascending=False)[0:10])
-        
-        
+
+    def sample_predict(self, index=0, custom=None):
+        if custom != None:
+            prediction = self.clf.predict(custom[self.features].values.reshape(1, -1))
+        else:
+            prediction = self.clf.predict(self.data.iloc[index][self.features].values.reshape(1, -1))
+        if prediction == "N":
+            pred_label = f"not {self.y_main}"
+        elif prediction == "M":
+            pred_label = self.y_main
+        print(f'Predicted result: {pred_label}')
+    
 if __name__ == "__main__":
     print("This file is not yet intended to be run as a script")   
         
