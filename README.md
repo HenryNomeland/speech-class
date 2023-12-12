@@ -8,6 +8,7 @@ can then be analyzed using a series of Python classes and methods. </p>
 - *note* - before the process begins labeled audio files must be put into the montreal-input and montreal-output directories <br>
 - **wav_conversion.py** - a Python script with a single function `convert_mp3_to_wav()` used to convert a directory of .mp3 files into .wav files (only necessary if this is not already the case) <br>
 - **textgrid_creation.py** - a Python script with a single function `create_textgrids()` used to generate a series of textgrids in the specified directory that have the specified text as a single interval <br>
+- **custom_mfa_align.py** - a Python script with a single function `align()` that runs a series of Montreal Forced Aligner terminal operations to align the textgrids in a specified directory <br> 
 - **formant-extraction** - a Praat script which extracts formant measurements and other sound metrics from each phoneme in the textgrids of the specified directory, outputting results //
 into a spreadsheet named formants.csv <br>
 - **speech_modeling.py** - a Python script with two classes <br>
