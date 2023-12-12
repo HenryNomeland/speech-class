@@ -14,10 +14,10 @@ item []:
         intervals: size = 79 
         intervals [1]:
             xmin = 0 
-            xmax = 0.21 
+            xmax = 0.22 
             text = "" 
         intervals [2]:
-            xmin = 0.21 
+            xmin = 0.22 
             xmax = 0.61 
             text = "please" 
         intervals [3]:
@@ -46,10 +46,10 @@ item []:
             text = "bring" 
         intervals [9]:
             xmin = 2.23 
-            xmax = 2.42 
+            xmax = 2.48 
             text = "these" 
         intervals [10]:
-            xmin = 2.42 
+            xmin = 2.48 
             xmax = 2.79 
             text = "things" 
         intervals [11]:
@@ -58,10 +58,10 @@ item []:
             text = "with" 
         intervals [12]:
             xmin = 2.95 
-            xmax = 3.18 
+            xmax = 3.19 
             text = "her" 
         intervals [13]:
-            xmin = 3.18 
+            xmin = 3.19 
             xmax = 3.41 
             text = "from" 
         intervals [14]:
@@ -138,10 +138,10 @@ item []:
             text = "and" 
         intervals [32]:
             xmin = 9.49 
-            xmax = 9.75 
+            xmax = 9.74 
             text = "maybe" 
         intervals [33]:
-            xmin = 9.75 
+            xmin = 9.74 
             xmax = 9.79 
             text = "a" 
         intervals [34]:
@@ -234,10 +234,10 @@ item []:
             text = "kids" 
         intervals [56]:
             xmin = 15.8 
-            xmax = 16.48 
+            xmax = 16.5 
             text = "" 
         intervals [57]:
-            xmin = 16.48 
+            xmin = 16.5 
             xmax = 16.67 
             text = "she" 
         intervals [58]:
@@ -262,10 +262,10 @@ item []:
             text = "into" 
         intervals [63]:
             xmin = 17.94 
-            xmax = 18.42 
+            xmax = 18.4 
             text = "three" 
         intervals [64]:
-            xmin = 18.42 
+            xmin = 18.4 
             xmax = 18.7 
             text = "red" 
         intervals [65]:
@@ -336,10 +336,10 @@ item []:
         intervals: size = 230 
         intervals [1]:
             xmin = 0 
-            xmax = 0.21 
+            xmax = 0.22 
             text = "" 
         intervals [2]:
-            xmin = 0.21 
+            xmin = 0.22 
             xmax = 0.32 
             text = "P" 
         intervals [3]:
@@ -440,10 +440,10 @@ item []:
             text = "IY1" 
         intervals [27]:
             xmin = 2.37 
-            xmax = 2.42 
+            xmax = 2.48 
             text = "Z" 
         intervals [28]:
-            xmin = 2.42 
+            xmin = 2.48 
             xmax = 2.54 
             text = "TH" 
         intervals [29]:
@@ -476,10 +476,10 @@ item []:
             text = "HH" 
         intervals [36]:
             xmin = 2.96 
-            xmax = 3.18 
-            text = "ER1" 
+            xmax = 3.19 
+            text = "ER0" 
         intervals [37]:
-            xmin = 3.18 
+            xmin = 3.19 
             xmax = 3.27 
             text = "F" 
         intervals [38]:
@@ -712,10 +712,10 @@ item []:
             text = "B" 
         intervals [95]:
             xmin = 9.66 
-            xmax = 9.75 
+            xmax = 9.74 
             text = "IY0" 
         intervals [96]:
-            xmin = 9.75 
+            xmin = 9.74 
             xmax = 9.79 
             text = "AH0" 
         intervals [97]:
@@ -980,10 +980,10 @@ item []:
             text = "Z" 
         intervals [162]:
             xmin = 15.8 
-            xmax = 16.48 
+            xmax = 16.5 
             text = "" 
         intervals [163]:
-            xmin = 16.48 
+            xmin = 16.5 
             xmax = 16.63 
             text = "SH" 
         intervals [164]:
@@ -1072,10 +1072,10 @@ item []:
             text = "R" 
         intervals [185]:
             xmin = 18.19 
-            xmax = 18.42 
+            xmax = 18.4 
             text = "IY1" 
         intervals [186]:
-            xmin = 18.42 
+            xmin = 18.4 
             xmax = 18.45 
             text = "R" 
         intervals [187]:
