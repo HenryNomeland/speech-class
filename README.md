@@ -6,14 +6,9 @@ Code used in the research of English dialect classification.
 can then be analyzed using a series of Python classes and methods. </p>
 
 - *note* - before the process begins labeled audio files must be put into the montreal-input and montreal-output directories <br>
-- **wav-conversion** - a Praat script used to convert a directory of .mp3 files into .wav files (only necessary if this is not already the case) <br>
-- **textgrid-creation** - a Praat script used to generate a series of textgrids in the montreal-input directory that have the specified text as a single interval <br>
-- *note* - at this point in the process an external Python package **Montreal Force Aligner** is used to create a force aligned textgrid for each audio file in the montreal-output directory.
-   The following two lines of code download the models necessary for forced alignment. Other models may be used. <br>
-  - `mfa model download acoustic english_us_arpa` <br>
-  - `mfa model download dictionary english_us_arpa` <br>
-  - `mfa align --clean CORPUS_DIRECTORY DICTIONARY_PATH ACOUSTIC_MODEL_PATH OUTPUT_DIRECTORY` implements the forced aligner <br>
-  - `mfa align --clean /home/user/montreal-input english_us_arpa english_us_arpa /home/user/montreal-output` (example) <br>
+- **wav_conversion.py** - a Python script with a single function `convert_mp3_to_wav()` used to convert a directory of .mp3 files into .wav files (only necessary if this is not already the case) <br>
+- **textgrid_creation.py** - a Python script with a single function `create_textgrids()` used to generate a series of textgrids in the montreal-input directory that have the specified text as a single interval <br>
+
 - **formant-extraction** - a Praat script which extracts formant measurements and other sound metrics from each phoneme in the textgrids of the montreal-output directory, outputting results //
 into a spreadsheet named formants.csv <br>
 - **speech_modeling.py** - a Python script with two classes <br>
@@ -32,3 +27,17 @@ into a spreadsheet named formants.csv <br>
 - **README** - this file <br>
 - **testing.ipynb** - jupyter notebook used for testing python code <br>
 - **formants.csv** - this is the output file of the praat script which <br>
+
+### Praat Scripts
+<p> These files correspond to Python files but with less functionality and running in Praat.</p>
+- **wav-conversion.praat**
+- **textgrid-creation.praat**
+- **formant-extraction-praat**
+
+### Notes
+- Text alignment can be done without the custom_mfa_align.py file using the Montreal Forced Aligner directly in the terminal. <br>
+- The following two lines of code download the models necessary for forced alignment. Other models may be used. <br>
+  - `mfa model download acoustic english_us_arpa` <br>
+  - `mfa model download dictionary english_us_arpa` <br>
+  - `mfa align --clean CORPUS_DIRECTORY DICTIONARY_PATH ACOUSTIC_MODEL_PATH OUTPUT_DIRECTORY` implements the forced aligner <br>
+  - `mfa align --clean /home/user/montreal-input english_us_arpa english_us_arpa /home/user/montreal-output` (example) <br>
