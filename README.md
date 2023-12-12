@@ -13,6 +13,7 @@ can then be analyzed using a series of Python classes and methods. </p>
 into a spreadsheet named formants.csv <br>
 ### speech_modeling.py
 <p> A Python script with two classes. </p>
+
 - **h_input**
   - takes a dataframe of formants.csv and allows for various modifications of the raw data <br>
   - the instance variable `self.input_df` represents the processed dataframe <br>
