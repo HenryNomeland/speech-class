@@ -1,5 +1,6 @@
 #imports
 import pandas as pd
+import sklearn
 from sklearn.model_selection import LeaveOneOut
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
@@ -172,9 +173,11 @@ class h_model():
         ### model selection based on function parameter
         print(f'Fitting model of type {model_type}')
         if model_type=='rforest':
-            self.clf = RandomForestClassifier(random_state=1)
+            self.clf = RandomForestClassifier()
         elif model_type=='ridge_classification':
-            self.clf = RidgeClassifier(alpha=0.0001, random_state=0)
+            self.clf = RidgeClassifier(alpha=0.0001)
+        elif model_type=='knn':
+            self.clf = sklearn.neighbors.KNeighborsClassifier()
         else:
             raise Exception("Improper model type provided.") 
         
@@ -193,21 +196,24 @@ class h_model():
             prediction = self.clf.predict(xtest)
             true_output.append(ytest[0])
             predicted_output.append(prediction[0])
-            var_imp[count] = permutation_importance(self.clf, X_s, y_s, random_state=20, n_jobs=2).importances_mean
+            var_imp[count] = permutation_importance(self.clf, X_s, y_s).importances_mean
             if count%10 == 0: 
                 print(f'Fitting LOOCV split {count}')
             count+=1
 
         #calculate and show accuracy
         print(f"\nAccuracy: {round(accuracy_score(true_output, predicted_output), 3)}")
+
+        #final fit of the model on all data
+        self.clf.fit(X_s, y_s)
         
         #calculate variable importance and show top 10
-        res_df = pd.DataFrame({"Feature":self.features, "Importance":np.mean(var_imp, axis=0)})
+        var_importance_df = pd.DataFrame({"Feature":self.features, "Importance":np.mean(var_imp, axis=0)})
         print('\nVariable Importance Measurements:')
-        print(res_df.sort_values(by='Importance', ascending=False)[0:10])
+        print(var_importance_df.sort_values(by='Importance', ascending=False)[0:10])
 
     def sample_predict(self, index=0, custom=None):
-        if custom != None:
+        if isinstance(custom, pd.Series):
             prediction = self.clf.predict(custom[self.features].values.reshape(1, -1))
         else:
             prediction = self.clf.predict(self.data.iloc[index][self.features].values.reshape(1, -1))
@@ -215,7 +221,7 @@ class h_model():
             pred_label = f"not {self.y_main}"
         elif prediction == "M":
             pred_label = self.y_main
-        print(f'Predicted result: {pred_label}')
+        print(f'Predicted location: {pred_label}')
     
 if __name__ == "__main__":
     print("This file is not yet intended to be run as a script")   
