@@ -10,6 +10,7 @@ from sklearn.inspection import permutation_importance
 from sklearn.linear_model import RidgeClassifier
 import numpy as np
 import random
+import os
 
 #input class
 class h_input():
@@ -138,6 +139,9 @@ class h_input():
         self.input_df = self.original_df.copy()
         return self.input_df
 
+    def output_input_df(self, filename='input_df.csv'):
+        self.input_df.to_csv(os.path.join(filename))
+    
 #model class
 class h_model():
     def __init__(self, data, features, y_feature, y_main):
