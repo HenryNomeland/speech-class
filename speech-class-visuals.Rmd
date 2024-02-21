@@ -15,7 +15,8 @@ library(tidyverse)
 
 ```{r, echo=F}
 custom_pal = c("#D04848", "#6895D2", "#F3B95F", "#FDE767")
-df = read.csv('input_df.csv')
+df = read.csv('region_df.csv')
+world_df = read.csv('input_df.csv')
 demo_features = c("id", "gender", "age", "location")
 summary_df = df |> mutate(F1_mean = rowMeans(select(df, starts_with("F1"))),
                            F2_mean = rowMeans(select(df, starts_with("F2"))),
@@ -44,13 +45,19 @@ new_df = df |>
   separate(name, c("formant", "word")) |> 
   pivot_wider(names_from=formant, values_from=value) 
 
+world_df = world_df |> 
+  select(demo_features, starts_with("F1"), starts_with("F2")) |> 
+  pivot_longer(cols=c(starts_with("F1"), starts_with("F2"))) |> 
+  separate(name, c("formant", "word")) |> 
+  pivot_wider(names_from=formant, values_from=value) 
+
 new_df |> 
   mutate(gender = factor(gender, levels=c(0,1), labels=c("F", "M"))) |> 
   filter(word %in% imp_words2) |> 
   select(demo_features, F1) |> 
   ggplot(aes(x=F1, fill=gender)) +
   geom_density(alpha=0.3) +
-  labs(title="Pitch Comparison of 'Small' and 'Call' Vowels by Gender", x="F1", y="")
+  labs(title="F1 Comparison of 'Small' and 'Call' Vowels by Gender", x="F1", y="")
 ```
 
 ```{r, echo=F}
@@ -132,17 +139,17 @@ new_df |>
 ```
 
 ```{r, echo=F}
-imp_words3 = c("also", "ask")
-new_df |> 
+imp_words3 = c("and", "ask", "bags", "snack")
+world_df |> 
   mutate(region = case_when (location == "uk" ~ "UK",
                              # location == "australia" ~ "Australia",
-                             location %in% c('texas', 'california', 'newyork', 'minnesota') ~ "Selected USA",
+                             location == "usa" ~ "Selected USA",
                              TRUE ~ 'elsewhere')) |> 
   mutate(importance = case_when(word %in% imp_words3 ~ "important",
                                 TRUE ~ "unimportant")) |> 
   filter(importance=="important", region != 'elsewhere') |> 
   ggplot(aes(x=F1, y=F2, color=region)) +
-  geom_point(size=2.5, alpha=0.8) +
+  geom_point(size=1.5, alpha=0.5) +
   labs(title="Comparison of American and British Short 'a' Sounds", 
        x="F1", y="F2", color="Region") +
   scale_color_manual(values=new_pal) +
