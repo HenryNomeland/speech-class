@@ -41,13 +41,13 @@ and `var_imp_type="mdi"` which specifies the type of variable importance metric 
 - **gmu-modeling.ipynb** - jupyter notebook used for modeling the GMU Archive data <br>
 - **data** - all of the audio tracks, aligned textgrids, and output .csv files from all of the English language samples in the two example datasets <br>
 
-### Praat Scripts
+### Praat Scripts<br>
 <p> These files correspond to Python files but with less functionality and running in Praat.</p>
 - **wav-conversion.praat** <br>
 - **textgrid-creation.praat** <br>
--  **formant-extraction-praat** <br>
+- **formant-extraction-praat** <br>
 
-### Notes
+### Notes<br>
 - Text alignment can be done without the custom_mfa_align.py file using the Montreal Forced Aligner directly in the terminal. <br>
 - The following lines of code download the models necessary for forced alignment. Other models may be used. <br>
 `mfa model download acoustic english_us_arpa` <br>
