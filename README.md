@@ -49,7 +49,7 @@ and `var_imp_type="mdi"` which specifies the type of variable importance metric 
 - **textgrid-creation.praat** <br>
 - **formant-extraction-praat** <br>
 
-### Notes<br>
+# Notes<br>
 - Text alignment can be done without the custom_mfa_align.py file using the Montreal Forced Aligner directly in the terminal. <br>
 - The following lines of code download the models necessary for forced alignment. Other models may be used. <br>
 `mfa model download acoustic english_us_arpa` <br>
