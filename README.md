@@ -30,7 +30,7 @@ and `id_vars` which are non-value features of the output produced by formant_ext
   - takes the dataframe from the processed `self.input_df` to be used in the implementation of different statistical models <br>
   - is initialized with the arguments `data` which should be a copy of `self.input_df`, `model_features` which should be a list of features in this dataframe to be modeled, 
 `y_feature` which should be the feature to be predicted (likely location), and `y_main` which should be the particular value of `y_feature` which will be separated from the 
-rest (these models perform binary classification, prediction whether a sample is labeled with `y_main` or any other label) <br>
+rest (these models perform binary classification, predicting whether a sample is labeled with `y_main` or any other label) <br>
   - the `fit` method takes arguments `model_type="rforest"`, `cv_method="LOO"`, `test_size=0.30` if the `"train-test"` cross validation method is being used, 
 and `var_imp_type="mdi"` which specifies the type of variable importance metric to be calculated
 
