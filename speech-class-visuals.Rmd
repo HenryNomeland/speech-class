@@ -15,8 +15,8 @@ library(tidyverse)
 
 ```{r, echo=F}
 custom_pal = c("#D04848", "#6895D2", "#F3B95F", "#FDE767")
-df = read.csv('region_df.csv')
-world_df = read.csv('input_df.csv')
+df = read.csv(file.path('data', 'region_df.csv'))
+world_df = read.csv(file.path('data', 'input_df.csv'))
 demo_features = c("id", "gender", "age", "location")
 summary_df = df |> mutate(F1_mean = rowMeans(select(df, starts_with("F1"))),
                            F2_mean = rowMeans(select(df, starts_with("F2"))),
@@ -30,6 +30,7 @@ summary_df |> ggplot(aes(x=age, y=value, color=gender)) +
   geom_point(shape=16, size=2.5, alpha=0.5) +
   labs(x="Age", y="Hertz", color="Gender", shape="Formant Means") +
   scale_color_manual(values=custom_pal)
+ggsave(file.path("plots", "gender_formants.png"), width = 30, height = 20, units = "cm")
 ```
 
 
@@ -58,6 +59,7 @@ new_df |>
   ggplot(aes(x=F1, fill=gender)) +
   geom_density(alpha=0.3) +
   labs(title="F1 Comparison of 'Small' and 'Call' Vowels by Gender", x="F1", y="")
+ggsave(file.path("plots", "gender_dens.png"), width = 30, height = 20, units = "cm")
 ```
 
 ```{r, echo=F}
@@ -77,6 +79,7 @@ new_df |>
   theme(plot.title = element_text(face="bold"),
         axis.title.x = element_text(face="bold"),
         axis.title.y = element_text(face="bold"))
+ggsave(file.path("plots", "father_bother_scatter.png"), width = 30, height = 20, units = "cm")
 ```
 
 ```{r, echo=F}
@@ -98,6 +101,7 @@ new_df |>
         axis.title.x = element_text(face="bold"),
         axis.title.y = element_text(face="bold")) +
   facet_wrap(vars(word))
+ggsave(file.path("plots", "father_bother_faceted.png"), width = 30, height = 20, units = "cm")
 ```
 
 ```{r, echo=F}
@@ -116,6 +120,7 @@ new_df |>
   theme(plot.title = element_text(face="bold"),
         axis.title.x = element_text(face="bold"),
         axis.title.y = element_text(face="bold"))
+ggsave(file.path("plots", "father_bother_australia.png"), width = 30, height = 20, units = "cm")
 ```
 
 ```{r, echo=F}
@@ -136,27 +141,42 @@ new_df |>
         axis.title.x = element_text(face="bold"),
         axis.title.y = element_text(face="bold")) +
   facet_wrap(vars(word))
+ggsave(file.path("plots", "father_bother_facet_australia.png"), width = 30, height = 20, units = "cm")
 ```
 
 ```{r, echo=F}
-imp_words3 = c("and", "ask", "bags", "snack")
+imp_words3 = c("and", "ask", "bags", "snack", "slabs", "plastic")
 world_df |> 
-  mutate(region = case_when (location == "uk" ~ "UK",
-                             # location == "australia" ~ "Australia",
-                             location == "usa" ~ "Selected USA",
-                             TRUE ~ 'elsewhere')) |> 
-  mutate(importance = case_when(word %in% imp_words3 ~ "important",
-                                TRUE ~ "unimportant")) |> 
-  filter(importance=="important", region != 'elsewhere') |> 
-  ggplot(aes(x=F1, y=F2, color=region)) +
-  geom_point(size=1.5, alpha=0.5) +
-  labs(title="Comparison of American and British Short 'a' Sounds", 
-       x="F1", y="F2", color="Region") +
-  scale_color_manual(values=new_pal) +
-  theme(plot.title = element_text(face="bold"),
-        axis.title.x = element_text(face="bold"),
-        axis.title.y = element_text(face="bold")) +
-  facet_wrap(vars(word))
+  mutate(region = case_when(
+    location == "uk" ~ "United Kingdom Samples",
+    location == "usa" ~ "United States Samples",
+    TRUE ~ "elsewhere"
+  )) |>
+  mutate(importance = case_when(
+    word %in% imp_words3 ~ "important",
+    TRUE ~ "unimportant"
+  )) |>
+  filter(importance == "important", region != "elsewhere", F1 < 1200, F2 > 800) |>
+  ggplot(aes(x = F1, y = F2, color = region)) +
+  geom_point(alpha = 0.4) +
+  geom_density_2d(size=1) +
+  labs(
+    title = "American vs British Short 'a' Sounds",
+    x = "F1 (Hz)", y = "F2 (Hz)", color = NULL
+  ) +
+  scale_color_manual(values = c("#7578ce", "#e76756")) +
+  theme_grey() +
+  theme(
+    plot.title = element_text(size = 20, face = "bold", vjust = 3.4),
+    axis.title.x = element_text(size = 15, face = "bold", vjust = -5),
+    axis.title.y = element_text(size = 15, face = "bold", vjust = 5),
+    strip.text.x = element_text(size = 15, color = "black", face = "bold.italic", vjust=0.5),
+    strip.background = element_rect(color=NA, fill="white"),
+    legend.position = "none",
+    plot.margin = unit(c(.5, .5, .5, .5), "inch")
+  ) +
+  facet_wrap(vars(region))
+ggsave(file.path("plots", "short_a_comparison.png"), width = 30, height = 20, units = "cm")
 ```
 
 ### UK vs USA F1-Also
@@ -198,6 +218,7 @@ new_df |>
   theme(plot.title = element_text(face="bold"),
         axis.title.x = element_text(face="bold"),
         axis.title.y = element_text(face="bold"))
+ggsave(file.path("plots", "duration_density1.png"), width = 30, height = 20, units = "cm")
 ```
 
 ```{r, echo=F}
@@ -218,5 +239,6 @@ new_df |>
   theme(plot.title = element_text(face="bold"),
         axis.title.x = element_text(face="bold"),
         axis.title.y = element_text(face="bold"))
+ggsave(file.path("plots", "duration_density2.png"), width = 30, height = 20, units = "cm")
 ```
 

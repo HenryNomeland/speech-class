@@ -1,7 +1,6 @@
 *.pyc
 *ipynb_checkpoints*
 *__pycache__*
-testing.csv
+input_df.csv
 *.html
-corr_df.csv
 
