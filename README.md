@@ -26,6 +26,7 @@ and `id_vars` which are non-value features of the output produced by formant_ext
   - `select_places` method takes the argument `places=["uk", "usa"]` and drops samples that aren't labeled with these locations <br>
   - `revert` method removes previous processing and brings the input dataframe back to its original state <br>
   - `output_input_df` method takes the argument `filename="input_df.csv"` <br>
+  <br>
 - **h_model**
   - takes the dataframe from the processed `self.input_df` to be used in the implementation of different statistical models <br>
   - is initialized with the arguments `data` which should be a copy of `self.input_df`, `model_features` which should be a list of features in this dataframe to be modeled, 
