@@ -14,6 +14,7 @@ import numpy as np
 import random
 import os
 from statistics import mean
+from statsmodels.stats.outliers_influence import variance_inflation_factor 
 
 #input class
 class h_input():
@@ -38,7 +39,7 @@ class h_input():
         self.not_features = list(input_df.columns)[0:4]
      
     # method for wrangling features
-    def process(self, location_specificity="country", vowels_only=True):
+    def process(self, location_specificity="country", vowels_only=True, excluded_words=[]):
 
         # extracting the specified type of place from the location feature
         def extract_place(location):
@@ -96,6 +97,12 @@ class h_input():
                 else:
                     continue
         self.input_df = opt_df
+
+        # removing words from excluded_words if any exist
+        if excluded_words:
+            feats = [c for c in self.input_df.columns[4:] if c.split("-")[1] not in excluded_words]
+            self.input_df = self.input_df[['id','gender','age','location'] + feats]
+
         return self.input_df
     
     def select_features(self, selected_features=['F1']):
@@ -142,13 +149,22 @@ class h_input():
     def select_places(self, places=['uk', 'usa']):
         self.input_df = self.input_df.loc[self.input_df['location'].isin(places)].reset_index(drop=True)
         return self.input_df
+
+    def calculate_vif(self, filename):
+        self.vif = pd.DataFrame() 
+        self.vif["feature"] = self.input_df.columns[4:]
+        ran = range(len(self.input_df.columns[4:]))
+        self.vif["VIF"]=[variance_inflation_factor(self.input_df.iloc[:,4:].values, i) for i in ran]
+        if filename:
+            self.vif.to_csv(os.path.join(filename), index=False)
+        return self.vif
     
     def revert(self):
         self.input_df = self.original_df.copy()
         return self.input_df
 
     def output_input_df(self, filename='input_df.csv'):
-        self.input_df.to_csv(os.path.join(filename))
+        self.input_df.to_csv(os.path.join(filename), index=False)
     
 #model class
 class h_model():
@@ -172,13 +188,22 @@ class h_model():
     
     #method for fitting and finding accuracy
     def fit(self, model_type="rforest", cv_method="LOO", test_size=0.30, var_imp_type="mdi"):
+        self.model_type = model_type
 
         ### randomly partition the majority class into an odd-number of n-sized partitions
         np.random.shuffle(self.X_n)
-        num_partitions = self.X_n.shape[0] // self.n
+        try:
+            num_partitions = self.X_n.shape[0] // self.n
+        except ZeroDivisionError:
+            print("ERROR: No samples with provided main y label.")
+            return None
         necessary_size = np.arange(num_partitions*self.n)
         np.random.shuffle(necessary_size)
-        partitions = np.split(necessary_size, num_partitions)
+        try:
+            partitions = np.split(necessary_size, num_partitions)
+        except ZeroDivisionError:
+            print("ERROR: The main y label is larger in sample size than the rest of the input data.")
+            return None
 
         ### setting up a few key objects
         var_imp_list = []
@@ -217,7 +242,7 @@ class h_model():
                     prediction = self.clf.predict(xtest)
                     true_output.append(ytest[0])
                     predicted_output.append(prediction[0])
-                    mini_varimp_list.append(self.calc_importance(var_imp_type))
+                    mini_varimp_list.append(self.calc_importance(xtest, ytest, var_imp_type))
                     if count%10 == 0: 
                         print(f'Fitting LOOCV split {count}')
                     count+=1
@@ -231,7 +256,7 @@ class h_model():
             if cv_method=="train-test":
                 xtrain, xtest, ytrain, ytest = train_test_split(self.X_s, self.y_s, test_size=test_size)
                 self.clf.fit(xtrain, ytrain)
-                var_imp_list.append(self.calc_importance(var_imp_type))
+                var_imp_list.append(self.calc_importance(xtest, ytest, var_imp_type))
                 acc = self.clf.score(xtest, ytest)
                 print(f"Learner {ens_num} Test Accuracy with {test_size*100}% test split: {round(acc, 3)}")
                 accuracy_list.append(acc)
@@ -249,18 +274,30 @@ class h_model():
         ### final fit of the model on all data
         self.clf = VotingClassifier(self.classifier_dictionary)
         self.clf.fit(self.X_s, self.y_s) # trains on the last randomized split set
-        self.var_imp = self.var_imp.sort_values(ascending=False)
+        self.var_imp = self.var_imp.reset_index()
+        for i, series in enumerate(var_imp_list, 1):
+                column_name = f'iteration_{i}'
+                self.var_imp[column_name] = series.values
+        self.var_imp.rename(columns={self.var_imp.columns[0]: "feature"}, inplace=True)
+        self.var_imp.rename(columns={self.var_imp.columns[1]: "mean"}, inplace=True)
+        self.var_imp = self.var_imp.sort_values(by='mean', ascending=False)
 
         ### report final accuracy
         print(f'\nAverage accuracy across all learners: {round(mean(accuracy_list),3)}')
 
     # method for calculating variable importance
-    def calc_importance(self, X=None, type="mdi"):
+    def calc_importance(self, X=None, y=None, type="mdi"):
         # calculates variable importance as the mean decrease in impurity
         if type=="mdi":
-            mdi_importances = pd.Series(self.clf.feature_importances_, 
-                                        index=self.data.columns[4:])
-            return mdi_importances
+            if self.model_type == "ridge_regression":
+                print("Cannot calculate mdi for a logistic regression model.")
+                return None
+            else:
+                return pd.Series(self.clf.feature_importances_, index=self.data.columns[4:])
+        #calculates variable importance as 
+        if type=="permutation":
+            return pd.Series(permutation_importance(self.clf, X, y, n_repeats=5).importances_mean, 
+                             index=self.data.columns[4:])
 
     def sample_predict(self, index=0, custom=None):
         if isinstance(custom, pd.Series):
@@ -272,6 +309,9 @@ class h_model():
         elif prediction == "M":
             pred_label = self.y_main
         print(f'Predicted location: {pred_label}')
+
+    def output_importances(self, filename='importances.csv'):
+        self.var_imp.to_csv(os.path.join(filename), index=False)
     
 if __name__ == "__main__":
     print("This file is not yet intended to be run as a script")   

@@ -6,7 +6,7 @@ output: html_document
 ---
 
 ```{r setup, include=F}
-knitr::opts_chunk$set(echo = T, warning=F, message=F)
+knitr::opts_chunk$set(echo = T, warning = F, message = F)
 ```
 
 ```{r, echo=F}
@@ -14,139 +14,174 @@ library(tidyverse)
 ```
 
 ```{r, echo=F}
-custom_pal = c("#D04848", "#6895D2", "#F3B95F", "#FDE767")
-df = read.csv(file.path('data', 'region_df.csv'))
-world_df = read.csv(file.path('data', 'input_df.csv'))
-demo_features = c("id", "gender", "age", "location")
-summary_df = df |> mutate(F1_mean = rowMeans(select(df, starts_with("F1"))),
-                           F2_mean = rowMeans(select(df, starts_with("F2"))),
-                           F3_mean = rowMeans(select(df, starts_with("F3"))),
-                           du_mean = rowMeans(select(df, starts_with("du"))),
-                           gender = factor(gender, levels=c(0,1), labels=c("F", "M"))) |> 
-  select(demo_features, F1_mean, F2_mean, F3_mean) |> 
-  pivot_longer(cols=c(F1_mean, F2_mean, F3_mean))
+custom_pal <- c("#D04848", "#6895D2", "#F3B95F", "#FDE767")
+df <- read.csv(file.path("data", "region_df.csv"))
+world_df <- read.csv(file.path("data", "input_df.csv"))
+demo_features <- c("id", "gender", "age", "location")
+summary_df <- df |>
+  mutate(
+    F1_mean = rowMeans(select(df, starts_with("F1"))),
+    F2_mean = rowMeans(select(df, starts_with("F2"))),
+    F3_mean = rowMeans(select(df, starts_with("F3"))),
+    du_mean = rowMeans(select(df, starts_with("du"))),
+    gender = factor(gender, levels = c(0, 1), labels = c("F", "M"))
+  ) |>
+  select(demo_features, F1_mean, F2_mean, F3_mean) |>
+  pivot_longer(cols = c(F1_mean, F2_mean, F3_mean))
 
-summary_df |> ggplot(aes(x=age, y=value, color=gender)) +
-  geom_point(shape=16, size=2.5, alpha=0.5) +
-  labs(x="Age", y="Hertz", color="Gender", shape="Formant Means") +
-  scale_color_manual(values=custom_pal)
+summary_df |> ggplot(aes(x = age, y = value, color = gender)) +
+  geom_point(shape = 16, size = 2.5, alpha = 0.5) +
+  labs(x = "Age", y = "Hertz", color = "Gender", shape = "Formant Means") +
+  scale_color_manual(values = custom_pal)
 ggsave(file.path("plots", "gender_formants.png"), width = 30, height = 20, units = "cm")
 ```
 
 
 ```{r, echo=F}
-new_pal = c("#D04848", "#001861", "#F3B95F", "#FDE767")
-imp_words1 = c("small", "ask", "also", "call", "and", "plastic", "slabs", "bob",
-               "frog", "toy", "go")
-imp_words2 = c("small", "call")
+new_pal <- c("#D04848", "#001861", "#F3B95F", "#FDE767")
+imp_words1 <- c(
+  "small", "ask", "also", "call", "and", "plastic", "slabs", "bob",
+  "frog", "toy", "go"
+)
+imp_words2 <- c("small", "call")
 
-new_df = df |> 
-  select(demo_features, starts_with("F1"), starts_with("F2"), starts_with("F3"), starts_with("du")) |> 
-  pivot_longer(cols=c(starts_with("F1"), starts_with("F2"), starts_with("F3"), starts_with("du"))) |> 
-  separate(name, c("formant", "word")) |> 
-  pivot_wider(names_from=formant, values_from=value) 
+new_df <- df |>
+  select(demo_features, starts_with("F1"), starts_with("F2"), starts_with("F3"), starts_with("du")) |>
+  pivot_longer(cols = c(starts_with("F1"), starts_with("F2"), starts_with("F3"), starts_with("du"))) |>
+  separate(name, c("formant", "word")) |>
+  pivot_wider(names_from = formant, values_from = value)
 
-world_df = world_df |> 
-  select(demo_features, starts_with("F1"), starts_with("F2")) |> 
-  pivot_longer(cols=c(starts_with("F1"), starts_with("F2"))) |> 
-  separate(name, c("formant", "word")) |> 
-  pivot_wider(names_from=formant, values_from=value) 
+world_df <- world_df |>
+  select(demo_features, starts_with("F1"), starts_with("F2")) |>
+  pivot_longer(cols = c(starts_with("F1"), starts_with("F2"))) |>
+  separate(name, c("formant", "word")) |>
+  pivot_wider(names_from = formant, values_from = value)
 
-new_df |> 
-  mutate(gender = factor(gender, levels=c(0,1), labels=c("F", "M"))) |> 
-  filter(word %in% imp_words2) |> 
-  select(demo_features, F1) |> 
-  ggplot(aes(x=F1, fill=gender)) +
-  geom_density(alpha=0.3) +
-  labs(title="F1 Comparison of 'Small' and 'Call' Vowels by Gender", x="F1", y="")
+new_df |>
+  mutate(gender = factor(gender, levels = c(0, 1), labels = c("F", "M"))) |>
+  filter(word %in% imp_words2) |>
+  select(demo_features, F1) |>
+  ggplot(aes(x = F1, fill = gender)) +
+  geom_density(alpha = 0.3) +
+  labs(title = "F1 Comparison of 'Small' and 'Call' Vowels by Gender", x = "F1", y = "")
 ggsave(file.path("plots", "gender_dens.png"), width = 30, height = 20, units = "cm")
 ```
 
 ```{r, echo=F}
-new_df |> 
-  mutate(region = case_when (location == "uk" ~ "UK",
-                             # location == "australia" ~ "Australia",
-                             location %in% c('texas', 'california', 'newyork', 'minnesota') ~ "Selected USA",
-                             TRUE ~ 'elsewhere')) |> 
-  mutate(importance = case_when(word %in% imp_words2 ~ "important",
-                                TRUE ~ "unimportant")) |> 
-  filter(importance=="important", region != 'elsewhere') |> 
-  ggplot(aes(x=F1, y=du, color=region, shape=word)) +
-  geom_point(size=2.5, alpha=0.8) +
-  labs(title="Comparison of American and British Father-Bother Merger Sounds", 
-       x="F1", y="Duration", color="Region", shape="Word") +
-  scale_color_manual(values=new_pal) +
-  theme(plot.title = element_text(face="bold"),
-        axis.title.x = element_text(face="bold"),
-        axis.title.y = element_text(face="bold"))
+new_df |>
+  mutate(region = case_when(
+    location == "uk" ~ "UK",
+    location %in% c("texas", "california", "newyork", "minnesota") ~ "Selected USA",
+    TRUE ~ "elsewhere"
+  )) |>
+  mutate(importance = case_when(
+    word %in% imp_words2 ~ "important",
+    TRUE ~ "unimportant"
+  )) |>
+  filter(importance == "important", region != "elsewhere") |>
+  ggplot(aes(x = F1, y = du, color = region, shape = word)) +
+  geom_point(size = 2.5, alpha = 0.8) +
+  labs(
+    title = "Comparison of American and British Father-Bother Merger Sounds",
+    x = "F1", y = "Duration", color = "Region", shape = "Word"
+  ) +
+  scale_color_manual(values = new_pal) +
+  theme(
+    plot.title = element_text(face = "bold"),
+    axis.title.x = element_text(face = "bold"),
+    axis.title.y = element_text(face = "bold")
+  )
 ggsave(file.path("plots", "father_bother_scatter.png"), width = 30, height = 20, units = "cm")
 ```
 
 ```{r, echo=F}
-imp_words3 = c("call", "small")
-new_df |> 
-  mutate(region = case_when (location == "uk" ~ "UK",
-                             # location == "australia" ~ "Australia",
-                             location %in% c('texas', 'california', 'newyork', 'minnesota') ~ "Selected USA",
-                             TRUE ~ 'elsewhere')) |> 
-  mutate(importance = case_when(word %in% imp_words3 ~ "important",
-                                TRUE ~ "unimportant")) |> 
-  filter(importance=="important", region != 'elsewhere', F2<1700) |> 
-  ggplot(aes(x=F1, y=F2, color=region)) +
-  geom_point(size=2.5, alpha=0.8) +
-  labs(title="Comparison of American and British Father-Bother Merger Sounds", 
-       x="F1", y="F2", color="Region") +
-  scale_color_manual(values=new_pal) +
-  theme(plot.title = element_text(face="bold"),
-        axis.title.x = element_text(face="bold"),
-        axis.title.y = element_text(face="bold")) +
+imp_words3 <- c("call", "small")
+new_df |>
+  mutate(region = case_when(
+    location == "uk" ~ "UK",
+    location %in% c("texas", "california", "newyork", "minnesota") ~ "Selected USA",
+    TRUE ~ "elsewhere"
+  )) |>
+  mutate(importance = case_when(
+    word %in% imp_words3 ~ "important",
+    TRUE ~ "unimportant"
+  )) |>
+  filter(importance == "important", region != "elsewhere", F2 < 1700) |>
+  ggplot(aes(x = F1, y = F2, color = region)) +
+  geom_point(size = 2.5, alpha = 0.8) +
+  labs(
+    title = "Comparison of American and British Father-Bother Merger Sounds",
+    x = "F1", y = "F2", color = "Region"
+  ) +
+  scale_color_manual(values = new_pal) +
+  theme(
+    plot.title = element_text(face = "bold"),
+    axis.title.x = element_text(face = "bold"),
+    axis.title.y = element_text(face = "bold")
+  ) +
   facet_wrap(vars(word))
 ggsave(file.path("plots", "father_bother_faceted.png"), width = 30, height = 20, units = "cm")
 ```
 
 ```{r, echo=F}
-new_df |> 
-  mutate(region = case_when (location == "australia" ~ "Australia",
-                             location %in% c('texas', 'california', 'newyork', 'minnesota') ~ "Selected USA",
-                             TRUE ~ 'elsewhere')) |> 
-  mutate(importance = case_when(word %in% imp_words2 ~ "important",
-                                TRUE ~ "unimportant")) |> 
-  filter(importance=="important", region != 'elsewhere') |> 
-  ggplot(aes(x=F1, y=du, color=region, shape=word)) +
-  geom_point(size=2.5, alpha=0.8) +
-  labs(title="Comparison of American and Australian Father-Bother Merger Sounds", 
-       x="F1", y="Duration", color="Region", shape="Word") +
-  scale_color_manual(values=new_pal) +
-  theme(plot.title = element_text(face="bold"),
-        axis.title.x = element_text(face="bold"),
-        axis.title.y = element_text(face="bold"))
+new_df |>
+  mutate(region = case_when(
+    location == "australia" ~ "Australia",
+    location %in% c("texas", "california", "newyork", "minnesota") ~ "Selected USA",
+    TRUE ~ "elsewhere"
+  )) |>
+  mutate(importance = case_when(
+    word %in% imp_words2 ~ "important",
+    TRUE ~ "unimportant"
+  )) |>
+  filter(importance == "important", region != "elsewhere") |>
+  ggplot(aes(x = F1, y = du, color = region, shape = word)) +
+  geom_point(size = 2.5, alpha = 0.8) +
+  labs(
+    title = "Comparison of American and Australian Father-Bother Merger Sounds",
+    x = "F1", y = "Duration", color = "Region", shape = "Word"
+  ) +
+  scale_color_manual(values = new_pal) +
+  theme(
+    plot.title = element_text(face = "bold"),
+    axis.title.x = element_text(face = "bold"),
+    axis.title.y = element_text(face = "bold")
+  )
 ggsave(file.path("plots", "father_bother_australia.png"), width = 30, height = 20, units = "cm")
 ```
 
 ```{r, echo=F}
-imp_words3 = c("call", "small")
-new_df |> 
-  mutate(region = case_when (location == "australia" ~ "Australia",
-                             location %in% c('texas', 'california', 'newyork', 'minnesota') ~ "Selected USA",
-                             TRUE ~ 'elsewhere')) |> 
-  mutate(importance = case_when(word %in% imp_words3 ~ "important",
-                                TRUE ~ "unimportant")) |> 
-  filter(importance=="important", region != 'elsewhere', F2<1700) |> 
-  ggplot(aes(x=F1, y=F2, color=region)) +
-  geom_point(size=2.5, alpha=0.8) +
-  labs(title="Comparison of American and Australian Father-Bother Merger Sounds", 
-       x="F1", y="F2", color="Region") +
-  scale_color_manual(values=new_pal) +
-  theme(plot.title = element_text(face="bold"),
-        axis.title.x = element_text(face="bold"),
-        axis.title.y = element_text(face="bold")) +
+imp_words3 <- c("call", "small")
+new_df |>
+  mutate(region = case_when(
+    location == "australia" ~ "Australia",
+    location %in% c("texas", "california", "newyork", "minnesota") ~ "Selected USA",
+    TRUE ~ "elsewhere"
+  )) |>
+  mutate(importance = case_when(
+    word %in% imp_words3 ~ "important",
+    TRUE ~ "unimportant"
+  )) |>
+  filter(importance == "important", region != "elsewhere", F2 < 1700) |>
+  ggplot(aes(x = F1, y = F2, color = region)) +
+  geom_point(size = 2.5, alpha = 0.8) +
+  labs(
+    title = "Comparison of American and Australian Father-Bother Merger Sounds",
+    x = "F1", y = "F2", color = "Region"
+  ) +
+  scale_color_manual(values = new_pal) +
+  theme(
+    plot.title = element_text(face = "bold"),
+    axis.title.x = element_text(face = "bold"),
+    axis.title.y = element_text(face = "bold")
+  ) +
   facet_wrap(vars(word))
 ggsave(file.path("plots", "father_bother_facet_australia.png"), width = 30, height = 20, units = "cm")
 ```
 
 ```{r, echo=F}
-imp_words3 = c("and", "ask", "bags", "snack", "slabs", "plastic")
-world_df |> 
+imp_words3 <- c("and", "ask", "bags", "snack", "slabs", "plastic")
+world_df |>
   mutate(region = case_when(
     location == "uk" ~ "United Kingdom Samples",
     location == "usa" ~ "United States Samples",
@@ -159,7 +194,7 @@ world_df |>
   filter(importance == "important", region != "elsewhere", F1 < 1200, F2 > 800) |>
   ggplot(aes(x = F1, y = F2, color = region)) +
   geom_point(alpha = 0.4) +
-  geom_density_2d(size=1) +
+  geom_density_2d(size = 1) +
   labs(
     title = "American vs British Short 'a' Sounds",
     x = "F1 (Hz)", y = "F2 (Hz)", color = NULL
@@ -170,8 +205,8 @@ world_df |>
     plot.title = element_text(size = 20, face = "bold", vjust = 3.4),
     axis.title.x = element_text(size = 15, face = "bold", vjust = -5),
     axis.title.y = element_text(size = 15, face = "bold", vjust = 5),
-    strip.text.x = element_text(size = 15, color = "black", face = "bold.italic", vjust=0.5),
-    strip.background = element_rect(color=NA, fill="white"),
+    strip.text.x = element_text(size = 15, color = "black", face = "bold.italic", vjust = 0.5),
+    strip.background = element_rect(color = NA, fill = "white"),
     legend.position = "none",
     plot.margin = unit(c(.5, .5, .5, .5), "inch")
   ) +
@@ -179,66 +214,85 @@ world_df |>
 ggsave(file.path("plots", "short_a_comparison.png"), width = 30, height = 20, units = "cm")
 ```
 
-### UK vs USA F1-Also
-
 ```{r, echo=F}
-x1 = new_df |> filter(location=="uk", word=="also") |> select(F1)
-x2 = new_df |> filter(location %in% c('texas', 'california', 'newyork', 'minnesota'), word=="also") |> select(F1)
-t.test(x1, x2, alternative="two.sided", var.equal=FALSE)
-```
-
-### UK vs USA F1-Call
-
-```{r, echo=F}
-x1 = new_df |> filter(location=="uk", word=="call") |> select(F1)
-x2 = new_df |> filter(location %in% c('texas', 'california', 'newyork', 'minnesota'), word=="call") |> select(F1)
-t.test(x1, x2, alternative="two.sided", var.equal=FALSE)
-```
-
-### UK vs USA Duration-Small
-
-```{r, echo=F}
-x1 = new_df |> filter(location=="uk", word=="small") |> select(du)
-x2 = new_df |> filter(location %in% c('texas', 'california', 'newyork', 'minnesota'), word=="small") |> select(du)
-t.test(x1, x2, alternative="two.sided", var.equal=FALSE)
-```
-
-```{r, echo=F}
-new_df |> 
-  mutate(region = case_when (location == "uk" ~ "UK",
-                             # location == "australia" ~ "Australia",
-                             location %in% c('texas', 'california', 'newyork', 'minnesota') ~ "Selected USA",
-                             TRUE ~ 'elsewhere')) |> 
-  filter(region != 'elsewhere') |> 
-  ggplot(aes(x=du, color=region)) +
+new_df |>
+  mutate(region = case_when(
+    location == "uk" ~ "UK",
+    location %in% c("texas", "california", "newyork", "minnesota") ~ "Selected USA",
+    TRUE ~ "elsewhere"
+  )) |>
+  filter(region != "elsewhere") |>
+  ggplot(aes(x = du, color = region)) +
   geom_density() +
-  labs(title="American vs British Vowel Duration (All Phones)", 
-       x="Duration", color="Region") +
-  scale_color_manual(values=new_pal) +
-  theme(plot.title = element_text(face="bold"),
-        axis.title.x = element_text(face="bold"),
-        axis.title.y = element_text(face="bold"))
+  labs(
+    title = "American vs British Vowel Duration (All Phones)",
+    x = "Duration", color = "Region"
+  ) +
+  scale_color_manual(values = new_pal) +
+  theme(
+    plot.title = element_text(face = "bold"),
+    axis.title.x = element_text(face = "bold"),
+    axis.title.y = element_text(face = "bold")
+  )
 ggsave(file.path("plots", "duration_density1.png"), width = 30, height = 20, units = "cm")
 ```
 
 ```{r, echo=F}
-imp_words4 = c("plastic", "ask", "call", "slabs", "bob", "frog")
-new_df |> 
-  mutate(region = case_when (location == "uk" ~ "UK",
-                             # location == "australia" ~ "Australia",
-                             location %in% c('texas', 'california', 'newyork', 'minnesota') ~ "Selected USA",
-                             TRUE ~ 'elsewhere')) |> 
-  mutate(importance = case_when(word %in% imp_words4 ~ "important",
-                                TRUE ~ "unimportant")) |> 
-  filter(importance == "important", region != 'elsewhere') |> 
-  ggplot(aes(x=du, color=region)) +
+imp_words4 <- c("plastic", "ask", "call", "slabs", "bob", "frog")
+new_df |>
+  mutate(region = case_when(
+    location == "uk" ~ "UK",
+    location %in% c("texas", "california", "newyork", "minnesota") ~ "Selected USA",
+    TRUE ~ "elsewhere"
+  )) |>
+  mutate(importance = case_when(
+    word %in% imp_words4 ~ "important",
+    TRUE ~ "unimportant"
+  )) |>
+  filter(importance == "important", region != "elsewhere") |>
+  ggplot(aes(x = du, color = region)) +
   geom_density() +
-  labs(title="American vs British Vowel Duration (Selected Phones)", 
-       x="Duration", color="Region") +
-  scale_color_manual(values=new_pal) +
-  theme(plot.title = element_text(face="bold"),
-        axis.title.x = element_text(face="bold"),
-        axis.title.y = element_text(face="bold"))
+  labs(
+    title = "American vs British Vowel Duration (Selected Phones)",
+    x = "Duration", color = "Region"
+  ) +
+  scale_color_manual(values = new_pal) +
+  theme(
+    plot.title = element_text(face = "bold"),
+    axis.title.x = element_text(face = "bold"),
+    axis.title.y = element_text(face = "bold")
+  )
 ggsave(file.path("plots", "duration_density2.png"), width = 30, height = 20, units = "cm")
+```
+
+```{r, fig.width=8, fig.height=40}
+library(ggridges)
+
+ridge_df <- ind_df |> 
+  filter(feature %in% imp_df$feature) |> 
+  separate(feature, into = c("type", "phone"), sep="-", remove=FALSE) |>
+  filter(type=="F2")
+row.names(ridge_df) <- NULL
+ridge_df$phone = ordered(ridge_df$phone, levels = rev(unique(ridge_df$phone)))
+
+ridge_df |> 
+  ggplot(aes(x=measurement, y=phone, fill=location)) +
+  geom_density_ridges(alpha=0.5, scale=1, color=NA) +
+  scale_y_discrete(vars(phone)) +
+  theme_grey() +
+  labs(
+    x = "Frequency (Hz)",
+    y = "Phone",
+    color = "Formant"
+  ) +
+  theme(
+    plot.title = element_text(size = 20, face = "bold", vjust = 3.4),
+    axis.title.x = element_text(size = 15, face = "bold", vjust = -5),
+    axis.title.y = element_text(size = 15, face = "bold", vjust = 5),
+    strip.text.x = element_text(size = 15, color = "black", face = "bold.italic", vjust = 0.5),
+    strip.background = element_rect(color = NA, fill = "white"),
+    plot.margin = unit(c(.5, .5, .5, .5), "inch")
+  ) +
+  coord_cartesian(clip = "off")
 ```
 

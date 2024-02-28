@@ -1,0 +1,87 @@
+---
+title: "Speech Class Analysis"
+author: "Henry Nomeland"
+date: "2024-02-22"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(forcats)
+```
+
+```{r}
+input_df <- read.csv(file.path("data", "uk-us-input_df.csv"), check.names=FALSE)
+vif_df <- read.csv(file.path("data", "uk-us-vif.csv"))
+imp_df <- read.csv(file.path("data", "imp-uk-usa-mdi.csv"))
+```
+
+```{r}
+combine_measurements <- function(row) {
+  measurements <- unlist(row[-c(1, 2)], use.names = FALSE)
+  measurements <- measurements[!is.na(measurements)]
+  return(as.numeric(unname(measurements)))
+}
+
+ind_df <- input_df |> 
+  subset(select = -c(gender, age)) |> 
+  pivot_longer(cols = -c(id, location), names_to = "feature", values_to = "measurement")
+ind_df = merge(x=ind_df, y=vif_df, by="feature", all=TRUE)
+ind_df = merge(x=ind_df, y=imp_df, by="feature", all=TRUE)
+ind_df = ind_df[order(-ind_df$mean), ]
+```
+
+```{r}
+ind_df |> 
+  filter(feature %in% imp_df$feature[1:10]) |> 
+  ggplot(aes(x=feature, y=measurement, fill=location)) +
+  geom_boxplot()
+```
+
+```{r}
+summ_imp <- imp_df |> 
+  filter(feature %in% imp_df$feature[1:40]) |> 
+  pivot_longer(cols=-c(feature, mean), names_to="number", values_to="vals") |> 
+  mutate(feature, as.factor(feature))
+summ_imp |> 
+  ggplot(aes(x=fct_inorder(feature), y=vals, color=mean)) +
+  geom_point() +
+  geom_point(aes(x=fct_inorder(feature), y=mean), color="red") +
+  theme_bw() +
+  theme(
+    legend.position="none",
+    axis.title.x = element_text(vjust=-0.5),
+    axis.title.y = element_text(vjust=2),
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)
+  ) +
+  labs(
+    x = "Feature",
+    y = "MDI Variable Importance Measurement"
+  )
+```
+
+```{r}
+merge(imp_df, vif_df, by="feature") |> 
+  ggplot(aes(x=VIF, y=mean)) +
+  geom_point() +
+  scale_y_log10()
+```
+
+```{r}
+comparison_df <- ind_df |> 
+  group_by(feature, location) |> 
+  summarise(avg = mean(measurement)) |> 
+  pivot_wider(names_from=c(location), values_from=avg) |> 
+  mutate(diff = abs(uk - usa))
+comparison_df = merge(imp_df, comparison_df, by="feature", all=TRUE)
+comparison_df |> 
+  ggplot(aes(x=diff, y=mean)) +
+  geom_point() +
+  scale_y_log10() +
+  labs(
+    x = "Difference in the Mean UK and American Frequency",
+    y = "Mean Variable Importance Measurement"
+  )
+```
+
