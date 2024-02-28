@@ -262,7 +262,10 @@ class h_model():
                 accuracy_list.append(acc)
     
             ### calculate final aggregate variable importance measures
-            self.var_imp = pd.concat(var_imp_list, axis=1).mean(axis=1)
+            try:
+                self.var_imp = pd.concat(var_imp_list, axis=1).mean(axis=1)
+            except ValueError:
+                print("ERROR: You've likely entered an incorrect parameter such as a misspelled model_type.")
             print(f"Learner {ens_num} Variable Importance Measures:")
             sorted_varimp = self.var_imp.sort_values(ascending=False)[0:10]
             print(pd.DataFrame(sorted_varimp).to_string(header=False))

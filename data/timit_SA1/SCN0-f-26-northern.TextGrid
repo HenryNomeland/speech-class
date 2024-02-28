@@ -1,0 +1,18 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.1664375 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "segment" 
+        xmin = 0 
+        xmax = 4.1664375 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 4.1664375 
+            text = "She had your dark suit in greasy wash water all year." 

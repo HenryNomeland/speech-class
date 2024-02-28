@@ -40,7 +40,7 @@ def extract(folder, output_folder, filename):
                 id = filelist[0]
                 gender = filelist[1]
                 age = filelist[2]
-                location = filelist[3]
+                location = filelist[3][:-9]
                 duration = end_time - start_time
                 midpoint = start_time + duration*0.5
                 onglide = start_time + duration*0.2
