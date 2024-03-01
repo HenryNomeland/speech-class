@@ -10,6 +10,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.inspection import permutation_importance
 from sklearn.linear_model import RidgeClassifier
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.svm import SVC
+from sklearn.tree import DecisionTreeClassifier
 import numpy as np
 import random
 import os
@@ -220,9 +223,15 @@ class h_model():
             ### model selection based on function parameter
             print(f'\nFitting model of type {model_type}')
             if model_type=='rforest':
-                self.clf = RandomForestClassifier(n_estimators=100, criterion='entropy')
+                self.clf = RandomForestClassifier(criterion='entropy', max_features=12, min_samples_split=8)
             elif model_type=='ridge_classification':
-                self.clf = RidgeClassifier(alpha=0.0001)
+                self.clf = RidgeClassifier()
+            elif model_type=='knn':
+                self.clf = KNeighborsClassifier(n_neighbors=5)
+            elif model_type=='svc':
+                self.clf = SVC()
+            elif model_type=='tree':
+                self.clf = DecisionTreeClassifier()
             else:
                 raise Exception("Improper model type provided.") 
             
