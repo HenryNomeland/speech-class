@@ -3,4 +3,7 @@
 *__pycache__*
 input_df.csv
 *.html
+.RData
+.Rhistory
+
 

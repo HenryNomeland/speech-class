@@ -6,6 +6,7 @@ import requests
 from bs4 import BeautifulSoup
 from pydub import AudioSegment
 import urllib
+import shap
 
 class getFiles:
     

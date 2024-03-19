@@ -180,6 +180,7 @@ ggsave(file.path("plots", "father_bother_facet_australia.png"), width = 30, heig
 ```
 
 ```{r, echo=F}
+library(ggtext)
 imp_words3 <- c("and", "ask", "bags", "snack", "slabs", "plastic")
 world_df |>
   mutate(region = case_when(
@@ -196,22 +197,23 @@ world_df |>
   geom_point(alpha = 0.4) +
   geom_density_2d(size = 1) +
   labs(
-    title = "American vs British Short 'a' Sounds",
+    title = "Figure 4: American vs British Short 'a' Sounds",
     x = "F1 (Hz)", y = "F2 (Hz)", color = NULL
   ) +
-  scale_color_manual(values = c("#7578ce", "#e76756")) +
-  theme_grey() +
+  scale_color_manual(values = c("darkgrey", "grey4")) +
+  theme_minimal() +
   theme(
-    plot.title = element_text(size = 20, face = "bold", vjust = 3.4),
-    axis.title.x = element_text(size = 15, face = "bold", vjust = -5),
-    axis.title.y = element_text(size = 15, face = "bold", vjust = 5),
-    strip.text.x = element_text(size = 15, color = "black", face = "bold.italic", vjust = 0.5),
+    text = element_text(family = "Times"),
+    plot.title = element_text(size = 14, face = "bold", vjust = 3.4, family = "Times"),
+    axis.title.x = element_text(size = 12, vjust = -5, family = "Times"),
+    axis.title.y = element_text(size = 12, vjust = 5, family = "Times"),
+    strip.text.x = element_text(size = 12, color = "black", vjust = 0.5, family="Times"),
     strip.background = element_rect(color = NA, fill = "white"),
     legend.position = "none",
     plot.margin = unit(c(.5, .5, .5, .5), "inch")
   ) +
   facet_wrap(vars(region))
-ggsave(file.path("plots", "short_a_comparison.png"), width = 30, height = 20, units = "cm")
+ggsave(file.path(".", "plots", "a-comparison.pdf"), width = 18, height = 12, units = "cm")
 ```
 
 ```{r, echo=F}

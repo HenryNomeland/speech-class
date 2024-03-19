@@ -1,4 +1,3 @@
-#imports
 import pandas as pd
 import sklearn
 from sklearn.model_selection import LeaveOneOut
@@ -18,6 +17,9 @@ import random
 import os
 from statistics import mean
 from statsmodels.stats.outliers_influence import variance_inflation_factor 
+from sklearn.decomposition import PCA
+from sklearn.cluster import FeatureAgglomeration
+import shap
 
 #input class
 class h_input():
@@ -171,8 +173,9 @@ class h_input():
     
 #model class
 class h_model():
-    def __init__(self, data, features, y_feature, y_main):
+    def __init__(self, data, features, y_feature, y_main, feat_cluster=None):
         self.data = data
+        self.feat_cluster = feat_cluster
         self.features = features
         self.y_feature = y_feature
         self.y_main = y_main
@@ -185,9 +188,27 @@ class h_model():
         self.X_n = X[y=="N"] # data that matches with the other category
         self.y_m = y[y=="M"]
         self.y_n = y[y=="N"]
+        self.n = len(self.y_m) #number of samples with main y label
+        
+        if feat_cluster:
+            random_vals = np.arange(self.n)
+            np.random.shuffle(random_vals)
+            X_s = np.concatenate((self.X_m, self.X_n[random_vals]), axis=0)
+            agglo = FeatureAgglomeration(n_clusters = 15, linkage="ward").fit(X_s)
+            X = agglo.transform(X)
+            self.X_m = agglo.transform(self.X_m)
+            self.X_n = agglo.transform(self.X_n)
+            self.cluster_names = list(agglo.get_feature_names_out())
+            label_list = list(agglo.labels_)
+            cluster_dict = {}
+            for key in self.cluster_names:
+                cluster_dict[key] = []
+            for i in range(len(label_list)):
+                cluster_dict[self.cluster_names[label_list[i]]].append(self.features[i])
+            self.cluster_dict = cluster_dict
+            
         self.X = X
         self.y = y
-        self.n = len(self.y_m) #number of samples with main y label
     
     #method for fitting and finding accuracy
     def fit(self, model_type="rforest", cv_method="LOO", test_size=0.30, var_imp_type="mdi"):
@@ -226,6 +247,7 @@ class h_model():
                 self.clf = RandomForestClassifier(criterion='entropy', max_features=12, min_samples_split=8)
             elif model_type=='ridge_classification':
                 self.clf = RidgeClassifier()
+                var_imp_type = "coef"
             elif model_type=='knn':
                 self.clf = KNeighborsClassifier(n_neighbors=5)
             elif model_type=='svc':
@@ -299,17 +321,26 @@ class h_model():
 
     # method for calculating variable importance
     def calc_importance(self, X=None, y=None, type="mdi"):
-        # calculates variable importance as the mean decrease in impurity
+        if self.feat_cluster:
+            data = pd.DataFrame(self.X, columns = self.cluster_names)
+            index_names = data.columns
+        else:
+            index_names = self.data.columns[4:]
+        if type=="coef":
+            return pd.Series(self.clf.coef_[0], index=index_names)
         if type=="mdi":
-            if self.model_type == "ridge_regression":
-                print("Cannot calculate mdi for a logistic regression model.")
-                return None
-            else:
-                return pd.Series(self.clf.feature_importances_, index=self.data.columns[4:])
-        #calculates variable importance as 
+            return pd.Series(self.clf.feature_importances_, index=index_names)
         if type=="permutation":
-            return pd.Series(permutation_importance(self.clf, X, y, n_repeats=5).importances_mean, 
-                             index=self.data.columns[4:])
+            return pd.Series(permutation_importance(self.clf, self.X_s, self.y_s, n_repeats=5).importances_mean, 
+                             index=index_names)
+        if type=="shapley":
+            explainer = shap.KernelExplainer(self.clf.predict_proba, shap.maskers.Independent(self.X_s))
+            shap_values = explainer(self.X_s)[...,0]
+            return pd.Series(shap_values.abs.mean(0).values, index=index_names)
+        if type=="perm_shapley":
+            explainer = shap.explainers.Permutation(self.clf.predict_proba, shap.maskers.Independent(self.X_s))
+            shap_values = explainer(self.X_s)[...,0]
+            return pd.Series(shap_values.abs.mean(0).values, index=index_names)
 
     def sample_predict(self, index=0, custom=None):
         if isinstance(custom, pd.Series):
